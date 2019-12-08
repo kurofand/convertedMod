@@ -1,0 +1,32 @@
+
+state={
+	id=296
+	name="STATE_296"
+	resources={
+		rubber=12.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			7321 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 4
+			arms_factory = 5
+			dockyard = 3
+			air_base = 3
+
+		}
+		add_core_of = RME
+		add_core_of = X77
+	}
+
+	provinces={
+		1298 1326 1339 1355 4301 4358 7321 10175 10219 12151 12178 12190 12206 12219 12234 13001 
+	}
+	manpower=12739016
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

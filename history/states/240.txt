@@ -1,0 +1,36 @@
+
+state={
+	id=240
+	name="STATE_240"
+	resources={
+		chromium=6.000
+		steel=7.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9837 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 6
+			dockyard = 1
+			3844 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = GRE
+		add_core_of = RME
+	}
+
+	provinces={
+		841 936 966 3844 3980 9837 
+	}
+	manpower=8878124
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11916 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		4079 7094 10040 11916 11973 12036 
+	}
+	manpower=2242644
+	buildings_max_level_factor=1.000
+	state_category=town
+}

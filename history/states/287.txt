@@ -1,0 +1,32 @@
+
+state={
+	id=287
+	name="STATE_287"
+	resources={
+		chromium=21.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			7775 8 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 4
+			air_base = 3
+
+		}
+		add_core_of = RME
+		add_core_of = TIB
+		add_core_of = W03
+	}
+
+	provinces={
+		756 1573 1632 4629 7639 7682 7775 10205 10671 11687 12239 12722 
+	}
+	manpower=5297216
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

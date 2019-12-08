@@ -1,0 +1,68 @@
+﻿capital = 105
+set_research_slots = 3
+
+oob = "X50_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X50_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X50_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 89
+	democratic = 9
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = VEN modifier = negative_30 }
+add_opinion_modifier = { target = W14 modifier = negative_10 }
+add_opinion_modifier = { target = W26 modifier = positive_30 }
+add_opinion_modifier = { target = X93 modifier = positive_15 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_luba
+}
+create_country_leader = {
+    name = "Kisula Kabale"
+    desc = "POLITICS_KISULA_KABALE_DESC"
+    picture = "gfx/leaders/SAF/Portrait_South_Africa_Army_Generic_2.dds"
+    expire = "1965.1.1"
+    ideology = absolute_monarchy
+    traits = {
+    }
+}
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

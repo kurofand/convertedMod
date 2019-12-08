@@ -1,0 +1,37 @@
+
+state={
+	id=165
+	name="STATE_165"
+	resources={
+		aluminium=2.000
+		chromium=1.000
+		steel=36.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			3273 8 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 3
+			dockyard = 4
+			air_base = 2
+
+		}
+		add_core_of = ICE
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SCA
+	}
+
+	provinces={
+		284 3273 3373 6320 6350 6385 6395 9237 9314 9350 9383 9392 11218 11378 
+	}
+	manpower=5853116
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=327
+	name="STATE_327"
+
+	history={
+		owner = RME
+		victory_points = {
+			10070 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+
+		}
+		add_core_of = ICE
+		add_core_of = RME
+		add_core_of = SAU
+		add_core_of = SCA
+	}
+
+	provinces={
+		1079 1194 4084 7100 10013 10070 11987 12042 
+	}
+	manpower=5479436
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

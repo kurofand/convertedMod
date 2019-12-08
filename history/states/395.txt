@@ -1,0 +1,30 @@
+
+state={
+	id=395
+	name="STATE_395"
+	resources={
+		chromium=168.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			8214 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		1580 8214 10525 12940 12963 
+	}
+	manpower=1077292
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

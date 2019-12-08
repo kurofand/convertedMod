@@ -1,0 +1,32 @@
+
+state={
+	id=160
+	name="STATE_160"
+
+	history={
+		owner = X77
+		victory_points = {
+			7290 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 1
+			dockyard = 1
+			13080 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = X77
+	}
+
+	provinces={
+		7290 13080 
+	}
+	manpower=1766624
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

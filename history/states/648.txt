@@ -1,0 +1,29 @@
+
+state={
+	id=648
+	name="STATE_648"
+
+	history={
+		owner = W14
+		victory_points = {
+			493 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = ICE
+		add_core_of = SCA
+		add_core_of = W14
+	}
+
+	provinces={
+		493 548 6401 11515 
+	}
+	manpower=452224
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

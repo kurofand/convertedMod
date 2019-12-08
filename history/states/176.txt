@@ -1,0 +1,35 @@
+
+state={
+	id=176
+	name="STATE_176"
+	resources={
+		oil=0.000
+		steel=43.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			516 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 8
+			arms_factory = 1
+			dockyard = 3
+			air_base = 3
+
+		}
+		add_core_of = ICE
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SCA
+	}
+
+	provinces={
+		480 516 6446 6560 6598 9574 11419 13068 
+	}
+	manpower=8280516
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

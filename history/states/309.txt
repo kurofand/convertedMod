@@ -1,0 +1,28 @@
+
+state={
+	id=309
+	name="STATE_309"
+
+	history={
+		owner = RME
+		victory_points = {
+			10062 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 7
+
+		}
+		add_core_of = RME
+		add_core_of = W24
+	}
+
+	provinces={
+		4189 10062 
+	}
+	manpower=5490764
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

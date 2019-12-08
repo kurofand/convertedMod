@@ -1,0 +1,31 @@
+
+state={
+	id=293
+	name="STATE_293"
+
+	history={
+		owner = RME
+		victory_points = {
+			4967 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			4967 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = RME
+	}
+
+	provinces={
+		4967 13019 
+	}
+	manpower=1133496
+	buildings_max_level_factor=1.000
+	state_category=town
+}

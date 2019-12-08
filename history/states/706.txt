@@ -1,0 +1,35 @@
+
+state={
+	id=706
+	name="STATE_706"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = W22
+		victory_points = {
+			4032 11 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 0
+			dockyard = 1
+			10068 = {
+				naval_base = 8
+			}
+			air_base = 7
+
+		}
+		add_core_of = CHI
+		add_core_of = W22
+	}
+
+	provinces={
+		4032 4093 4137 4190 4208 7000 9969 10003 10022 10053 10068 11944 11980 11996 
+	}
+	manpower=4926952
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,72 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 1345
+		task_force = {
+			name = "3rd Fleet"
+			location = 1345
+			ship = { name = "1st Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "1st Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "2nd Sibolga Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "3rd Sibolga Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "6th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "8th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "9th Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "11th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "9th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "6th Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "4th Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "2nd Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "8th Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "7th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "4th Sibolga Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "3rd Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "4th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "1st Sumbawa Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "10th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "7th Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "3rd Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "5th Jambi Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "2nd Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "5th Batavia Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "4th Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "8th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "6th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "7th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "5th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "3rd Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "13th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "12th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "8th Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "5th Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "9th Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "3rd Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "1st Sumbawa Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "4th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "2nd Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "2nd Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "1st Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "9th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "6th Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "7th Sibolga Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "2nd Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "7th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "5th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "10th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10522
+		task_force = {
+			name = "4th Fleet"
+			location = 10522
+			ship = { name = "5th Sibolga Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "1st Sibolga Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "1st Jambi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "6th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "4th Batavia Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+			ship = { name = "11th Jambi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X77 } } }
+		}
+	}
+}

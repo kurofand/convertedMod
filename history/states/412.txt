@@ -1,0 +1,32 @@
+
+state={
+	id=412
+	name="STATE_412"
+	resources={
+		aluminium=3.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			10762 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		5070 8122 10762 
+	}
+	manpower=1675544
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

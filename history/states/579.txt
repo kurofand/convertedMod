@@ -1,0 +1,34 @@
+
+state={
+	id=579
+	name="STATE_579"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = W00
+		victory_points = {
+			5210 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5210 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = MLI
+		add_core_of = W00
+	}
+
+	provinces={
+		5196 5210 
+	}
+	manpower=1315204
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

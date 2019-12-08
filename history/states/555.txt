@@ -1,0 +1,35 @@
+
+state={
+	id=555
+	name="STATE_555"
+	resources={
+		rubber=0.000
+		steel=4.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			2011 9 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+
+		}
+		add_core_of = SER
+		add_core_of = U78
+		add_core_of = USA
+		add_core_of = YUG
+	}
+
+	provinces={
+		2008 2011 10172 12804 
+	}
+	manpower=7701168
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

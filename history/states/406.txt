@@ -1,0 +1,33 @@
+
+state={
+	id=406
+	name="STATE_406"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			12950 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RME
+		add_core_of = W26
+		add_core_of = X46
+	}
+
+	provinces={
+		12950 
+	}
+	manpower=360340
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

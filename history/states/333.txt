@@ -1,0 +1,29 @@
+
+state={
+	id=333
+	name="STATE_333"
+
+	history={
+		owner = RME
+		victory_points = {
+			11953 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SAU
+	}
+
+	provinces={
+		1058 1126 1128 1141 1967 4018 4970 5053 7033 7149 9943 9960 9976 11953 12034 12888 
+	}
+	manpower=2455864
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

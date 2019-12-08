@@ -1,0 +1,35 @@
+
+state={
+	id=654
+	name="STATE_654"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			4948 8 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 5
+			4948 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = W14
+		add_core_of = X39
+	}
+
+	provinces={
+		4948 
+	}
+	manpower=8303556
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

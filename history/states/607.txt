@@ -1,0 +1,29 @@
+
+state={
+	id=607
+	name="STATE_607"
+
+	history={
+		owner = W14
+		victory_points = {
+			4723 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = MEX
+		add_core_of = USA
+		add_core_of = W14
+	}
+
+	provinces={
+		4723 10640 12561 
+	}
+	manpower=1357176
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=651
+	name="STATE_651"
+
+	history={
+		owner = W14
+		victory_points = {
+			11581 13 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 7
+			dockyard = 1
+			591 = {
+				naval_base = 2
+			}
+			air_base = 8
+
+		}
+		add_core_of = CRO
+		add_core_of = W14
+		add_core_of = YUG
+	}
+
+	provinces={
+		591 624 3592 3596 3601 6611 9611 11581 11901 
+	}
+	manpower=11334456
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

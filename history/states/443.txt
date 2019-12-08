@@ -1,0 +1,32 @@
+
+state={
+	id=443
+	name="STATE_443"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			11586 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 10
+
+		}
+		add_core_of = SER
+		add_core_of = SOV
+		add_core_of = YUG
+	}
+
+	provinces={
+		797 3609 3956 3984 6998 9599 11583 11586 
+	}
+	manpower=2211068
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		chromium=8.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			12430 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 0
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = TIB
+	}
+
+	provinces={
+		1216 1919 10187 12430 
+	}
+	manpower=2300284
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=263
+	name="STATE_263"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			8085 7 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 0
+			dockyard = 1
+			2089 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SAU
+	}
+
+	provinces={
+		78 2004 2089 7977 8085 12726 12855 
+	}
+	manpower=4480688
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

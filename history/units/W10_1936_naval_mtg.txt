@@ -1,0 +1,17 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 13017
+		task_force = {
+			name = "1st Fleet"
+			location = 13017
+			ship = { name = "2nd Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+			ship = { name = "5th Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+			ship = { name = "6th Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+			ship = { name = "7th Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+			ship = { name = "8th Bourbon Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = W10 version_name = "Early Destroyer" } } }
+		}
+	}
+}

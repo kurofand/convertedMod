@@ -1,0 +1,39 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=5.000
+		chromium=12.000
+		steel=13.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			10255 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 3
+			7340 = {
+				naval_base = 8
+			}
+			air_base = 2
+
+		}
+		add_core_of = RAJ
+		add_core_of = W03
+		add_core_of = W09
+	}
+
+	provinces={
+		1228 1430 4237 4321 4365 4414 5032 7090 7297 7310 7340 7372 10001 10152 10255 10296 10756 10897 11924 11978 12180 12241 12462 12779 
+	}
+	manpower=7311956
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

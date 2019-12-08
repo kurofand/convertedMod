@@ -1,0 +1,33 @@
+
+state={
+	id=396
+	name="STATE_396"
+	resources={
+		aluminium=2.000
+		rubber=1.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			2192 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RME
+		add_core_of = X46
+		add_core_of = X54
+	}
+
+	provinces={
+		2192 3109 6008 
+	}
+	manpower=1013532
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

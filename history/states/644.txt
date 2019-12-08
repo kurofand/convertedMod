@@ -1,0 +1,30 @@
+
+state={
+	id=644
+	name="STATE_644"
+
+	history={
+		owner = W14
+		victory_points = {
+			4180 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			4180 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = W14
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021 13048 13051 
+	}
+	manpower=821508
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

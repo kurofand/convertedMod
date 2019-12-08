@@ -1,0 +1,35 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		aluminium=4.000
+		rubber=17.000
+		steel=3.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			12853 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = BRA
+		add_core_of = RME
+	}
+
+	provinces={
+		2035 2168 2214 5151 5220 8172 10874 10956 12853 12913 12933 12947 12999 
+	}
+	manpower=10538432
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

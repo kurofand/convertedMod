@@ -1,0 +1,13 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4952
+		task_force = {
+			name = "1st Fleet"
+			location = 4952
+			ship = { name = "Kano" definition = destroyer start_experience_factor = 0.04945 equipment = { ship_hull_light_1 = { amount = 1 owner = BEN version_name = "Early Destroyer" } } }
+			ship = { name = "Enugu" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BEN version_name = "Early Destroyer" } } }
+			ship = { name = "Katsina" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BEN version_name = "Early Destroyer" } } }
+		}
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=688
+	name="STATE_688"
+	resources={
+		aluminium=21.000
+		oil=4.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			5184 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = W14
+	}
+
+	provinces={
+		5152 5184 5219 7550 8208 10975 10985 12942 12970 
+	}
+	manpower=3678488
+	buildings_max_level_factor=1.000
+	state_category=city
+}

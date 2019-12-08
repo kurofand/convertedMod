@@ -1,0 +1,32 @@
+
+state={
+	id=594
+	name="STATE_594"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			1984 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = W00
+		add_core_of = W07
+		add_core_of = W11
+	}
+
+	provinces={
+		1984 2072 5041 5097 7944 
+	}
+	manpower=10229860
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

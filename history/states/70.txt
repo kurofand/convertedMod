@@ -1,0 +1,37 @@
+
+state={
+	id=70
+	name="STATE_70"
+	resources={
+		aluminium=66.000
+		oil=5.000
+		steel=8.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			7960 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			10904 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_core_of = W15
+	}
+
+	provinces={
+		2048 7960 8108 10904 
+	}
+	manpower=2580608
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=105
+	name="STATE_105"
+	resources={
+		chromium=10.000
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			12986 13 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = JAP
+		add_core_of = X46
+		add_core_of = X50
+		add_core_of = X90
+	}
+
+	provinces={
+		1846 5221 12986 13209 
+	}
+	manpower=829104
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

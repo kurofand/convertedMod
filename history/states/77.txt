@@ -1,0 +1,32 @@
+
+state={
+	id=77
+	name="STATE_77"
+	resources={
+		steel=3.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			2182 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X25
+		add_core_of = X36
+	}
+
+	provinces={
+		2182 
+	}
+	manpower=2890768
+	buildings_max_level_factor=1.000
+	state_category=city
+}

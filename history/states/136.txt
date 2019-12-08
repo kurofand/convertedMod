@@ -1,0 +1,35 @@
+
+state={
+	id=136
+	name="STATE_136"
+	resources={
+		oil=3.000
+		steel=2.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			10797 18 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			10797 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		10797 12832 
+	}
+	manpower=4309420
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

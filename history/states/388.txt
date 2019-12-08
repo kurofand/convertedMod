@@ -1,0 +1,36 @@
+
+state={
+	id=388
+	name="STATE_388"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			8207 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			8207 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = RME
+		add_core_of = X01
+		add_core_of = X54
+	}
+
+	provinces={
+		8207 10948 13210 
+	}
+	manpower=2103324
+	buildings_max_level_factor=1.000
+	state_category=town
+}

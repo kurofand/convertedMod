@@ -1,0 +1,35 @@
+
+state={
+	id=675
+	name="STATE_675"
+	resources={
+		oil=10.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			12997 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			12983 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = PRU
+		add_core_of = W14
+	}
+
+	provinces={
+		2162 2212 2226 5190 12983 12997 
+	}
+	manpower=15220200
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,170 @@
+bookmarks = {
+	bookmark = {
+		name = GATHERING_STORM_NAME
+		desc = GATHERING_STORM_DESC
+		date = 1936.1.1.12
+		picture = GFX_select_date_1936
+		default_country = "---"
+		default = yes
+		RME= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { great_power }
+		}
+		USA= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		W14= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { great_power }
+		}
+		SOV= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		RAJ= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		X77= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { great_power }
+		}
+		X36= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { great_power }
+		}
+		PER= {
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { great_power }
+		}
+		"---"= {
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		BRU = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		KOR = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		PHI = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		VIN = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		W00 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		W05 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		W07 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		W22 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = { }
+		}
+		W26 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X01 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X02 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X06 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X14 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { }
+		}
+		X40 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X43 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X46 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X59 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = { }
+		}
+		X64 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+		X73 = {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+			ideology = absolutist
+			ideas = { }
+		}
+effect = {
+randomize_weather = 22345 # <-Obligatory in every bookmark !
+#123 = { rain_light = yes }
+	}
+}

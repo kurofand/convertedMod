@@ -1,0 +1,32 @@
+
+state={
+	id=586
+	name="STATE_586"
+	resources={
+		aluminium=1.000
+		steel=2.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			1028 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = W00
+		add_core_of = W07
+	}
+
+	provinces={
+		1028 7073 10097 
+	}
+	manpower=2781056
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

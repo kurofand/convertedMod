@@ -1,0 +1,4066 @@
+﻿ARG = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+ARM = {
+	male = {
+		names = {
+			"Alexander" "Arakel" "Aram" "Aramais" "Arsen" "Artashes" "Artavazd" "Artem" "Ashot" "Assadour"
+			"Atom" "Barsegh" "Benyamin" "Deran" "Eduard" "Gevorg" "Gor" "Gurgen" "Hayk" "Hovhannes"
+			"Hovsep" "Hrant" "Isahak" "Karapet" "Kevork" "Levon" "Mkrtich" "Murad" "Nubad" "Papken"
+			"Rouben" "Sarkis" "Sergei" "Sevan" "Smbat" "Soghomon" "Souren" "Spiru" "Tadevos" "Taniel"
+			"Vahan" "Vahe" "Vahram" "Vano" "Vartan" "Vazrik" "Vilen" "Yegishe" "Yervand" "Zaven"
+		}
+	}
+	female = {
+		names = {
+			"Aghavni" "Alitz" "Alice" "Almasd" "Anahid" "Anna" "Anna" "Anoush" "Arda" "Arevig"
+			"Arin" "Baydzar" "Berjanoush" "Berjouhi" "Datevig" "Dalita" "Eliz" "Eloise" "Gadar" "Gorandoukht"
+			"Gorandukht" "Hasmig" "Houri" "Hranoush" "Hripsimeh" "Keghanoush" "Keran" "Khorishah" "Kohar" "Latavri"
+			"Leyli" "Lousin" "Mara" "Margarid" "Margaret" "Maria" "Maria" "Mariyam" "Mariam" "Meghranoush"
+			"Nane" "Nazani" "Ovsanna" "Pounig" "Razmouhi" "Rita" "Satenik" "Satinik" "Seta" "Siran"
+			"Sirvart" "Srpouhi" "Shoushanig" "Takouhi" "Tamar" "Tamar" "Vartanoush" "Vartouhi" "Vosgi" "Yeva"
+			"Zabel" "Elizabeth"
+		}
+	}
+	surnames = {
+		"Afeyan" "Arakelian" "Asdvadzadrian" "Asriyan" "Avakian" "Aydinian" "Azatian" "Bogosian" "Bounyatian" "Chakheltian"
+		"Dombalagian" "Egoyan" "Erznvian" "Ghakarian" "Ghorghanian" "Guediguian" "Ghehanian" "Hannessoghlian" "Hasratian" "Hovsepian"
+		"Kaloian" "Kamalian" "Khachaturian" "Khatchaturiants" "Konstandyan" "Konstanian" "Mamikonian" "Mardvian" "Matinian" "Melik-Aghamalian"
+		"Mkhitarian" "Mussiniants" "Pahlevanian" "Peleshyan" "Safrazpekian" "Sahakiam" "Sarksyan" "Sekoyan" "Shadunts" "Shahsuvarian"
+		"Tavakyalian" "Tchartichian" "Tcholakhian" "Ter-Sarkayan" "Terzian" "Tigraniants" "Tigranov" "Toshian" "Varapetian" "Vartanian"
+	}
+	callsigns = {
+		"Adamian" "Adomian" "Aghajanian" "Altounyan" "Apkarian" "Bagian" "Babaian" "Babikian" "Chobanian" "Bhobanyan"
+		"Damadian" "Eskandarian" "Kapikian" "Kazanjian" "Kebabian" "Kevorkian" "Khachikyan" "Khatchaturian" "Kirlian" "Mergelyan"
+		"Orbeli" "Pogosyan" "Sadian" "Simjian" "Sevanian" "Meymarian" "Shahinian"
+	}
+}
+BEN = {
+	male = {
+		names = {
+			"Siyanbola" "Lawani" "Adeyemi" "Adelu" "Atiba" "Oluewu" "Amodo" "Majotu" "Makua" "Adebo"
+			"Bello" "Onikepe" "Gbadegesin" "Ajikin" "Abisi" "Lauru" "Kase" "Agidigbo" "Ademufekun"
+		}
+	}
+	female = {
+		names = {
+			"Ayoola" "Tiaraoluwa" "Digiola" "Oluwadabira"
+		}
+	}
+	surnames = {
+		"Oladigbolu" "Adeniran" "Agogoja" "Alowolodu" "Atobatele" "Zumaw" "Oyo" "Tofa" "Tonyon" "Bezon"
+		"Hungbo" "Dudu"
+	}
+	callsigns = {
+		"Black" "Africa" "Yoruba" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+BLR = {
+	male = {
+		names = {
+			"Alaksandr" "Alexei" "Andrei" "Anton" "Boris" "Cyril" "Danya" "Dz'mitry" "Giorgi" "Ivan"
+			"Janka" "Jury" "Lavr" "Leonid" "Leu" "Mikalai" "Paval" "Piotr" "Roman" "Ryhor"
+			"Stanislaw" "Sergey" "Valery" "Vasily" "Viktar" "Uladzimir" "Vladislav"
+		}
+		surnames = {
+		"Alexseyev" "Bulak-Balachowicz" "Chibisov" "Denikin" "Dragomirov" "Golivin" "Gurko" "Ivanov" "Kalinowski" "Kornilov"
+		"Kolchak" "Kuropatkin" "Lukashenka" "Menshikov" "Nakhimov" "Nebogatov" "Nikolaevich" "Pavlov" "Putyatin" "Rozhestvensky"
+		"Skobelev" "Sukhoi" "Tukhachevsky" "Yegorov" "Vorontsov" "Zhauryd"
+		}
+	}
+	female = {
+		names = {
+			"Jelena" "Ludmila"
+		}
+		surnames = {
+		"Alieksiejeva" "Bułak-Bałachowicza" "Čybisova" "Dienykina" "Drahomyrova" "Holivina" "Hurkova" "Ivanova" "Kalinoŭska" "Kornjlova"
+		"Kolčaka" "Kuropatkina" "Lukašenka" "Mienšikova" "Nachimova" "Niebohatova" "Nikolajeviča" "Pavlova" "Putiatina" "Rožjestvienska"
+		"Skobielieva" "Suchoja" "Tuchačjeŭska" "Jehorova" "Voroncova" "Žaŭryda"
+	}
+	}
+	callsigns = {
+		"Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon"
+		"Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky"
+		"Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka"
+	}
+}
+BRA = {
+	male = {
+		names = {
+			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
+			"Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe"
+			"Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian"
+			"Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru"
+			"Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad"
+		}
+	}
+	female = {
+		names = {
+			"Andrea"
+		}
+	}
+	surnames = {
+		"Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski"
+		"Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu"
+		"Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu"
+		"Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan"
+		"Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu"
+	}
+	callsigns = {
+		"Dracula" "the Vampire" "Wallachia"
+	}
+}
+BRM = {
+	male = {
+		names = {
+			"Thibaw" "Mindon" "Pagan" "Tharawadi" "Gabyidaw" "Bodawphaya" "Maung" "Singu" "Hsinbyushin" "Naungdawkyi"
+			"Alaungphaya" "Maha" "Minkyaw" "Zeya"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Min" "Bagyidaw" "Bandula" "Ne Myo" "Myo" "Thura" "Dabayin"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+BRU = {
+	male = {
+		names = {
+			"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin"
+			"Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
+		}
+	}
+	female = {
+		names = {
+			"Rim" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti" "Puatea" "Puaura" "Ra’ihau"
+			"Ra’imere" "Ra’inui" "Ranitea" "Rarahu" "Raunui" "Raurii" "Tahiata" "Taiana" "Taina" "Tania"
+			"Taurua" "Tautiare" "Tehani" "Tehea" "Teora" "Tera" "Tevai" "Titaina" "Titaua" "Tuianu"
+			"Tumata" "Unutea" "Urarii" "Vaea" "Vaiana" "Vaianu" "Vaiata" "Vaihere" "Vaimiti" "Vairea"
+			"Vaite" "Vaitiare"
+		}
+	}
+	surnames = {
+		"Burnei" "Kutai" "Sibu" "Kuching"
+	}
+	callsigns = {
+		"Burnei" "Kutai" "Sibu" "Kuching"
+	}
+}
+BUL = {
+	male = {
+		names = {
+			"Aleksandar" "Andrey" "Asen" "Atanas" "Atila" "Bogdan" "Boncho" "Boris" "Damyan" "Dimitar"
+			"Dobri" "Ferdinand" "Georgi" "Hristo" "Ilya" "Ivan" "Kalin" "Kardam" "Kimon" "Kiril"
+			"Kliment" "Konstantin" "Krastyu" "Leonid" "Mihail" "Nikifor" "Niloa" "Pencho" "Petar" "Petko"
+			"Petur" "Pravoslav" "Racho" "Radko" "Radoy" "Sava" "Simeon" "Sotir" "Stanislav" "Stanko"
+			"Stefan" "Stiliyan" "Stoyu" "Teodosi" "Todor" "Trifon" "Valko" "Vasil" "Velizar" "Vulko"
+		}
+		surnames = {
+		"Agura" "Balabanov" "Balkanski" "Battemberg" "Blaskov" "Boyadzhiev" "Bradistilov" "Charakchiev" "Daskalov" "Dikov"
+		"Dimitriev" "Draganov" "Fichev" "Georgiev" "Hesapchiev" "Ilyev" "Ivanov" "Kirkov" "Kovachev" "Krayonski"
+		"Kutinchev" "Lazarov" "Lukov" "Marinkov" "Marinov" "Mutkorov" "Naydenov" "Nazlamov" "Nikiforov" "Nikolaev"
+		"Pakov" "Petrov" "Radev" "Saksokoburggotski" "Savov" "Sirakov" "Solarov" "Stoyanov" "Tenev" "Todorov"
+		"Tsaklev" "Valkov" "Valnarov" "Vasilev" "Vazov" "Velchev" "Zafirov" "Zhekov" "Zlatarev" "Zlatev"
+		}
+	}
+	female = {
+		names = {
+			"Anna" "Amaka" "Desi" "Elena" "Evgeniya" "Hirstiana" "Ina" "Kaloyana" "Katerina" "Katrin"
+			"Lucy" "Magdalena" "Maria" "Mihaela" "Nina" "Ralitsa" "Reneta" "Stella" "Sylvie" "Vania"
+		}
+		surnames = {
+		"Agura" "Balabanova" "Balkanska" "Battemberga" "Blaskova" "Boyadžieva" "Bradistilova" "Carakcieva" "Daskalova" "Dikova"
+		"Dimitrieva" "Draganova" "Ficeva" "Georgieva" "Hesapčieva" "Ilyeva" "Ivanova" "Kirkova" "Kovaceva" "Krayonska"
+		"Kutinceva" "Lazarova" "Lukova" "Marinkova" "Marinova" "Mutkorova" "Naydenova" "Nazlamova" "Nikiforova" "Nikolaeva"
+		"Pakoska" "Petroska" "Radeva" "Saksokoburggotska" "Savoska" "Sirakoska" "Solaroska" "Stoyanoska" "Teneva" "Todoroska"
+		"Tsakleva" "Valkoska" "Valnaroska" "Vasileva" "Vazoska" "Velčeva" "Veselinova" "Zafiroska" "Žekoska" "Zlatareva"
+		"Zlateva"
+	}
+	}
+	callsigns = {
+		"Bŭlgarinŭt" "Makedonskiyat" "Grŭtskiyat" "Albanetsŭt"
+	}
+}
+CAL = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+CAM = {
+	male = {
+		names = {
+			"Ang" "Sisowath" "Norodom" "Pok" "Satha" "Thommo"
+		}
+	}
+	female = {
+		names = {
+			"Boupha" "Sakngea" "Ang Mey" "Anak Moneang Krachap" "Neang Pou"
+		}
+	}
+	surnames = {
+		"Eng" "Chan" "Em" "Snguon" "Mey" "Reachea" "Tong" "Non"
+	}
+	callsigns = {
+		"Vietneam" "Kampouchea" "Lav" "Siem" "Chen" "Meale"
+	}
+}
+CAN = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+COL = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+CRO = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+CSA = {
+	male = {
+		names = {
+			"Robert" "Jesse" "James" "Nathan" "George" "Joseph" "John" "Patrick" "Albert" "Braxton"
+			"William" "Ambrose" "Jubal" "Richard" "Lewis" "Edmund" "Leonida" "Benjamin" "Wade" "Daniel"
+			"Thomas" "Jonathan" "Stonewall" "Lemual" "Sterling" "Raphael" "Kirby" "Pierre" "Jonas" "Frank"
+			"Charles" "Peter" "Rand" "Leslie" "Howard" "Malvin" "Oscar" "Henry" "Simon" "Edward"
+			"Gideon" "Isaac" "Evander" "Jerome" "Alfred" "Cadmus" "Fitz Hugh" "Carnot" "Ezra" "Wilton"
+		}
+	}
+	female = {
+		names = {
+			"Mary" "Jane"
+		}
+	}
+	surnames = {
+		"Lee" "Jackson" "Johnson" "Beauregard" "Stuart" "Longstreet" "Forrest" "Pickett" "Mosby" "Cleburne"
+		"Hood" "Breckenridge" "Bragg" "Barksdale" "Early" "Hill" "Ewell" "Morgan" "Armistead" "Semmes"
+		"Smith" "Hampton" "Polk" "Cheatham" "Wheeler" "Pemberton" "Gordon" "Hardee" "Floyd" "Price"
+		"Wise" "Van Dorn" "Loring" "Buckner" "Taylor" "Williams" "French" "Gibbs" "Hindman" "Anderson"
+		"Sibley" "Garnett" "Magruder" "Pillow" "McLaws" "Rodes" "Heth" "Pender" "Trimble" "Kershaw"
+		"Wofford" "Kemper" "Law" "Robertson" "Benning" "Hays" "Walker" "Iverson" "Wilcox" "Mahone"
+		"Wright" "Pettigrew" "Archer" "Davis" "Lane" "Posey" "Scales" "Warner" "Imboden" "Jenkins"
+	}
+	callsigns = {
+		"Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger"
+		"Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"
+	}
+}
+CUB = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+DAH = {
+	male = {
+		names = {
+			"Behanzin" "Ghezo" "Glele" "Adandozan" "Agonglo" "Kpengla" "Tegbessou" "Agadja"
+		}
+	}
+	female = {
+		names = {
+			"Edenausegboye" "Ekaghogo" "Enomwoyi"
+		}
+	}
+	surnames = {
+		"Madogugu" "Zedoko" "Basagla" "Chadakogundo"
+	}
+	callsigns = {
+		"Black" "Africa" "Fon" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+DOM = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+EST = {
+	male = {
+		names = {
+			"Aadu" "Alar" "Aleksander" "Andrus" "Artur" "August" "Bernard" "Dmitri" "Eduard" "Eerik"
+			"Elmar" "Ernst" "Georg" "Gustav" "Haman" "Harri" "Heino" "Hendrik" "Hjalmar" "Ivari"
+			"Jaan" "Jakob" "Johannes" "Joosep" "Juhan" "Julius" "Jüri" "Kaarel" "Kalev" "Konstantin"
+			"Lennart" "Ludvig" "Madis" "Mart" "Mikhel" "Nigul" "Olev" "Paavo" "Peeter" "Pent"
+			"Ragnar" "Siiri" "Sven" "Tarmo" "Tõnis" "Toomas" "Uno" "Valmar" "Villwm" "Voldemar"
+		}
+	}
+	female = {
+		names = {
+			"Anna"
+		}
+	}
+	surnames = {
+		"Aamisepp" "Aavik" "Adams" "Anvel" "Barbarus" "Bornhöhe" "Eenpalu" "Hint" "Hurt" "Jaakson"
+		"Kangro" "Kint" "Klaasen" "Koern" "Kõiv" "Kotli" "Kumari" "Kupine" "Kuusik" "Leppik"
+		"Lipping" "Lohk" "Mäe" "Männil" "Moora" "Natus" "Nurkse" "Nurmekund" "Õkva" "Öpik"
+		"Orkivu" "Päts" "Perna" "Piiper" "Poska" "Puusepp" "Ränk" "Rei" "Reinman" "Siinmaa"
+		"Sikkar" "Sirk" "Tõnisson" "Uluots" "Vaga" "Veske" "Vilbaste" "Vilms" "von Uexküll" "Warma"
+	}
+	callsigns = {
+		"Läti" "Liivlased" "Eesti" "Poola" "Vene" "Soome"
+	}
+}
+FRA = {
+	male = {
+		names = {
+			"Achille" "Adolphe" "Adrien" "Aimable" "Alphonse" "Amédée" "Antoine" "Armand" "August" "Augustin"
+			"Charles" "Daniel" "Denis" "Édouard" "Elie" "Éttiene" "Eugène" "Félicien" "Félix" "Fernand"
+			"François" "Frédéric" "Georges" "Guillaume" "Gustave" "Henri" "Hubert" "Hugo" "Jacques" "Jean"
+			"Joseph" "Jules" "Julien" "Lazare" "Léopold" "Leroy" "Louis" "Lucien" "Matthieu" "Michel"
+			"Napoléon" "Nicolas" "Patrice" "Paul" "Philippe" "Pierre" "Robert" "Thibaut" "Thierry" "Thomas"
+		}
+	}
+	female = {
+		names = {
+			"Anne" "Marie"
+		}
+	}
+	surnames = {
+		"Anthoine" "Baraguey d'Hilliers" "Bazaine" "Billot" "Bonaparte" "Bosquet" "Boué de Lapeyrère" "Bouët-Willaumez" "Boulanger" "Bourbaki"
+		"Bugeaud" "Caillard" "Canrobert" "Courbet" "Cousin-Mountauban" "Davout" "de Bourbon" "de Castellane" "de Castelnau" "de Gaulle"
+		"de Langle de Cary" "de MacMahon" "de Montaignac" "de Saint Arnaud" "d'Orleans" "Dubail" "Dubois" "Duchêne" "Dupetit-Thouars" "Exelmans"
+		"Foch" "Forey" "Franchet d'Espèrey" "Gallieni" "Gouraud" "Guillaumat" "Hamelin" "Harispe" "Hoche" "Humbert"
+		"Jaurès" "Joffre" "Lebouef" "Lyautey" "Murat" "Ney d'Elchingen" "Nivelle" "Péllissier" "Petain" "Vaillant"
+	}
+	callsigns = {
+		"Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel"
+		"Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"
+	}
+}
+GEO = {
+	male = {
+		names = {
+			"Akaki" "Alexander" "Andria" "Bagrat" "Besarion" "David" "Dimitri" "Eduard" "Ekvtime" "Evgeni"
+			"Filipp" "Galaktion" "Georgi" "German" "Givi" "Grigol" "Ilia" "Ioseb" "Irakli" "Ivane"
+			"Jansung" "Jemal" "Kaikhosro" "Konstantine" "Leo" "Levan" "Luka" "Meliton" "Mikheil" "Murman"
+			"Nikoloz" "Noe" "Otar" "Polikarp" "Radish" "Revaz" "Sargis" "Sergo" "Shalva" "Solomon"
+			"Sulkhan" "Teimuraz" "Tingiz" "Vakhtang" "Valerian" "Vasil" "Vladimer" "Zakharia" "Zurab" "Zviad"
+		}
+	}
+	female = {
+		names = {
+			"Ana" "Anna" "Baia" "Bedisa" "Borena" "Chiora" "Chito" "Dali" "Dedika" "Duda"
+			"Dzabuli" "Elene" "Helen" "Eliso" "Endzela"
+		}
+	}
+	surnames = {
+		"Abkhazi" "Amilakhvari" "Avalishvili" "Bagratuni" "Bakradze" "Balanchivadze" "Barakadze" "Chabukiani" "Chavchanadze" "Chkhubianashvili"
+		"Cholokashvili" "Chubinashvili" "Dodashvili" "Eliava" "Gabashvili" "Gokhieli" "Gordeli" "Javakhisvili" "Jugashvili" "Jugheli"
+		"Kakabadze" "Kandelaki" "Kartvelishvili" "Kavtaradze" "Kereselidze" "Khelaia" "Khvitia" "Kvinitadze" "Leselidze" "Maglakelidze"
+		"Makharadze" "Mazniashvili" "Mikeladze" "Muskhelishvili" "Nioradze" "Nutsubideze" "Otskheli" "Ramishvili" "Razikashvili" "Sabinin"
+		"Shanidze" "Sukhisvili" "Tabidze" "Takaishvili" "Tsereteli" "Tsintsadze" "Uznadze" "Zhordania"
+	}
+	callsigns = {
+		"Rusuli" "Kartveli" "Somekhi" "Sp'arsuli" "Turki" "P'oladi"
+	}
+}
+GRE = {
+	male = {
+		names = {
+			"Adamantios" "Alexandros" "Anastasios" "Andreas" "Antonios" "Aristidis" "Athanasios" "Augustinos" "Benizelos" "Charalambos"
+			"Charilaos" "Dimitrios" "Diomidis" "Eleftherios" "Emmanouil" "Epameinontas" "Evripidis" "Gennaios" "Georgios" "Ilias"
+			"Ionnis" "Kitsos" "Konstantinos" "Kyriakos" "Kyriakoulis" "Leonidas" "Makarios" "Markos" "Mikhael" "Militiadis"
+			"Nikolaos" "Odysseas" "Othon" "Panagiotis" "Pavlos" "Petros" "Sofoklis" "Sotiris" "Spyridion" "Spyros"
+			"Staikos" "Stefanos" "Stylianos" "Themistoklis" "Theodoros" "Tharyvoulos" "Tzannis" "Vasos" "Viktor" "Zinovios"
+		}
+		surnames = {
+		"Charalambis" "Christakis-Zografos" "Danglis" "Dousmanis" "Foumis" "Gonatas" "Hatzianestis" "Kallergis" "Kanaris" "Katsimiros"
+		"Kolokotronis" "Kondylis" "Kountouriotis" "Kriezis" "Makriyannis" "Manos" "Mavrocordatos" "Mavrovouniotis" "Metaxas" "Mouskos"
+		"Nider" "Othonaios" "Palaskas" "Pangalos" "Papadiamantopoulos" "Papadopoulos" "Papagos" "Papoulas" "Parakevopouolos" "Plapoutas"
+		"Plastiras" "Sapountzakis" "Sarafis" "Smolenskis" "Sofoulis" "Soutsos" "Spyromilios" "Staikopoulos" "Stanotas" "tes Elladas"
+		"Trikoupis" "Tsakalotos" "Tsolakoglou" "Typaldos-Alfonsatos" "Tzavelas" "Vassos" "Venizelos" "Voulgaris" "Zaimis" "Zymvrakakis"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Eleni" "Aiketerine" "Baslikike" "Sofia" "Aggeliki" "Georgia" "Anastasia" "Evangelia" "Demetra"
+			"Eirene" "Anna" "Panagiota" "Ioanna" "Konstantina" "Despoina" "Calliope" "Alexandra" "Kyriake" "Paraskevi"
+		}
+		surnames = {
+		"Charalámpi" "Christáki-Zográfo" "Dagli" "Dousmani" "Foúmi" "Gonatá" "Chatzianésti" "Kallérgi" "Kanári" "Katsimiro"
+		"Kolokotróni" "Kondýli" "Kountourióti" "Kriezí" "Makriiánni" "Máno" "Mavrokordáto" "Mavrovounióti" "Metaxá" "Moúsko"
+		"Níder" "Othonaío" "Paláska" "Pan'galo" "Papadiamantópoulo" "Papadópoulo" "Papágo" "Papoúla" "Parakevópoulo" "Plapoúta"
+		"Plastíra" "Sapountzáki" "Saráfi" "Smolénski" "Sofoúli" "Soútso" "Spyromílio" "Staïkópoulo" "Stanota" "ti Elládas"
+		"Trikoúpi" "Tsakalóto" "Tsolákoglou" "Typáldos-Alfonsáto" "Tzavéla" "Vásso" "Venizélo" "Voúlgari" "Zaḯmi" "Zymvrakáki"
+	}
+	}
+	callsigns = {
+		"Ellinikí" "Spartiátis" "Vyzantinó" "Aléxandros" "Toúrkos" "Aftokrátos"
+	}
+}
+ICE = {
+	male = {
+		names = {
+			"Agnar" "Ásgeir" "Björn" "Eidur" "Einar" "Emil" "Geir" "Gudmund" "Gunnar" "Hannes"
+			"Hermann" "Jón" "Kristján" "Magnús" "Ólafur" "Pétur" "Sigurdur" "Stefán" "Sveinn" "Tryggvi"
+		}
+		surnames = {
+		"Arnórsson" "Ásgeirsson" "Benediktsson" "Bjarnasen" "Björnsson" "Eggers" "Eldjárn" "Hafstein" "Hansen" "Hermannsson"
+		"Johánesson" "Jónsson" "Magnússon" "Stefánsson" "Steinthosson" "Thórdarson" "Thórhallson" "Thorláksson" "Thurs"
+		}
+	}
+	female = {
+		names = {
+			"Árný" "Arnfrithur" "Bjarnhildur" "Boghildur" "Dómhildur" "Drótt" "Freydís" "Gunnrún" "Rafney"
+		}
+		surnames = {
+		"Arnórsdóttir" "Ásgeirsdóttir" "Benediktsdóttir" "Bjarnadóttir" "Björnsdóttir" "Eggersdóttir" "Eldjárnsdóttir" "Hafsteinsdóttir" "Hansdóttir" "Hermannsdóttir"
+		"Johánesdóttir" "Jónsdóttir" "Magnúsdóttir" "Stefánsdóttir" "Steinþosdóttir" "Þórdarson" "Þórhallson" "Þorláksdóttir" "Þursdóttir"
+	}
+	}
+	callsigns = {
+		"the Viking" "the Icelander" "Volcano" "Elf" "Geyser"
+	}
+}
+INS = {
+	male = {
+		names = {
+			"Abul" "Muhammad" "Safiuddin" "Ahmad" "Muhieddin" "Zainul" "Cirebon" "Amir" "Arifin" "Panembahan"
+			"Haji" "Anom"
+		}
+	}
+	female = {
+		names = {
+			"Diah" "Siti"
+		}
+	}
+	surnames = {
+		"Salihin" "Mufakhir" "Alaeddin" "Muttakin" "Sepuh" "Nurus" "Khairuddin" "Djalaluddin" "Emiruddin" "Akbaruddin"
+		"Tajul" "Natadiningrat"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+ITA = {
+	male = {
+		names = {
+			"Alessandro" "Alfonso" "Ambrogio" "Amedeo" "Andrea" "Angelo" "Antonio" "Benito" "Camillo" "Carlo"
+			"Cesare" "Costanzo" "Davide" "Enrico" "Ettore" "Fabrizio" "Faustino" "Federico" "Felice" "Ferdinando"
+			"Fiorenzo" "Francesco" "Gaetano" "Gennaro" "Girolamo" "Giulio" "Giuseppe" "Guglielmo" "Innocenzo" "Leopoldo"
+			"Luigi" "Marco" "Massimo" "Matteo" "Nicola" "Oreste" "Paolo" "Pasquale" "Pietro" "Prospero"
+			"Raffaele" "Roberto" "Ruggiero" "Silvio" "Simone" "Tancredi" "Ugo" "Umberto" "Vincenzo" "Vittorio"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Acton" "Albricci" "Badoglio" "Baldissera" "Baratieri" "Bava-Beccaris" "Cadorna" "Cagni" "Canevaro" "Capello"
+		"Caviglia" "Ceccherini" "Cialdini" "Cusani" "d'Absburgo-Toscana" "d'Austria-Este" "Dezza" "di Borbone di Parma" "di Robilant" "di Savoia"
+		"di Savoia-Aosta" "Emo" "Fanti" "Fara" "Filomarino" "Garibaldi" "Giardino" "Govone" "La Màrmora" "Mambretti"
+		"Menabrea" "Orengo" "Pacoret de Saint Bon" "Pallavicino" "Pecori-Giraldi" "Pellion di Persano" "Pelloux" "Perruchetti" "Pianelli" "Porro"
+		"Presbitero" "Ramorino" "Ricotti-Magnani" "Sacchi" "Saletta" "Sanna" "Solari" "Thaon di Revel" "Vaccari" "Zupelli"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+JAP = {
+	male = {
+		names = {
+			"Aritomo" "Goro" "Gentaro" "Gonnohyoe" "Heihachiro" "Hiroshi" "Hikonojo" "Hyoe" "Hayao" "Iwao"
+			"Jiro" "Jinzaburo" "Kiyotaka" "Kuranosuke" "Kozo" "Kantaro" "Koichiro" "Kagenori" "Kageaki" "Kotohito"
+			"Keisuke" "Kazushige" "Kenkichi" "Maresuke" "Masujiro" "Michisura" "Masatake" "Mitsuomi" "Mitsue" "Mineo"
+			"Nariaki" "Nobuyoshi" "Rokuro" "Sukeyuki" "Sukenori" "Shoin" "Sumiyoshi" "Samata" "Soroku" "Shichiro"
+			"Shigeto" "Sotokichi" "Shigeru" "Sadao" "Shinsaku" "Takayoshi" "Takamori" "Toshimichi" "Tsugumichi" "Tadakuni"
+			"Tomonosuke" "Taro" "Toshiyoshi" "Tetsutaro" "Taruhito" "Takeaki" "Tamemoto" "Tomasaburo" "Yoshika" "Yoshinobu"
+			"Yoshimichi" "Yoshida" "Yasukata" "Yahachi" "Yusaku" "Yoshifuru" "Yoshinori" "Yasuyoshi"
+		}
+	}
+	female = {
+		names = {
+			"Aimi" "Asami" "Asuka"
+		}
+	}
+	surnames = {
+		"Arisugawa" "Arichi" "Akiyama" "Araki" "Dewa" "Enomoto" "Hasegawa" "Honjo" "Ito" "Inoue"
+		"Ichinohe" "Itagaki" "Kido" "Kuroda" "Katsura" "Kodama" "Kabayama" "Kawamura" "Kuroki" "Kawakami"
+		"Kamimura" "Kataoka" "Kamio" "Kato" "Kanin" "Katsu" "Makino" "Muto" "Minami" "Masaki"
+		"Matsudaira" "Nakamuta" "Nogi" "Nire" "Nozu" "Okubo" "Oyama" "Omura" "Oku" "Okada"
+		"Osumi" "Saigo" "Suzuki" "Sato" "Sakura" "Shibayama" "Shimamura" "Shirakawa" "Togo" "Takashima"
+		"Tsuboi" "Tachibana" "Terauchi" "Tamon" "Takasugi" "Tokugawa" "Uehara" "Uryu" "Ugaki" "Ueda"
+		"Yamagata" "Yamamoto" "Yamakawa" "Yashiro" "Yui" "Yamashita" "Yamaya"
+	}
+	callsigns = {
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty"
+		"Lance" "Panther" "Shogun" "Vampire" "War Lord"
+	}
+}
+KEN = {
+	male = {
+		names = {
+			"Ahmed" "Jabari" "Kamari" "Amiri" "Asani" "Babu" "Balozi" "Darweshi" "Erevu" "Faraji"
+			"Fupi" "Heri" "Hishima" "Ibada" "Huru" "Husani" "Imara" "Issa" "Jahidi" "Jalali"
+			"Juma" "Jumaane" "Kafeel" "Khamisi" "Kifimbo" "Kivuli" "Kondo" "Lumbwi" "Machupa" "Mbwana"
+			"Mosi" "Salehe" "Safi" "Zuberi"
+		}
+	}
+	female = {
+		names = {
+			"Mwana Mwema" "Fatima"
+		}
+	}
+	surnames = {
+		"Ahmed" "Jabari" "Kamari" "Amiri" "Asani" "Babu" "Balozi" "Darweshi" "Erevu" "Faraji"
+		"Fupi" "Heri" "Hishima" "Ibada" "Huru" "Husani" "Imara" "Issa" "Jahidi" "Jalali"
+		"Juma" "Jumaane" "Kafeel" "Khamisi" "Kifimbo" "Kivuli" "Kondo" "Lumbwi" "Machupa" "Mbwana"
+		"Mosi" "Salehe" "Safi" "Zuberi"
+	}
+	callsigns = {
+		"Black" "Africa" "Swahili" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+KOR = {
+	male = {
+		names = {
+			"Yi" "Jo" "Bak" "Yun" "Sim" "Kim" "Hong" "Seo" "Jeong" "Kwon"
+			"Han"
+		}
+	}
+	female = {
+		names = {
+			"Ae-jung" "Areum" "Bit-na" "Bo-young" "Bora" "Chae-won" "Chae-young" "Chun-hwa" "Chun-ja" "Da-hee"
+			"Do-hee" "Eun-ah" "Eun-bi"
+		}
+	}
+	surnames = {
+		"Hwan" "Chung" "Hyong" "Shinjong" "Haung" "Ch'ok" "Taek" "Seon" "Si" "Jip"
+		"Guk" "Mok" "Bo" "Yong" "Sun" "Gyu" "Hu"
+	}
+	callsigns = {
+		"Hangug-eo" "Pyeong-yang" "Haegmugi" "Jung-gugmal" "Ilbon-eo" "Agma"
+	}
+}
+LAO = {
+	male = {
+		names = {
+			"Manthaturath" "Anurutha" "Unkeo" "Sukha" "Chantha" "Unkham" "Sakkarin" "Sisavang" "Setthathirath" "Nanthasen"
+			"Ong" "Phraya"
+		}
+	}
+	female = {
+		names = {
+			"Châu" "Nang Keo Phimpha" "Manora" "Souphutta" "Anousa" "Nokasat"
+		}
+	}
+	surnames = {
+		"Vong" "Kuman" "Söm" "Bun" "Supho" "Long" "Intharavong" "Anuvong"
+	}
+	callsigns = {
+		"Viadnam" "Koapuchia" "Lav" "Siam" "Chin" "Malesia"
+	}
+}
+LAT = {
+	male = {
+		names = {
+			"Aaron" "Abrams" "Alberts" "Aleksandrs" "Aloisz" "Andrejs" "Arkadij" "Armands" "Arnolds" "Atis"
+			"Brunis" "Bruno" "Eduards" "Eliass" "Elmars" "Emils" "Evgenijs" "Filips" "Fricis" "Gustavs"
+			"Heinrihs" "Hermanis" "Izaks" "Janis" "Jazeps" "Jekabs" "Johans" "Juris" "Karlis" "Krisjanis"
+			"Leo" "Mark" "Martins" "Mihails" "Mikelis" "Nikolajs" "Oskars" "Pauls" "Peteris" "Rihards"
+			"Roberts" "Romans" "Sandis" "Sergejs" "Valdemars" "Valerians" "Valter" "Vilis" "Vladimirs" "Zigfrids"
+		}
+	}
+	female = {
+		names = {
+			"Anna"
+		}
+	}
+	surnames = {
+		"Abakovskis" "Apsenieks" "Balodis" "Baumanis" "Berkis" "Berzin" "Betins" "Braons" "Caks" "Cakste"
+		"Caps" "Celmins" "Dalins" "Dambitis" "Darzins" "de Kolongs" "Desslers" "Eizenteins" "Goppers" "Halsmans"
+		"Irbitis" "Kalnins" "Kalpaks" "Kucis" "Kovalevskis" "Krogzems" "Kronvalds" "Kuks" "Kviesis" "Lacis"
+		"Leiko" "Loskis" "Maters" "Matisons" "Meierovics" "Mihelssons" "Milenbahs" "Millers" "Needra" "Ozolins"
+		"Petrovs" "Plieksans" "Pumpurs" "Rothko" "Simanis" "Stucka" "Tumins" "Ulmanis" "Veidenbaums"
+	}
+	callsigns = {
+		"Latviešu" "Lībiešu" "Igauņu" "Poļu" "Krievu" "Somu"
+	}
+}
+LIT = {
+	male = {
+		names = {
+			"Adolfas" "Aleksandras" "Algirdas" "Andrius" "Antanas" "Arturas" "Arunas" "Augustinas" "Balys" "Boris"
+			"Bronislovas" "Danielius" "Darius" "Gendiminas" "Henrikas" "Jonas" "Jonusas" "Juozas" "Juras" "Jurgis"
+			"Justas" "Kazimieras" "Kazys" "Kipras" "Konstantinas" "Lukas" "Marijus" "Markas" "Mikalojus" "Mindaugas"
+			"Motejus" "Mykolas" "Paulius" "Petras" "Povilas" "Ramunas" "Ringaudas" "Rolandas" "Simonas" "Stasys"
+			"Steponas" "Valdas" "Valdemaras" "Viktoras" "Vilhelmas" "Visvaldas" "Vladimiras" "Vygantas" "Vytautas" "Zydrunas"
+		}
+		surnames = {
+		"Adamkus" "Almenas" "Avizienis" "Baltrusaitis" "Brazauskas" "Basanavicius" "Birutis" "Bradziunas" "Buga" "Ciurlionis"
+		"Danauskas" "Daukantas" "Dobkevicius" "Dubeneckis" "Dvarionas" "Galdikas" "Grinius" "Griskevicius" "Ivanauskas" "Jablonskis"
+		"Jucys" "Krupavicius" "Landsbergis" "Lozoraitis" "Merkys" "Paksas" "Paleckis" "Paulauskas" "Petrauskas" "Piskarkas"
+		"Pozela" "Radvila" "Sabaniauskas" "Schatz" "Simonavicius" "Sirvydas" "Slezevicius" "Semtona" "Snieckus" "Stauaitis"
+		"Straizys" "Stulginkis" "Svedas" "Terleckas" "Urbsys" "Vagnorius" "Valeska" "Voldemaras" "Zemaitis" "Zuokas"
+		}
+	}
+	female = {
+		names = {
+			"Agnė" "Aldona" "Anastasija" "Aurelija" "Austėja" "Birutė" "Daiva" "Danutė" "Donata" "Edita"
+			"Elena" "Elzė" "Ernesta" "Gabija" "Gertrüda" "Gintarė" "Ieva" "Inga" "Irma" "Janina"
+			"Jolanta" "Julija" "Kamilė" "Katrė" "Kristina" "Laimutė" "Lilija" "Liucija" "Margarita" "Marijona"
+			"Miglė" "Monika" "Odeta" "Paulina" "Regina" "Rozė" "Sandra" "Silvija" "Smiltė" "Solveiga"
+			"Tatjana" "Urtė" "Valerija" "Viktorija" "Viltautė" "Violeta" "Vitalija" "Zydrė"
+		}
+		surnames = {
+		"Adamkienė" "Almenienė" "Avizienienė" "Baltrušaitienė" "Brazauskienė" "Basanavičiienė" "Birutienė" "Brazdžiūnienė" "Būgienė" "Čiurlionienė"
+		"Danauskienė" "Daukantienė" "Dobkevičiienė" "Dubeneckienė" "Dvarionienė" "Galdikienė" "Griniienė" "Griškevičiienė" "Ivanauskienė" "Jablonskienė"
+		"Jucienė" "Krupavičiienė" "Landsbergienė" "Lozoraitienė" "Merkienė" "Paksienė" "Paleckienė" "Paulauskienė" "Petrauskienė" "Piskarkienė"
+		"Poželienė" "Radvilienė" "Šabaniauskienė" "Šacienė" "Simonavičiienė" "Širvydienė" "Šleževičiienė" "Semtonienė" "Sniečkienė" "Stauaitienė"
+		"Straižienė" "Stulginkienė" "Švedienė" "Terleckienė" "Urbšienė" "Vagnoriienė" "Valeškienė" "Voldemarienė" "Žemaitienė" "Zuokienė"
+	}
+	}
+	callsigns = {
+		"Memel" "Litva" "Vilnius" "Gediminas"
+	}
+}
+MAD = {
+	male = {
+		names = {
+			"Radama" "Rainilaiarivony" "Rabiby" "Andriamanely" "Ndriantompoinairivo" "Tonanahary" "Ratsimivila" "Ramasoandro" "Andriantsirotso" "Lamboina"
+			"Tsialana" "Tsimiharo"
+		}
+	}
+	female = {
+		names = {
+			"Mavuto" "Mayamiko" "Mayeso" "Mbali" "Mchumba" "Meklit" "Mirembe" "Mojisola" "Monifa" "Mphatso"
+			"Mtendere" "Mudiwa" "Munashe" "Mwanajuma" "Nakato"
+		}
+	}
+	surnames = {
+		"Tsiranana" "Ramanantsoa" "Ratsimandrava" "Andriamahazo" "Ratsiraka"
+	}
+	callsigns = {
+		"Black" "Africa" "Malagasy" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+MEX = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+MLI = {
+	male = {
+		names = {
+			"Ahmed" "Jabari" "Kamari" "Amiri" "Asani" "Babu" "Balozi" "Darweshi" "Erevu" "Faraji"
+			"Fupi" "Heri" "Hishima" "Ibada" "Huru" "Husani" "Imara" "Issa" "Jahidi" "Jalali"
+			"Juma" "Jumaane" "Kafeel" "Khamisi" "Kifimbo" "Kivuli" "Kondo" "Lumbwi" "Machupa" "Mbwana"
+			"Mosi" "Salehe" "Safi" "Zuberi"
+		}
+	}
+	female = {
+		names = {
+			"Mwana Mwema" "Fatima"
+		}
+	}
+	surnames = {
+		"Ahmed" "Jabari" "Kamari" "Amiri" "Asani" "Babu" "Balozi" "Darweshi" "Erevu" "Faraji"
+		"Fupi" "Heri" "Hishima" "Ibada" "Huru" "Husani" "Imara" "Issa" "Jahidi" "Jalali"
+		"Juma" "Jumaane" "Kafeel" "Khamisi" "Kifimbo" "Kivuli" "Kondo" "Lumbwi" "Machupa" "Mbwana"
+		"Mosi" "Salehe" "Safi" "Zuberi"
+	}
+	callsigns = {
+		"Black" "Africa" "Swahili" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+MON = {
+	male = {
+		names = {
+			"Peljidiin" "Balingiin" "Sodnomyn" "Kubilai" "Baterdene" "Dogsomyn" "Damdin" "Khorloogiin" "Dambyan" "Gonchigjalzangiin"
+			"Badamdorj" "Chingis" "Otgonbayar" "Batbayar"
+		}
+	}
+	female = {
+		names = {
+			"Temülen" "Börte" "Mandukhai" "Samar" "Zaufishan" "Mulan" "Aigiarn" "Borte" "Chabi" "Conchaka"
+			"Doquez-khatum" "Goland" "Ho'elun"
+		}
+	}
+	surnames = {
+		"Genden" "Amar" "Tserendorj" "Tomorbaatar" "Damdinbazar" "Bodoo" "Sukhbaatar" "Jamyan" "Choibalsan" "Chagdarjav"
+	}
+	callsigns = {
+		"Oros" "Khyatad" "Mongol" "Manj" "Chinghis Khaan" "Khan" "Khagan"
+	}
+}
+NZL = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+PER = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+PHI = {
+	male = {
+		names = {
+			"Emilio" "Apolinario" "Andrés" "José" "Hermano" "Jacinto" "Mariano" "Deodato" "Ladislao" "Teodoro"
+			"Valentíne" "Antonio" "León" "Simeón" "Arcadio" "Artemio" "Manuel"
+		}
+	}
+	female = {
+		names = {
+			"Anela" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Aguainaldo" "Mabini" "Bonifacio" "Jacinto" "Rizal" "Díaz" "Plata" "Diwa" "Arellano"
+	}
+	callsigns = {
+		"Intsik" "Malay" "Indonesia" "Tigre" "Lion" "Pilipinas"
+	}
+}
+POL = {
+	male = {
+		names = {
+			"Adam" "Aleksander" "Antoni" "Boleslaw" "Bonawentura" "Bronislaw" "Dezydery" "Edmund" "Edward" "Emil"
+			"Eustachy" "Felicjan" "Franciszek" "Gustaw" "Henryk" "Ignacy" "Jakub" "Jan" "Jedrzej" "Józef"
+			"Juliusz" "Karol" "Kazimierz" "Klemens" "Konstanty" "Lech" "Leon" "Leopold" "Lucjan" "Ludwik"
+			"Maciej" "Marceli" "Marian" "Mariusz" "Melchior" "Michal" "Mieczyslaw" "Roman" "Romuald" "Samuel"
+			"Stanislaw" "Stefan" "Tadeusz" "Tomasz" "Waclaw" "Wilhelm" "Witold" "Wladyslaw" "Wojciech" "Zygmunt"
+		}
+		surnames = {
+		"Bem" "Bór-Komorowski" "Brzóska" "Chalasinski" "Chlaposwski" "Chlopicki" "Chrzanowski" "Dabrowski" "Dembinski" "Fabryvy"
+		"Hauke-Boask" "Iszikowski" "Jasinski" "Klicki" "Konopczynski" "Krukowiecki" "Kruszewski" "Langiewicz" "Madalinski" "Mierolawski"
+		"Mikolajczyk" "Mokronowski" "Niepokólczycki" "Ostrowski" "Pac" "Pilsudski" "Poniatowski" "Potocki" "Preadzynski" "Radziwill"
+		"Rokossowski" "Rola-Zymierski" "Rómmel" "Rózicky" "Rybinski" "Rydz-Smigly" "Sanguszko" "Skrzynecki" "Soltyk" "Sowinski"
+		"Taczaneowski" "Traugutt" "Wawrzecki" "Wieniawa-Dlugoszowski" "Wybicki" "Wysocki" "Zajaczek" "Zaluski" "Zamoyski" "Zeligowski"
+		}
+	}
+	female = {
+		names = {
+			"Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta"
+		}
+		surnames = {
+		"Bemowa" "Bór-Komorowska" "Brzóska" "Chałasińska" "Chłapowska" "Chłopicka" "Chrzanowska" "Dąbrowska" "Dembińska" "Fabryva"
+		"Hauke-Boaskowa" "Iszikowska" "Jasińska" "Klicka" "Konopczyńska" "Krukowiecka" "Kruszewska" "Langiewiczowa" "Madalinska" "Mierosławska"
+		"Mikołajczykowa" "Mokronowska" "Niepokólczycka" "Ostrowska" "Pacowa" "Pilsudska" "Poniatowska" "Potocka" "Prądzyńska" "Radziwiłłowa"
+		"Rokossowska" "Rola-Zymierska" "Rómmelowa" "Rózicka" "Rybinska" "Rydz-Śmigła" "Sanguszkowa" "Skrzynecka" "Sołtykowa" "Sowińska"
+		"Taczanowska" "Trauguttowa" "Wawrzecka" "Wieniawa-Długoszowska" "Wybicka" "Wysocka" "Zajączekowa" "Załuska" "Zamoyska" "Żeligowska"
+	}
+	}
+	callsigns = {
+		"Piast" "Preußen" "Russia" "Sejm" "Wojak"
+	}
+}
+PRU = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+RAJ = {
+	male = {
+		names = {
+			"Venkatji" "Shahuji" "Pratapsinha" "Rajaram" "Shivaji" "Shambhaji" "Balaji" "Bajirao" "Madhava" "Narayan"
+			"Raghunath" "Sawai"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Appa Sahib" "Bowa Sahib" "Phadnis" "Narayan" "Rao" "Ballal" "Baji Rao" "Bhat"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+RME = {
+	male = {
+		names = {
+			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
+			"Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe"
+			"Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian"
+			"Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru"
+			"Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad"
+		}
+	}
+	female = {
+		names = {
+			"Andrea"
+		}
+	}
+	surnames = {
+		"Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski"
+		"Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu"
+		"Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu"
+		"Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan"
+		"Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu"
+	}
+	callsigns = {
+		"Dracula" "the Vampire" "Wallachia"
+	}
+}
+ROM = {
+	male = {
+		names = {
+			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
+			"Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe"
+			"Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian"
+			"Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru"
+			"Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad"
+		}
+	}
+	female = {
+		names = {
+			"Andrea"
+		}
+	}
+	surnames = {
+		"Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski"
+		"Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu"
+		"Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu"
+		"Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan"
+		"Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu"
+	}
+	callsigns = {
+		"Dracula" "the Vampire" "Wallachia"
+	}
+}
+RWA = {
+	male = {
+		names = {
+			"Yuhi" "Rwabuguri" "Sentwali" "Runihura" "Sebahive" "Nkundiushuti" "Kagame" "Nyillingondo" "Habimana" "Hakizimana"
+			"Gahiji" "Dukuzumuremyi"
+		}
+	}
+	female = {
+		names = {
+			"Nana" "Carene" "Nadege"
+		}
+	}
+	surnames = {
+		"Musinga" "Gahindiro" "Rwogera" "Rutarindwa" "Mutara" "Ndahindurwa"
+	}
+	callsigns = {
+		"Black" "Africa" "Ruanda" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+SCA = {
+	male = {
+		names = {
+			"Albrecht" "Alexander" "Arnold" "August" "Axel" "Baltzar" "Carl" "Christofer" "Didrik" "Edvard"
+			"Elias" "Emil" "Erik" "Esaias" "Fabian" "Frans" "Fredrik" "Gunnar" "Gustav" "Henrik"
+			"Jakob" "Jesper" "Johan" "Julius" "Knut" "Lars" "Ludvig" "Magnus" "Michael" "Nikolaus"
+			"Nils" "Olof" "Oscar" "Per" "Rudolf" "Sten" "Theodor" "Verner" "Viktor" "Vilhelm"
+		}
+	}
+	female = {
+		names = {
+			"Anna" "Linda" "Sara" "Caroline" "Eira"
+		}
+	}
+	surnames = {
+		"Abelin" "Bernardotte" "Bildt" "Björnstjerna" "Brahe" "Brakenhielm" "Breitholtz" "Chrsiterson" "Crusebjörn" "Dyrssen"
+		"Ehnemark" "Ehrenstam" "Gyllengranat" "Gyndestolpe" "Ingelman" "Leijonhufvud" "Lindman" "Mörner" "Nordenskiöld" "Palanger af Vega"
+		"Palmstierna" "Peyron" "Rappe" "Reuterskiöld" "Rosensvärd" "Ryding" "Sprengtportem" "Ström" "Taube" "Tawast"
+		"Thörnell" "Thulstrup" "Tingsten" "Ulner" "Virgin" "von Essen" "von Hohenhausen" "von Otter" "von Platen" "Weidenhielm"
+	}
+	callsigns = {
+		"Johan Andersson" "Paradox" "Victoria II" "Hearts of Iron IV"
+	}
+}
+SER = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+SIA = {
+	male = {
+		names = {
+			"Nangklao" "Mongkut" "Rama" "Chulalongkorn" "Chao" "Vajiravudh" "Prajadhipok" "Naritsaranuwatiwong" "Phya" "Plaek"
+		}
+	}
+	female = {
+		names = {
+			"Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
+		}
+	}
+	surnames = {
+		"Suriyawongse" "Saovabha" "Chichalerm" "Praya Siri" "Nitithada" "Phonphayuhasena"
+	}
+	callsigns = {
+		"Weīy Tnām" "Chāw Kạmphūchā" "Lāw" "S̄yām" "Chāw Cīn" "Chāw Māleseīy"
+	}
+}
+SOV = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+SYR = {
+	male = {
+		names = {
+			"Abd Allah" "Abd al-Karim" "Abd al-Malik" "Abd al-Qadir" "Abd al-Rahman" "Ahmad" "Ali" "Fawzi" "Fuad" "Halil"
+			"Hasan" "Hisham" "Ibrahim" "Ishaq" "Iskandar" "Jamal" "Kamil" "Khalid" "Muhammad" "Mustafa"
+			"Nur al-Din" "Sa'd al-Din" "Salim" "Shukri" "Tawfiq" "Umar" "Uthman" "Yahya" "Yusuf" "Zafir"
+		}
+	}
+	female = {
+		names = {
+			"Nadiyya" "Adila" "Amsha" "Asiya" "Faghira" "Habiba" "Hanifa" "Jahaira" "Kamala" "Layla"
+			"Maryam" "Nafisa" "Nyawela" "Parand" "Parween" "Paymaneh" "Paywand" "Qamara" "Rafiqa" "Rasa"
+			"Rashida" "Reshawna" "Saaman" "Sabba" "Saghar" "Sahba" "Sajida" "Samira" "Semeah" "Setara"
+			"Shahrbano" "Shahzadah" "Shameem" "Shararah" "Sheeftah" "Sheeva" "Shogofa" "Shokouh" "Shola" "Sholah"
+			"Simin" "Souzan" "Taliba" "Tanaz" "Taneen" "Yagana" "Yakta" "Yasmin" "Zaynab"
+		}
+	}
+	surnames = {
+		"al-Baghdadi" "al-Basri" "al-Ghazzawi" "al-Halabi" "al-Hamawi" "al-Himsi" "al-Mawsili" "al-Nablusi" "al-Qudsi" "al-Shami"
+		"ibn Abd Allah" "ibn Abd al-Qadir" "ibn Abu Bakr" "ibn Ahmad" "ibn Ali" "ibn Fuad" "ibn Halil" "ibn Hasan" "ibn Hisham" "ibn Ishaq"
+		"ibn Ja'far" "ibm Kamil" "ibn Khalid" "ibn Muhammad" "ibn Mustafa" "ibn Salim" "ibn Umar" "ibn Uthman" "ibn Yusuf"
+	}
+	callsigns = {
+		"Ibn Abd al-Rahman" "Ibn Abbad" "Ibn Abd Allah" "Ibn Abi Hafs" "Ibn al-Azafi" "Ibn Ali" "Ibn Hakan" "Ibn Hammud" "Ibn Hisam" "Ibn Husayn"
+		"Ibn Idris" "Ibn Ishaq" "Ibn Isma'il" "Ibn Marwan" "Ibn Muhammad" "Ibn Nasr" "Ibn Qasim" "Ibn Sa'd" "Ibn Sulayman" "Ibn Umar"
+		"Ibn Ummay" "Ibn Utman" "Ibn Ya'far" "Ibn Yahyà" "Ibn Yusuf"
+	}
+}
+TAN = {
+	male = {
+		names = {
+			"Ellyas" "Ignacio" "Jordao" "Michael" "Sonny" "Denny" "Mohammad" "Edinho" "Jos" "Levi"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Leiwakabessy" "Mainaky" "Weisapy" "Bouma" "Palyama" "Pattinama" "Pelmelay" "Lilipaly" "Hafiedz"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+TIB = {
+	male = {
+		names = {
+			"Tsarong" "Chamba" "Trimon" "Penor" "Gendün" "Jamphel" "Norbhu" "Mipham" "Tsepon" "Andruk"
+			"Namgang"
+		}
+	}
+	female = {
+		names = {
+			"Kamala" "Indira" "Dawa" "Dechen" "Diki" "Choden" "Dohna" "Dolkar" "Karma" "Sonam"
+			"Sangmu"
+		}
+	}
+	surnames = {
+		"Dzasa" "Wangyal" "Shatra" "Lungshar" "Rinpoche" "Chöphel" "Shakabpa" "Tashi"
+	}
+	callsigns = {
+		"Rgya" "Phoke" "Bdud"
+	}
+}
+U78 = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+UGA = {
+	male = {
+		names = {
+			"Mutesa" "Mwanga" "Kalema" "Kiweewa" "Ssemakookiro" "Jjunju" "Kyabaggo" "Namugala" "Kikulwe" "Kabulu"
+		}
+	}
+	female = {
+		names = {
+			"Nyiramavugo" "Kanjogera" "Nyirarukangaga" "Balambi" "Bawedde" "Sikyayinza" "Nakamu"
+		}
+	}
+	surnames = {
+		"Njovu" "Ndiga" "Ngo" "Nseenene" "Mmamba" "Ngonge" "Ngabi"
+	}
+	callsigns = {
+		"Ngonge" "Nkima" "Kkobe" "Ffumbe" "Kuria" "Mamba" "Ndiga" "Ngeye" "Lugave" "Mbogo"
+		"Ngabi" "Nsenene" "Mpindi"
+	}
+}
+UKR = {
+	male = {
+		names = {
+			"Alexei" "Andrei" "Anton" "Arkadiy" "Borys" "Dmitro" "Fyodor" "Hryhoriy" "Ivan" "Lavr"
+			"Leonid" "Lev" "Mikhail" "Mykola" "Nikita" "Oleksandr" "Pavel" "Petro" "Roman" "Semyon"
+			"Sergiy" "Valeriy" "Viktor" "Volodimir" "Vladislav" "Yuriy"
+		}
+		surnames = {
+		"Bezruchko" "Chernyakhovsky" "Dyachenko" "Gamula" "Grigoriev" "Hrekov" "Ivanenko" "Ivanov" "Kapustiansky" "Kondratenko"
+		"Leshchenko" "Leshchinskiy" "Omelianovych-Pavlenko" "Paskevich" "Petliura" "Radchenko" "Shevchenko" "Skoropadskyi" "Stefaniv" "Tymoshenko"
+		"Vitovsky"
+		}
+	}
+	female = {
+		names = {
+			"Jelena" "Ludmila"
+		}
+		surnames = {
+		"Bezruchka" "Chernyakhovsʹkaya" "Dyachenka" "Hamula" "Hrihoriyeva" "Hrekova" "Ivanenka" "Ivanova" "Krapustiansʹkaya" "Kondratenka"
+		"Leshchenka" "Leshchinskaya" "Omelyanovych-Pavlenkova" "Paskevycha" "Petlyura" "Radchenka" "Shevchenka" "Skoropadsʹkaya" "Stefaniva" "Tymoshenka"
+		"Vitovsʹkaya"
+	}
+	}
+	callsigns = {
+		"Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon"
+		"Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky"
+		"Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka"
+	}
+}
+USA = {
+	male = {
+		names = {
+			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
+			"Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe"
+			"Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian"
+			"Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru"
+			"Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad"
+		}
+	}
+	female = {
+		names = {
+			"Andrea"
+		}
+	}
+	surnames = {
+		"Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski"
+		"Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu"
+		"Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu"
+		"Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan"
+		"Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu"
+	}
+	callsigns = {
+		"Dracula" "the Vampire" "Wallachia"
+	}
+}
+VEN = {
+	male = {
+		names = {
+			"Antonio" "Camilo" "Carlos" "Cipriano" "Demetrio" "Diego" "Domingo" "Eloy" "Eusebio" "Eustorgio"
+			"Ezequiel" "Federico" "Fernando" "Florentino" "Franciso" "Francisco Javier" "Francisco José" "Francisco de Paula" "Froilán" "Gabriel"
+			"Gregorio" "Guillermo" "Gustavo" "Guzmán" "Hilario" "Ignacio" "Jerónimo" "Joaquín" "Jorge" "José Antonio"
+			"José Manuel" "José María" "Juan" "Juan José" "Julián" "Julio" "León" "Manuel" "Pedro" "Plácido"
+			"Rafael" "Raimundo" "Ramón" "Ricardo" "Rodolfo" "Santiago" "Santos" "Tadeo" "Tomás" "Vicente"
+		}
+	}
+	female = {
+		names = {
+			"Amaranta" "Úrsula" "Rebeca" "Remedios" "Sofía"
+		}
+	}
+	surnames = {
+		"Alfaro" "Andueza" "Arboleda" "Blanco" "Bonnet" "Boyd" "Caamaño" "Carreño" "Carrión" "Castro"
+		"Chiari" "Cordero" "Crespo" "Daza" "de Herrera" "de Mosquera" "de Obaldía" "de Olmedo" "de Veintemilla" "de Villamil"
+		"Falcón" "Flores" "García" "Gómez" "González" "Gual" "Gutiérrez" "Herrán" "Hurtado" "López"
+		"Mallarino" "Manjarrés" "Mariño" "Melo" "Monagas" "Moreno" "Núñez" "Obando" "Páez" "Porras"
+		"Reyes" "Robles" "Rocafuerte" "Rojas" "Salgar" "Santander" "Soublette" "Urbina" "Villegas" "Zaldúa"
+	}
+	callsigns = {
+		"Escobar" "Polvo"
+	}
+}
+VIN = {
+	male = {
+		names = {
+			"Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" "Nguyen" "Truong" "Tran"
+		}
+	}
+	female = {
+		names = {
+			"Kim Anh" "Thuy Tram" "Bich Ngoc" "Phuong Nga" "Thanh Thao"
+		}
+	}
+	surnames = {
+		"vinh Thuy" "Han" "Tuan" "Vinh San" "Cuong" "Khai" "Nien" "Than" "Quang" "Trong Hiep"
+		"Mien Lam" "Mien Trinh" "Buu Lan"
+	}
+	callsigns = {
+		"Tiếng Việt" "Người Campuchia" "Người Lào" "Xiêm" "Trung Quốc" "Tiếng Malay"
+	}
+}
+W00 = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+W01 = {
+	male = {
+		names = {
+			"Andikan" "Amadi" "Aren" "Bahari" "Averey" "Bakari" "Bash" "Bayode" "Bitalo" "Chane"
+			"Chata" "Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni"
+			"Ife" "Ilo" "Issay" "Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi"
+			"Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" "Raimi" "Razi" "Reth"
+		}
+	}
+	female = {
+		names = {
+			"Makou" "Massanje" "Mawa"
+		}
+	}
+	surnames = {
+		"Muhammad Raja" "Muhammad" "Raja" "Uthman" "Usufu" "Mukusedi" "Molidi" "Umkubu Muntu" "Marave" "Ali Ibrahimu"
+	}
+	callsigns = {
+		"Black" "Africa" "Makua" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+W03 = {
+	male = {
+		names = {
+			"Lokendra" "Raghuraj" "Vijay" "Vishvanath" "Pheran" "Jugal" "Parbhu" "Narayan" "Ishvari" "Udit"
+			"Prasan" "Mahip"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Singh"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+W04 = {
+	male = {
+		names = {
+			"Tsarong" "Chamba" "Trimon" "Penor" "Gendün" "Jamphel" "Norbhu" "Mipham" "Tsepon" "Andruk"
+			"Namgang"
+		}
+	}
+	female = {
+		names = {
+			"Kamala" "Indira" "Dawa" "Dechen" "Diki" "Choden" "Dohna" "Dolkar" "Karma" "Sonam"
+			"Sangmu"
+		}
+	}
+	surnames = {
+		"Dzasa" "Wangyal" "Shatra" "Lungshar" "Rinpoche" "Chöphel" "Shakabpa" "Tashi"
+	}
+	callsigns = {
+		"Rgya" "Phoke" "Bdud"
+	}
+}
+W05 = {
+	male = {
+		names = {
+			"Tsarong" "Chamba" "Trimon" "Penor" "Gendün" "Jamphel" "Norbhu" "Mipham" "Tsepon" "Andruk"
+			"Namgang"
+		}
+	}
+	female = {
+		names = {
+			"Kamala" "Indira" "Dawa" "Dechen" "Diki" "Choden" "Dohna" "Dolkar" "Karma" "Sonam"
+			"Sangmu"
+		}
+	}
+	surnames = {
+		"Dzasa" "Wangyal" "Shatra" "Lungshar" "Rinpoche" "Chöphel" "Shakabpa" "Tashi"
+	}
+	callsigns = {
+		"Rgya" "Phoke" "Bdud"
+	}
+}
+W06 = {
+	male = {
+		names = {
+			"Lokendra" "Raghuraj" "Vijay" "Vishvanath" "Pheran" "Jugal" "Parbhu" "Narayan" "Ishvari" "Udit"
+			"Prasan" "Mahip"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Singh"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+W07 = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+W10 = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+W11 = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+W12 = {
+	male = {
+		names = {
+			"Abbas" "Abolghasem" "Abdolhossein" "Abdolsamad" "Abdolazim" "Ahmad" "Ali" "Bahram" "Ebrahim" "Esmail"
+			"Fath Ali" "Fazlollah" "Hamzeh" "Hasan" "Hossein" "Kamran" "Karim" "Lotf Ali" "Mahmoud" "Massoud"
+			"Mohammad" "Moin ed-Din" "Mozzafer ed-Din" "Murad" "Muhsin" "Naser ed-Din" "Nosret" "Reza"
+		}
+	}
+	female = {
+		names = {
+			"Mehrnaz" "Farnaz"
+		}
+	}
+	surnames = {
+		"Airom" "Ansari" "Ayrum" "Buzarjomehri" "Davallu" "Esfahani" "Farhani" "Jahanbani" "Kashani" "Khan"
+		"Khuzai" "Meshhedi" "Nakhchevani" "Pesyan" "Rokni" "Shafaei" "Shahbakhti" "Shirazi" "Tabrizi" "Tahmasebi"
+		"Zahedi"
+	}
+	callsigns = {
+		"Farsa" "Awnana" "'Erb"
+	}
+}
+W13 = {
+	male = {
+		names = {
+			"Lokendra" "Raghuraj" "Vijay" "Vishvanath" "Pheran" "Jugal" "Parbhu" "Narayan" "Ishvari" "Udit"
+			"Prasan" "Mahip"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Singh"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+W14 = {
+	male = {
+		names = {
+			"Adelbert" "Adolf" "Albrecht" "Alexander" "Alfred" "August" "Bernhard" "Burkhard" "Dieter" "Eduard"
+			"Edwin" "Erwin" "Erich" "Ernst" "Florian" "Franz" "Friedrich" "Fritz" "Georg" "Günther"
+			"Gustav" "Hasso" "Heinrich" "Helmuth" "Hermann" "Hugo" "Joachim" "Johann" "Jürgen" "Karl"
+			"Konrad" "Leonhard" "Leopold" "Ludwig" "Lukas" "Manfred" "Maximilian" "Michael" "Nikolaus" "Otto"
+			"Pascal" "Paul" "Peter" "Reinhard" "Rudolf" "Ruprecht" "Stefan" "Theodor" "Wilhelm" "Wolfgang"
+		}
+	}
+	female = {
+		names = {
+			"Jessica" "Emma" "Hanna" "Sofia" "Marie"
+		}
+	}
+	surnames = {
+		"Behncke" "Brommy" "Cordemann" "Dreyer" "Droste" "Groener" "Herwarth von Bittenfeld" "Heppendorf" "Hoffmann" "Krohn"
+		"Ludendorff" "Schree" "Vogel von Falkenstein" "von Alten" "von Anhalt" "von Arentschildt" "von Bülow" "von Bismarck-Bohlen" "von Blumenthal" "von Blomberg"
+		"von Boyen" "von Braunschweig" "von dem Knesebeck" "von Gebser" "von Fritsch" "von Halkett" "von Hannover" "von Hessen-Darmstadt" "von Hessen-Kassel" "von Hindenburg"
+		"von Hohenzollern" "von Holstein-Gottorp" "von Knorr" "von Kleefeld" "von Manteuffel" "von Mecklenburg-Schwerin" "von Mecklenburg-Strelitz" "von Moltke" "von Oldenburg" "von Rauch"
+		"von Ravensberg" "von Reuter" "von Richthofen" "von Sachsen-Altenburg" "von Sachsen-Coburg-Gotha" "von Sachsen-Meiningen" "von Sachsen-Weimar-Eisenach" "von Schlieffen" "von Schwarzburg" "von Spee"
+		"von Tirpitz" "von Waldeck und Pyrmont" "von Wettin" "von Wrangel" "von Zieten" "zur Lippe" "von Roon"
+	}
+	callsigns = {
+		"Bubi" "Assi" "The Black Devil" "The Blond Knight Of Germany" "Dolfo" "Fighter of Libau" "Petit Rouge" "Pritzl" "The Red Baron" "The Red Battle-flyer"
+		"The Red knight" "Reeste"
+	}
+}
+W15 = {
+	male = {
+		names = {
+			"Lokendra" "Raghuraj" "Vijay" "Vishvanath" "Pheran" "Jugal" "Parbhu" "Narayan" "Ishvari" "Udit"
+			"Prasan" "Mahip"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Singh"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+W16 = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+W17 = {
+	male = {
+		names = {
+			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
+			"Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe"
+			"Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian"
+			"Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru"
+			"Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad"
+		}
+	}
+	female = {
+		names = {
+			"Andrea"
+		}
+	}
+	surnames = {
+		"Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski"
+		"Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu"
+		"Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu"
+		"Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan"
+		"Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu"
+	}
+	callsigns = {
+		"Dracula" "the Vampire" "Wallachia"
+	}
+}
+W18 = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+W19 = {
+	male = {
+		names = {
+			"Andrija" "Antun" "Bazilije" "Breno" "Dragutin" "Dzivo" "Filip" "Franjo" "Gaspar" "Ivan"
+			"Janko" "Jero" "Jerolim" "Josip" "Juraj" "Karlo" "Kresimir" "Krsto" "Ljudevit" "Lucijan"
+			"Luka" "Marijan" "Marin" "Matej" "Matko" "Maximiliam" "Medo" "Mihajlo" "Mirko" "Miroslav"
+			"Niko" "Nikola" "Orsat" "Pavle" "Petar" "Rafo" "Sebastijan" "Sismundo" "Slavko" "Stjepan"
+			"Svetoslav" "Svetozar" "Teo" "Teodor" "Toma" "Tomislav" "Vicko" "Vladimir" "Vlaho" "Zlatan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Alapic" "Bakaric" "Bettera" "Bilic" "Blazevic" "Bondic" "Boroevic" "Bosnajk" "Bunic" "Crnkovic"
+		"Cuvaj" "Draskovic" "Dzamanjic" "Eltz" "Erdödy" "Frankopan" "Gaj" "Getaldic" "Gradic" "Gregoric"
+		"Gucetic" "Gundulic" "Haulik" "Jelacic" "Kabuzic" "Keglevic" "Kostrencic" "Krstulovic" "Lagimja" "Mazuranic"
+		"Mihailovic" "Mohorovicic" "Mrazovic" "Natali" "Nazor" "Njegovan" "Palecek" "Pejacevic" "Philippovic" "Preradovic"
+		"Pucic" "Ranjina" "Sarkotic" "Sokcevic" "Sorkocevic" "Stankovaci" "Tomasic" "Tomlejnovic" "Vakanovic" "Vlasic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+W21 = {
+	male = {
+		names = {
+			"Kaumba" "Muteba" "Mushidi" "Mbala" "Mutand" "Mudib" "Kangapu" "Cimbindu" "Mbumb" "Cakasekene"
+			"Mulay" "Nawej" "Cikombe" "Waranankong"
+		}
+	}
+	female = {
+		names = {
+			"Jetta" "Vandana" "Zody"
+		}
+	}
+	surnames = {
+		"Kasang" "Nambing" "Kalong" "Mukaz" "Ditend" "Yaava" "Namwan" "Naweej" "Kamong" "Isot"
+		"Kat" "Muteba"
+	}
+	callsigns = {
+		"Black" "Africa" "Lunda" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+W22 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+W24 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+W25 = {
+	male = {
+		names = {
+			"Neneh" "Tejan" "Sheka" "Kanji" "Lansana" "Brima" "Foda" "Sekouba" "Alhassani" "Sekou"
+			"Amara" "Losene" "Fodey" "Kaleefa" "Hatab" "Daba" "Massa" "Aoua" "Soumaila"
+		}
+	}
+	female = {
+		names = {
+			"Amna" "Ghadir" "Latifa" "Maha" "Ranya" "Ibtisam" "Isra" "Karima" "Kera" "Khadija"
+			"Layla" "Malika" "Mariam" "Maria" "Munya"
+		}
+	}
+	surnames = {
+		"Diawara" "Sidibe" "Suso" "Jammeh" "Jaabi" "Keita" "Konneh" "Kanneh" "Conde"
+	}
+	callsigns = {
+		"Black" "Africa" "Mande" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+W26 = {
+	male = {
+		names = {
+			"Zuka" "Sundai" "Tichawonna" "Sekayi" "Runako" "Petiri" "Pepukayi" "Mwanyisa" "Muchaneta" "Mashama"
+			"Mboro" "Goredenna" "Gamba" "Chionesu" "Chinouyazue" "Banga"
+		}
+	}
+	female = {
+		names = {
+			"Rumbidzai" "Tambudzai" "Nyarai"
+		}
+	}
+	surnames = {
+		"Mzilikazi" "Lobengula" "Mlimo" "Soshangane" "Magaya" "Kwenda" "Muhuru" "Maraire"
+	}
+	callsigns = {
+		"Black" "Africa" "Shona" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X01 = {
+	male = {
+		names = {
+			"Amare" "Bekele" "Berhanu" "Saleh" "Haile" "Berihun" "Demissie" "Desta" "Geteye" "Girma"
+			"Kelile" "Negasi"
+		}
+	}
+	female = {
+		names = {
+			"Habesha" "Abeba" "Abrihet" "Adanech" "Adina" "Alaworld" "Alitash" "Amhara" "Ayana" "Bathsheba"
+			"Bekele" "Belkis" "Berhane" "Berta" "Cheren" "China" "Debre" "Debtera" "Desse"
+		}
+	}
+	surnames = {
+		"Selassie" "Mikael" "Mariam" "Melekot" "Seged" "Wossen" "Makonnen"
+	}
+	callsigns = {
+		"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" "Abateid" "Sabraid"
+		"Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" "Daw" "Alwa"
+		"Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos"
+		"Merkourios" "Shamumun" "Desta"
+	}
+}
+X02 = {
+	male = {
+		names = {
+			"Seimei" "Resaak" "Akihi" "Petennouk" "Unayanke" "Shiratekka" "Apniainu" "Pasekur" "Munkeke" "Shitekka"
+			"Shinriki" "Shiromainu" "Menkakush"
+		}
+	}
+	female = {
+		names = {
+			"Aimi" "Asami" "Asuka"
+		}
+	}
+	surnames = {
+		"Aterui" "Shakushine" "Koshamine" "Harukor" "Turushno" "Isonash" "Keutoranke"
+	}
+	callsigns = {
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty"
+		"Lance" "Panther" "Shogun" "Vampire" "War Lord"
+	}
+}
+X03 = {
+	male = {
+		names = {
+			"Thibaw" "Mindon" "Pagan" "Tharawadi" "Gabyidaw" "Bodawphaya" "Maung" "Singu" "Hsinbyushin" "Naungdawkyi"
+			"Alaungphaya" "Maha" "Minkyaw" "Zeya"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Min" "Bagyidaw" "Bandula" "Ne Myo" "Myo" "Thura" "Dabayin"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+X04 = {
+	male = {
+		names = {
+			"Amanquatia" "Agyeman" "Onsei" "Kwaku" "Kofi" "Atakora" "Kwabena" "Mensa" "Owusu" "Akyampon"
+			"Kwame" "Opoku"
+		}
+	}
+	female = {
+		names = {
+			"Nia" "Cadence" "Hanna" "Nala" "Zahra"
+		}
+	}
+	surnames = {
+		"Prempeh" "Bonsu" "Dua" "Karikari" "Dwomo" "Panyin" "Sekyere" "Fofie" "Asiba"
+	}
+	callsigns = {
+		"The Black" "Nigg**" "Slave-owner"
+	}
+}
+X05 = {
+	male = {
+		names = {
+			"Sinté" "Thaóyate" "Thathanka" "Thasunke" "Mahpiya" "Istahba" "Hehaka" "Thahca" "Ohiyes" "Wanbdi"
+			"Tamaha" "Inkpaduta" "Teshuhimga" "Gradamnsa" "Caygaywachepeche" "Couchestawasta" "Mahsa" "Wanougpacha" "Hurate" "Wasabatougga"
+			"Nekaghre" "Mekewatanega" "Nangawahaegea" "Kemanha" "Papuisea" "Harachabe" "Pahelagren" "Tawangahuh" "Honencache" "Nichumali"
+			"Voithevoihe" "Voithechinga" "Tavoingare" "Osogahe" "Voichinodhe" "Voinache" "Voinonpache" "Qhihiramaki" "Caygache" "Pahuroguesie"
+			"Miaasa" "Manjaguida" "Mantsa" "Nicagaris" "Dogachinga" "Tavaingare" "Tavainthere" "Naguemani" "Nicanauthe" "Chonmelase"
+			"Nenonbas" "Pograngue" "Cayque" "Nonpevoite" "Vesasche" "Tonchenanque" "Lihibi" "Grinache" "Nicouilbran" "Chonnonsogue"
+			"Lisansandhe" "Mequaque" "Megahe" "Manhegare" "Meyhe" "Nudhetavoi" "Thecayque" "Voitasean" "Cahapiche" "Manhevoi"
+			"Talechiga" "Pedhechiga" "Cheganonsas" "Nesaque" "Lolechinga" "Panenvoiguanda" "Tavoinhihi" "Mithechinga" "Manquesi" "Chingavoisa"
+			"Talevoile" "Voiengran" "Scamani" "Nurahague" "Mechinga" "Pachigue" "Roudanique" "Voibisandhe" "Nehizanga" "Nehudhe"
+			"Pagranque" "Chahetonga" "Manguepeemani" "Voibalune" "Poneavoitaniga" "Taslondhe" "Nendogualui" "voibahe" "Onhehomani" "Nuranin"
+			"Noguinilayque" "Nanlatoho" "Bashemindhe" "Savoi" "Chouquemonnon" "Manilourana" "Nequevoile" "Chonguehanga" "Ponlachinga" "Aguigueda"
+			"Voidoguega" "Sindhe" "Ninchagari" "Voidhadani" "Quinihonigue" "Nognithechinga" "Natanhi" "Ousabe" "Voichinouthe" "Amanpasse"
+			"Cutsagabe" "Channahon" "Nonbasocri" "Pedhechinga" "Bassechinga" "Ponlavoitasuga" "Manyvoile" "Mandarihi" "Nepaste" "Keokuk Wapello"
+			"Pierremaskin Muckkatwagout Namasosanamet" "Mackkatananamakee Pashchenene Wapasai" "Malasenokama Kechaswa" "Catchacommu" "Waapaca" "Mataqua" "Paquampa" "Aquoqua" "Nemarqua" "Machenamau"
+			"Pesotaka" "Mishecaqua" "Capontwa" "Mowhinin" "Omquo" "Wonakasa" "Nautakawa" "Makataimeshekia" "Wathohuck" "Choukeka"
+			"Keesheswa" "Kenekuk" "Papiquan" "Pashepaho" "Lalyurva" "Hanshequarhiqua" "Outchequaka" "Quashquame" "Shamaga" "Weesaka"
+			"Chekaqua" "Kataka" "Mecaitch" "Neshota" "Chagasort" "Pecama" "Namachewana" "Nanochaatasa" "Taimah" "Catchemackeseo"
+			"Keokuk" "Wapello" "Pierremaskin" "Muckkatwagout" "Namasosanamet" "Mackkatananamakee" "Pashchenene" "Wapasai" "Malasenokama" "Kechaswa"
+			"Tepeeoska" "Wichawostaka" "Masgwahasid" "Chenka" "Kichipwot" "Stamixosok" "Emitahapiskinne" "Matapikomotziw" "Ayestipissimat" "Kissoum"
+			"Pitahotocan" "Apawstamix" "Onistahpokah" "Netahkiteipimew" "Akakotos" "Stokimatis" "Pitahotiskin" "Stamixotakapiw" "Mastepitah" "Moyanymen"
+			"Ekaskine" "Kayookosis" "Ponokahstamix" "Omaksisapop" "Pitahsiksinum" "Apawonistaw" "Attistahhawes" "Pitah" "Pitahonistah" "Kayetapo"
+			"Mahtowewitko" "Toetahkiehnan" "Nochkpitshitoepish" "Sheohmantho" "Waywasecapow" "Otamakooewin" "Shapousetung" "Sukeman" "Misketo" "Etamepeton"
+			"Kawasaskotrepahik" "Makoyekin" "Nesoauases" "Onistah" "Pitahannes" "Wabasha" "Petette" "Tartunkanasiah" "Keejee" "Tarsega"
+			"Wamadetunka" "Wannata" "Kokomako" "Shacope" "Penision" "Etaseepa" "Wakauhee" "Poehapa" "Takewapa" "Tenchzepart"
+			"Mascpulochastosh" "Tetekarmunch" "Wasaota" "Oeyakoca" "Maktowahkeark" "Matowayouwe" "Makatozaza" "Belotonkatanga" "Nakapagigi" "Maktosabichis"
+			"Mewatanihanska" "Iyotake" "Iyapato" "Witko" "Maphiya" "Luta" "Sapa" "Sinte" "Gleska" "Ite"
+			"Omagazu" "Ogle"
+		}
+	}
+	female = {
+		names = {
+			"Tasinasapewin" "Thasinamani" "Tasinahlahlawin" "Dohumme" "Chapa" "Chapawee" "Chumani" "Dowanhowee" "Ehawee" "Hantaywee"
+			"Kimimela"
+		}
+	}
+	surnames = {
+		"Gleská" "Duta" "Iyotake" "Witko" "Luta" "Kohkophapi" "Sapa" "Huste" "Thankja" "Sichangu"
+		"Oglala" "Itazipcho" "Hunkpapha" "Mnikhowozu" "Sihasapa" "Oohenunpa" "Ihantkhunwan" "Ihankthunwanna" "Isanyathi" "Thithunwan"
+		"Wichiyena" "Wahpéthunwan" "Mdewakanthunwan" "Wahpéhute" "Sisithunwan" "Aegitina" "Bizibina" "Cephubi" "Canhdada" "Canhewincasta"
+		"Canknuhabi" "Hudesabina" "Hebina" "Huhumasmibi" "Huhuganebabi" "Sturgeon" "Eagle" "Blues Son" "Plumbed" "the Sioux"
+		"Brave by Hazard" "Hen Atonwaabina" "Inwantonwanbina" "Innianonbi" "Insaombi" "Indogahwincasta" "Minisoee Swnkeebi" "Minisatonwanbi" "Osnibi" "Ptegabina"
+		"Sunkcebi" "Sahiyaiyeskabi" "Snugabi" "Sihabi" "Tanidabi" "Tokanbi" "Tanzinapebina" "Unskaha" "Wadopabina" "Wadopahtonwan"
+		"Wiciyabina" "Waziyamwincasta" "Wasinazinyabi" "Wokpanbi" "Mesquakie" "Wagosh" "Asakiwakie" "Kickapoo" "Blackhawk" "Saukenuk"
+		"Thakiwakie" "Tama" "Osakis" "Etnataek" "Kickapougwoi" "Kithlipecanuk" "Jumping Fish" "Sun Fish" "Bear" "Giger"
+		"Lance" "Devil" "Big Eagle" "Wazhaze" "Tsishu" "Pasueli" "Wahakolin" "Sansueli" "Wyota" "Picayune"
+		"Koholo" "Neodesha" "Owasso" "Pawhuska" "Niukonska" "Doppike" "Neosho" "Chetopa" "Hominy" "Pahusan"
+	}
+	callsigns = {
+		"Siouan" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X06 = {
+	male = {
+		names = {
+			"Thibaw" "Mindon" "Pagan" "Tharawadi" "Gabyidaw" "Bodawphaya" "Maung" "Singu" "Hsinbyushin" "Naungdawkyi"
+			"Alaungphaya" "Maha" "Minkyaw" "Zeya"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Min" "Bagyidaw" "Bandula" "Ne Myo" "Myo" "Thura" "Dabayin"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+X10 = {
+	male = {
+		names = {
+			"Abdal" "Abdulkarim" "Bedr" "Hafid" "Ihsan" "Mahmud" "Mohammed" "Qazi" "Reshid" "Said"
+			"Ubaydallah"
+		}
+	}
+	female = {
+		names = {
+			"Šîwen" "Atiya"
+		}
+	}
+	surnames = {
+		"Badirkhan" "Barzani" "Khan" "Shilak"
+	}
+	callsigns = {
+		"Kurdî" "Ermenî" "Tirkî" "Pêşmerge"
+	}
+}
+X12 = {
+	male = {
+		names = {
+			"Aysen" "Nyurgun" "Elley" "Aytal" "Manchaary"
+		}
+		surnames = {
+		"Okhlopkov" "Shishigin" "Shtyrov" "Ondar" "Sivtsev"
+		}
+	}
+	female = {
+		names = {
+			"Aiday" "Aiman" "Aina" "Aliya" "Anar" "Anara" "Anargul" "Aruzhan" "Ayaulym" "Ayna"
+			"Aynur" "Bibigul" "Gulnar" "Gulnara" "Gulnaz" "Inkar" "Inzhu" "Madina" "Saltanat" "Sezim"
+			"Zhuldyz"
+		}
+		surnames = {
+		"Okhlopkova" "Shishigina" "Shtyrova" "Ondarova" "Sivtseva"
+	}
+	}
+	callsigns = {
+		"Nuučča" "Sakha" "Abahy"
+	}
+}
+X13 = {
+	male = {
+		names = {
+			"Albert" "Alexandre" "Alfons" "Alfonso" "Andrés" "Andreu" "Antoni" "Carles" "Cassià" "Dalmau"
+			"David" "Eduard" "Enric" "Enrique" "Federico" "Felip" "Fernando" "Ferran" "Francesc" "Gaspar"
+			"Gerard" "Isaac" "Jacint" "Jaume" "Joan" "Jordi" "José" "Josep" "Juan" "Llorenç"
+			"Lluis" "Manel" "Manuel" "Marc" "Miquel" "Narcís" "Pasqual" "Pau" "Pedro" "Pere"
+			"Pompeu" "Rafael" "Rafel" "Ramon" "Ricardo" "Salvador" "Sergi" "Valntí" "Victor" "Xavier"
+		}
+	}
+	female = {
+		names = {
+			"Àgata" "Àgueda" "Aina" "Anna" "Antònia" "Caterina" "Cecília" "Cristina" "Dolors" "Francesca"
+			"Genoveva" "Isabel" "Joana" "Justina" "Laia" "Montserrat" "Núria" "Octàvia" "Prudència" "Roberta"
+			"Rodolfa"
+		}
+	}
+	surnames = {
+		"Albéniz" "Almirall" "Bacardí" "Batet" "Berenguer" "Borrás" "Borrell" "Cadafall" "Carner" "Casals"
+		"Casanova" "Castelló" "Claramunt" "Cucala" "Cugat" "Despujol" "Domènech" "Escotet" "Fabra" "Fages"
+		"Folc de Cardona" "Gumerà" "Irla" "Llauder" "Macià" "Maragall" "Margall" "Milans del Bosch" "Miró" "Mompou"
+		"Montaner" "Moragues" "Moret" "Nebot" "Nin" "Oller" "Prat" "Prim" "Puig" "Riba"
+		"Roig" "Sala" "Saliquet" "Savalls" "Serra" "Sor" "Tristany" "Verdaguer" "Virigili" "Vives"
+	}
+	callsigns = {
+		"L'Espanyol" "Creu d'Aragó" "El Puidgemont"
+	}
+}
+X14 = {
+	male = {
+		names = {
+			"Qizhen" "Qiyu" "Jianjun" "Youcheng" "Houzhao" "Houcong" "Zaihou" "Yijun" "Changluo" "Youjian"
+			"Yousong" "Yujian" "Youlang" "Chenggong" "Kehshuan" "Biao" "Shuang" "Gang" "Su" "Zhen"
+			"Fu" "Zi" "Qi" "Tan" "Chun" "Bai" "Gui" "Zhi" "Quan" "Pian"
+			"Hui" "Song" "Mo" "Ying" "Jing" "Dang" "Nan" "Gaoxu" "Caosui" "Gauxi"
+			"Youyuan" "Youlun" "Youbin" "Houwei" "Youxiao" "Youji" "Youxue" "Youyi" "Youshan" "Cixuan"
+			"Cijiang" "Cizhao" "Cihuan" "Cican" "He" "Ji" "Da" "Yuchun"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Duan" "Gao" "Meng"
+	}
+	callsigns = {
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty"
+		"Lance" "Panther" "Shogun" "Vampire" "War Lord"
+	}
+}
+X15 = {
+	male = {
+		names = {
+			"Hoang" "Nong" "Le" "Be" "Van" "Quoc" "Quynh" "The" "Duc"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Thu" "Manh" "Trieu" "Khanh" "Phung" "Hau" "Chan" "Den" "Phach" "Cao"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X18 = {
+	male = {
+		names = {
+			"Itawamba" "Tootemastubbe" "Piomingo" "Tishomingo" "Mingatuska" "Taskietoka" "Latopoia" "Ashalatubbi" "Ishtehotopa" "Topulkah"
+			"Emubby" "Pistahlahtubee" "Ishtimolutka" "Immahhoolotubbe" "Ishtahachah" "Lahfinhubbe" "Shoppowme" "Ninuckahumba" "Illuppahhumba" "Conmushkaishkah"
+			"Bahhakahtubbe" "Bahmahahtubbe" "Iyahhoutubbe" "Tokholthlachah" "Okelahnahnubbe" "Immetubbe" "Inkahyea" "Ahshacubbe" "Immohhobah" "Fitchahpla"
+			"Untemiahtubbe" "Okelahhinlubbe" "Bahmehubbe" "Hushtahtahubbe" "Untihakahtubbe" "Yummotubbe" "Ohhacubbe" "Ahfahmah" "Ahtakintubbe" "Ahtokowah"
+			"Tahhacubbe" "Kinhoicha" "Ishteahtubbe" "Chickahshananubbe" "Chewutaha" "Foluttachah" "Wininapa" "Okelahshahcubbe" "Ishtakiyukatabbe" "Mahtekoshubbe"
+			"Tomchickah" "Eiochetubbe" "Nuckshopubbe" "Cochubbe" "Okelahshapia" "Ayaestangui" "Mingotabasa" "Ochinohahuma" "Nackitona" "Cachuni"
+			"Mastape" "Puchihuma" "Tamaobe" "Mingotalaya" "Panshimantla" "Imaabe" "Pushihumachito" "Oclactahuma" "Chickashioclacta" "Cachumaabi"
+			"Nahollomastubbe" "Canelechabe" "Pushimastabew" "Oechanyimastabe" "Tuscaloosa" "Franchimastabe" "Taboca" "Apuckshunubbee" "Pushmataha" "Mosholatubbee"
+			"Tobocoh" "Pooshemastuby" "Pooshahooma" "Tuscoonoohoopoie" "Shishemastubby" "Yoopahooma" "Stoonokoohoopoie" "Tehakuhbay" "Tushkahoomoih" "Tushkahoomock"
+			"Yoostenochla" "Tootehooma" "Toobenohoomoch" "Cshecoopoohoomoch" "Stonakoohoopoie" "Tushkoheegohta" "Teshuhenochloch" "Pooshonaltla" "Okanconnooa" "Autoonachuba"
+			"Pangehooloch" "Steabee" "Tanetchenna" "Tushkementahock" "Tushtallay" "Cshnaangchabba" "Cunnopoie" "Tuskonahopoia" "Tootahomo" "Mingohom"
+			"Massatubby" "Ocshumme" "Mingopooscoos" "Bucshunubbe" "Shappahomo" "Hiupahoo" "Illatallahomo" "Hochehomo" "Tuspehachaabe" "Muclushahopoia"
+			"Capputannethlucco" "Pooshahomo" "Bakalubbe" "Ayaistanaksi" "Mestico" "Ulbalent" "Chicachahuma" "Tiupoye" "Asetahuma" "Pushahuma"
+			"Tootehoma" "Puchihuacaya" "Eyahchihumo" "Cachunimastabe" "Hatonahopaii" "Utacctahuma" "Tishomastubbe" "Nahumastabbe" "Pushimataha" "Tootepana"
+			"Cayabe" "Mingohomoastabee" "Puchihumachita" "Okshakihoma" "Choccoolacta" "Chulomastubee" "Stonahuma" "Pushistonahuma" "Cachuaanchabe" "Alpatakhuma"
+			"Pushihuma" "Asitahuma" "Iteleskana" "Tuscaabi" "Chucaastabe" "Olactahuma" "Chalitahuma" "Hoboi-Hili-Miko" "Mico Malatchi" "Opothleyaholo"
+			"Emistesigo" "Fife" "Lamochattee" "Yahatatastenake" "Taskanugi" "Hatke" "Fuskatchemico" "Neathlock" "Hallethemalthle" "Opaymico"
+			"Totkeshajou" "Hopothemico" "Opototaache" "Soholoesee" "Ocheehajou" "Tuskenaah" "Homatah" "Chinnabie" "Juleetaulematah" "Chawooklymico"
+			"Coosadeshopoy" "Muthtee" "Stimafutchkee" "Stilnaleeje" "Mumagechee"
+		}
+	}
+	female = {
+		names = {
+			"Llanquiray" "Manque" "Millaray" "Peyeche" "Piro" "Pitrel" "Quetroman" "Quimey" "Quintruy" "Quintuqueo"
+			"Rayen" "Saqui" "Somoche"
+		}
+	}
+	surnames = {
+		"Chitto" "Hasse Ola" "Hopoethe" "Talof Harjo" "Yaholo" "Menewa" "Chebona" "Osceola" "Hothlepoya" "Lumhe Chati"
+		"Usquelagana" "Saktitamaha" "Itchechana" "Shumotakali" "Tinshinkla" "Chucafalaya" "Bissacha" "Otakchitotamaha" "Yackniachuchuma" "Octuechanacbe"
+		"Ocatalaya" "Ouiacha" "Puscustakali" "Kunshabolukta" "Yowani" "Chiskilikbacha" "Neshobawenya" "Tamaha" "Seniasha" "Talepokta"
+		"Iyanabe" "Nusiconchito" "Ibetapoklachitto" "Tombigbee" "Imoklashaiskitini" "Holithaasha" "Abeca" "Achohchuba" "Hankhaula" "Itokchako"
+		"Lukfakta" "Bokfalaya" "Yazoo" "Kunshak" "Okalusa" "Pante" "Chemifalaya" "Osapachito" "Haluwahiasha" "Okacoopoly"
+		"Shinukkaha" "Kafitalaia" "Imoklashi" "Cabeahoola" "Kashtasha" "Osaktalaya" "Abissa" "Chanke" "Onitalemon" "Ackia"
+		"Alaoute" "Amalahta" "Apeony" "Apilefaplimengo" "Ashukhuma" "Ayebisto" "Chatelaw" "Chesafaliah" "Chinica" "Chopoussa"
+		"Chucalissa" "Chukafalaya" "Chula" "Coppertown" "Couiloussa" "Etoukouma" "Falatchao" "Gouytola" "Hummalala" "Hussinkoma"
+		"Hykehah" "Latcha Hoa Run" "Ogoula-Tchetoka" "Onthaba-atchosa" "Ooeasa" "Oucahata" "Oucthambolo" "Outanquatle" "Phalachehs" "Pontotoc"
+		"Shatara" "Shiokaya" "Tanyachilca" "Taposa" "Thanbolo" "Teshatulla" "Tokshish" "Tuckahaw" "Tuskawillao" "Tuskaroilloe"
+		"Yaneka"
+	}
+	callsigns = {
+		"Muskogean" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X21 = {
+	male = {
+		names = {
+			"Kaumba" "Muteba" "Mushidi" "Mbala" "Mutand" "Mudib" "Kangapu" "Cimbindu" "Mbumb" "Cakasekene"
+			"Mulay" "Nawej" "Cikombe" "Waranankong"
+		}
+	}
+	female = {
+		names = {
+			"Jetta" "Vandana" "Zody"
+		}
+	}
+	surnames = {
+		"Kasang" "Nambing" "Kalong" "Mukaz" "Ditend" "Yaava" "Namwan" "Naweej" "Kamong" "Isot"
+		"Kat" "Muteba"
+	}
+	callsigns = {
+		"Black" "Africa" "Lunda" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X22 = {
+	male = {
+		names = {
+			"Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah" "Absaquil"
+			"Quintioosan" "Talsapeer" "Myneletta" "Quiaquatty" "Yalkus" "Kawkama" "Kiles" "Kowahtough" "Anta" "Quilala"
+			"Mequah" "Yackatee" "Tophor" "Hallale" "Pulktah" "Tumwalth" "Obanahah" "Watchano" "Teapinick" "Wallahpicate"
+			"Lalbick" "Cuckamanna" "Towyecolla" "Laham" "Senegertta" "Pulican" "Tena" "Pulkuptima" "Sallaf" "Hoipkenek"
+			"Yeptah" "Satinvose" "Sequoyah" "Attakullaculla" "Johan Ross" "Moytoy" "Yonaguska" "Dragging" "Canoe" "Agi"
+			"It" "Boudinot" "Oacpicagiguya" "Kaviu" "Papago" "Panhop" "Cajemé" "Popé" "Ku-htihth" "Galisteo"
+			"Xenome" "Ollito" "Tagu" "Bolsas" "Naranjo" "Catiti"
+		}
+	}
+	female = {
+		names = {
+			"Ootcakao" "Kahavasooah" "Ootcakao" "Sacagawea" "Chipeta" "Tocmetone"
+		}
+	}
+	surnames = {
+		"Acoma" "Cochiti" "Isleta" "Jemez" "Laguna" "Nambe" "Ohkay Owingeh" "Picuris" "Pojoaque" "Sandia"
+		"Taos" "Tesuque" "Zia" "Zuni" "Hopi" "Piru" "Akimel" "Tohono" "Hia Ced" "Sobaipuri"
+		"Otama" "Kina" "Equituni" "Uturituc" "Sacaton" "Onk Akimal" "Yoreme" "Hiakim" "Potam" "Vicam"
+		"Torim" "Bacum" "Cocorit" "Huirivis" "Benem" "Rahum" "Clatsop" "Cathlamet" "Skilloot" "Cathlapotle"
+		"Multnomah" "Watlala" "Clowwewalla" "Clackamas" "Chiluckittequaw" "Wishram" "Wasco" "Atfalati" "Yamel" "Lakmiut"
+		"Chepenafa" "Santiam" "Chelamela" "Calapooya" "Yoncalla"
+	}
+	callsigns = {
+		"Sonoran" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X23 = {
+	male = {
+		names = {
+			"Itawamba" "Tootemastubbe" "Piomingo" "Tishomingo" "Mingatuska" "Taskietoka" "Latopoia" "Ashalatubbi" "Ishtehotopa" "Topulkah"
+			"Emubby" "Pistahlahtubee" "Ishtimolutka" "Immahhoolotubbe" "Ishtahachah" "Lahfinhubbe" "Shoppowme" "Ninuckahumba" "Illuppahhumba" "Conmushkaishkah"
+			"Bahhakahtubbe" "Bahmahahtubbe" "Iyahhoutubbe" "Tokholthlachah" "Okelahnahnubbe" "Immetubbe" "Inkahyea" "Ahshacubbe" "Immohhobah" "Fitchahpla"
+			"Untemiahtubbe" "Okelahhinlubbe" "Bahmehubbe" "Hushtahtahubbe" "Untihakahtubbe" "Yummotubbe" "Ohhacubbe" "Ahfahmah" "Ahtakintubbe" "Ahtokowah"
+			"Tahhacubbe" "Kinhoicha" "Ishteahtubbe" "Chickahshananubbe" "Chewutaha" "Foluttachah" "Wininapa" "Okelahshahcubbe" "Ishtakiyukatabbe" "Mahtekoshubbe"
+			"Tomchickah" "Eiochetubbe" "Nuckshopubbe" "Cochubbe" "Okelahshapia" "Ayaestangui" "Mingotabasa" "Ochinohahuma" "Nackitona" "Cachuni"
+			"Mastape" "Puchihuma" "Tamaobe" "Mingotalaya" "Panshimantla" "Imaabe" "Pushihumachito" "Oclactahuma" "Chickashioclacta" "Cachumaabi"
+			"Nahollomastubbe" "Canelechabe" "Pushimastabew" "Oechanyimastabe" "Tuscaloosa" "Franchimastabe" "Taboca" "Apuckshunubbee" "Pushmataha" "Mosholatubbee"
+			"Tobocoh" "Pooshemastuby" "Pooshahooma" "Tuscoonoohoopoie" "Shishemastubby" "Yoopahooma" "Stoonokoohoopoie" "Tehakuhbay" "Tushkahoomoih" "Tushkahoomock"
+			"Yoostenochla" "Tootehooma" "Toobenohoomoch" "Cshecoopoohoomoch" "Stonakoohoopoie" "Tushkoheegohta" "Teshuhenochloch" "Pooshonaltla" "Okanconnooa" "Autoonachuba"
+			"Pangehooloch" "Steabee" "Tanetchenna" "Tushkementahock" "Tushtallay" "Cshnaangchabba" "Cunnopoie" "Tuskonahopoia" "Tootahomo" "Mingohom"
+			"Massatubby" "Ocshumme" "Mingopooscoos" "Bucshunubbe" "Shappahomo" "Hiupahoo" "Illatallahomo" "Hochehomo" "Tuspehachaabe" "Muclushahopoia"
+			"Capputannethlucco" "Pooshahomo" "Bakalubbe" "Ayaistanaksi" "Mestico" "Ulbalent" "Chicachahuma" "Tiupoye" "Asetahuma" "Pushahuma"
+			"Tootehoma" "Puchihuacaya" "Eyahchihumo" "Cachunimastabe" "Hatonahopaii" "Utacctahuma" "Tishomastubbe" "Nahumastabbe" "Pushimataha" "Tootepana"
+			"Cayabe" "Mingohomoastabee" "Puchihumachita" "Okshakihoma" "Choccoolacta" "Chulomastubee" "Stonahuma" "Pushistonahuma" "Cachuaanchabe" "Alpatakhuma"
+			"Pushihuma" "Asitahuma" "Iteleskana" "Tuscaabi" "Chucaastabe" "Olactahuma" "Chalitahuma" "Hoboi-Hili-Miko" "Mico Malatchi" "Opothleyaholo"
+			"Emistesigo" "Fife" "Lamochattee" "Yahatatastenake" "Taskanugi" "Hatke" "Fuskatchemico" "Neathlock" "Hallethemalthle" "Opaymico"
+			"Totkeshajou" "Hopothemico" "Opototaache" "Soholoesee" "Ocheehajou" "Tuskenaah" "Homatah" "Chinnabie" "Juleetaulematah" "Chawooklymico"
+			"Coosadeshopoy" "Muthtee" "Stimafutchkee" "Stilnaleeje" "Mumagechee"
+		}
+	}
+	female = {
+		names = {
+			"Llanquiray" "Manque" "Millaray" "Peyeche" "Piro" "Pitrel" "Quetroman" "Quimey" "Quintruy" "Quintuqueo"
+			"Rayen" "Saqui" "Somoche"
+		}
+	}
+	surnames = {
+		"Chitto" "Hasse Ola" "Hopoethe" "Talof Harjo" "Yaholo" "Menewa" "Chebona" "Osceola" "Hothlepoya" "Lumhe Chati"
+		"Usquelagana" "Saktitamaha" "Itchechana" "Shumotakali" "Tinshinkla" "Chucafalaya" "Bissacha" "Otakchitotamaha" "Yackniachuchuma" "Octuechanacbe"
+		"Ocatalaya" "Ouiacha" "Puscustakali" "Kunshabolukta" "Yowani" "Chiskilikbacha" "Neshobawenya" "Tamaha" "Seniasha" "Talepokta"
+		"Iyanabe" "Nusiconchito" "Ibetapoklachitto" "Tombigbee" "Imoklashaiskitini" "Holithaasha" "Abeca" "Achohchuba" "Hankhaula" "Itokchako"
+		"Lukfakta" "Bokfalaya" "Yazoo" "Kunshak" "Okalusa" "Pante" "Chemifalaya" "Osapachito" "Haluwahiasha" "Okacoopoly"
+		"Shinukkaha" "Kafitalaia" "Imoklashi" "Cabeahoola" "Kashtasha" "Osaktalaya" "Abissa" "Chanke" "Onitalemon" "Ackia"
+		"Alaoute" "Amalahta" "Apeony" "Apilefaplimengo" "Ashukhuma" "Ayebisto" "Chatelaw" "Chesafaliah" "Chinica" "Chopoussa"
+		"Chucalissa" "Chukafalaya" "Chula" "Coppertown" "Couiloussa" "Etoukouma" "Falatchao" "Gouytola" "Hummalala" "Hussinkoma"
+		"Hykehah" "Latcha Hoa Run" "Ogoula-Tchetoka" "Onthaba-atchosa" "Ooeasa" "Oucahata" "Oucthambolo" "Outanquatle" "Phalachehs" "Pontotoc"
+		"Shatara" "Shiokaya" "Tanyachilca" "Taposa" "Thanbolo" "Teshatulla" "Tokshish" "Tuckahaw" "Tuskawillao" "Tuskaroilloe"
+		"Yaneka"
+	}
+	callsigns = {
+		"Muskogean" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X24 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X25 = {
+	male = {
+		names = {
+			"Túpac Amaru" "Atahualpa" "Huáscar" "Huayna Cápac" "Manco Cápac" "Pachacútec" "Sayri Tupac" "Titu Cusi Yupanqui" "Túpac Hualpa" "Túpac Yupanqui"
+			"Viracocha" "Yahuar Hacuac" "Inca Roca" "Anquimarca" "Marcavilca" "Sahuaraura" "Zambiza" "Atoc Sopa" "Cayo Topa" "Coyllas"
+			"Cusichaca" "Guaritopa" "Huachuri" "Huaypalcon" "Luyes" "Ninan Cuyuchi" "Orco Varanca" "Pascac" "Pomaguala" "Pumi Sopa"
+			"Quispe Titu" "Ruminavi" "Surandaman" "Taraque" "Tucuycuyche" "Usca Curiatao" "Villac Umu" "Yamqui Mayta" "Yupanqui" "Zopahua"
+			"Anco Coyuch" "Caja Cimcim" "Chumun Caur" "Guaman Chumu" "Michan Caman" "Guari Cur" "Nancen Pico" "Tacaynamo" "Aiyotechapun" "Buvaovamu"
+			"Caja Cápac" "Cama Bergu" "Chumtiku" "Cuyuchi" "Docoshamu" "Draytonamu" "Ehenymacu" "Felan Tamuc" "Gusmango" "Ilsayunamu"
+			"Jotiantikaka" "Katitika" "Litun" "Melantonan" "Michan Chimor" "Muhton Belan" "Nartamamu" "Nehuametepun" "Opolcynamun" "Pacatmamu"
+			"Puznaymun" "Relyen Padnu" "Seton Apac" "Seran Tugun" "Taracun" "Troynuremo" "Urtyantemu" "Yetuniamu" "Zergoetanu" "Orco"
+			"Vetsalynun" "Agustín" "Alejandro" "Antauro" "Antonio" "Basilio" "Daniel" "Diego" "Eugenio" "Facundo"
+			"Felipe" "Francisco" "Gustavo" "Hilario" "Inca" "Isaac" "José María" "Julio" "Lorenzo" "Manuel"
+			"Marcos" "Mariano" "Martín" "Nicolás" "Osvaldo" "René" "Roberto" "Simón" "Túpac" "Ulises"
+			"Víctor"
+		}
+	}
+	female = {
+		names = {
+			"Axomamma" "Cavillaca" "Kantuta" "Nina" "Ana" "Maiara"
+		}
+	}
+	surnames = {
+		"Anquimarca" "Apo" "Atahualpa" "Atoc" "Atoc-Suqui" "Auqui-Huaman" "Canchari" "Chalcuchima" "Challco" "Chiaquitinta"
+		"Chilche" "Colla-Topa" "Curiatao" "Cusi" "Guacra" "Guaritito" "Guaritopa" "Huachuri" "Huaman" "Huascar"
+		"Huaypalcon" "Illaquita" "Inquill" "Llicllic" "Maila" "Maras" "Marcavilca" "Mayta" "Ninancoro" "Ozcoc"
+		"Parinango" "Paucar" "Paullu" "Pomacapi" "Puma" "Pusca" "Puyu-Vilca" "Quilaco" "Quingallumbo" "Quintiraura"
+		"Quisquis" "Quizo" "Rimac" "Ronpa" "Sahuaraura" "Sotaurco" "Tanqui" "Tucuycuyche" "Tupac-Amaru" "Yupanqui"
+		"Guacricaur" "Tacaynamo" "Tiso" "Nancempinco" "Luyes" "Illa" "Arguedas" "Barrientos" "Cajahuanca" "Canchata"
+		"Chambi" "Chihuán" "Cusurichi" "Espejo" "Frisancho" "Gamarra" "Guaman" "Guayasamín" "Gutiérrez" "Heredia"
+		"Humala" "Iturri" "Lazarte" "Ludueña" "Melgarejo" "Palacios" "Patiño" "Quispe" "Rodríguez" "Roncaglia"
+		"Santa Cruz" "Sosa" "Sumac" "Toledo" "Vargas" "Zapata"
+	}
+	callsigns = {
+		"Quechua" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X26 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X28 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X29 = {
+	male = {
+		names = {
+			"Sinté" "Thaóyate" "Thathanka" "Thasunke" "Mahpiya" "Istahba" "Hehaka" "Thahca" "Ohiyes" "Wanbdi"
+			"Tamaha" "Inkpaduta" "Teshuhimga" "Gradamnsa" "Caygaywachepeche" "Couchestawasta" "Mahsa" "Wanougpacha" "Hurate" "Wasabatougga"
+			"Nekaghre" "Mekewatanega" "Nangawahaegea" "Kemanha" "Papuisea" "Harachabe" "Pahelagren" "Tawangahuh" "Honencache" "Nichumali"
+			"Voithevoihe" "Voithechinga" "Tavoingare" "Osogahe" "Voichinodhe" "Voinache" "Voinonpache" "Qhihiramaki" "Caygache" "Pahuroguesie"
+			"Miaasa" "Manjaguida" "Mantsa" "Nicagaris" "Dogachinga" "Tavaingare" "Tavainthere" "Naguemani" "Nicanauthe" "Chonmelase"
+			"Nenonbas" "Pograngue" "Cayque" "Nonpevoite" "Vesasche" "Tonchenanque" "Lihibi" "Grinache" "Nicouilbran" "Chonnonsogue"
+			"Lisansandhe" "Mequaque" "Megahe" "Manhegare" "Meyhe" "Nudhetavoi" "Thecayque" "Voitasean" "Cahapiche" "Manhevoi"
+			"Talechiga" "Pedhechiga" "Cheganonsas" "Nesaque" "Lolechinga" "Panenvoiguanda" "Tavoinhihi" "Mithechinga" "Manquesi" "Chingavoisa"
+			"Talevoile" "Voiengran" "Scamani" "Nurahague" "Mechinga" "Pachigue" "Roudanique" "Voibisandhe" "Nehizanga" "Nehudhe"
+			"Pagranque" "Chahetonga" "Manguepeemani" "Voibalune" "Poneavoitaniga" "Taslondhe" "Nendogualui" "voibahe" "Onhehomani" "Nuranin"
+			"Noguinilayque" "Nanlatoho" "Bashemindhe" "Savoi" "Chouquemonnon" "Manilourana" "Nequevoile" "Chonguehanga" "Ponlachinga" "Aguigueda"
+			"Voidoguega" "Sindhe" "Ninchagari" "Voidhadani" "Quinihonigue" "Nognithechinga" "Natanhi" "Ousabe" "Voichinouthe" "Amanpasse"
+			"Cutsagabe" "Channahon" "Nonbasocri" "Pedhechinga" "Bassechinga" "Ponlavoitasuga" "Manyvoile" "Mandarihi" "Nepaste" "Keokuk Wapello"
+			"Pierremaskin Muckkatwagout Namasosanamet" "Mackkatananamakee Pashchenene Wapasai" "Malasenokama Kechaswa" "Catchacommu" "Waapaca" "Mataqua" "Paquampa" "Aquoqua" "Nemarqua" "Machenamau"
+			"Pesotaka" "Mishecaqua" "Capontwa" "Mowhinin" "Omquo" "Wonakasa" "Nautakawa" "Makataimeshekia" "Wathohuck" "Choukeka"
+			"Keesheswa" "Kenekuk" "Papiquan" "Pashepaho" "Lalyurva" "Hanshequarhiqua" "Outchequaka" "Quashquame" "Shamaga" "Weesaka"
+			"Chekaqua" "Kataka" "Mecaitch" "Neshota" "Chagasort" "Pecama" "Namachewana" "Nanochaatasa" "Taimah" "Catchemackeseo"
+			"Keokuk" "Wapello" "Pierremaskin" "Muckkatwagout" "Namasosanamet" "Mackkatananamakee" "Pashchenene" "Wapasai" "Malasenokama" "Kechaswa"
+			"Tepeeoska" "Wichawostaka" "Masgwahasid" "Chenka" "Kichipwot" "Stamixosok" "Emitahapiskinne" "Matapikomotziw" "Ayestipissimat" "Kissoum"
+			"Pitahotocan" "Apawstamix" "Onistahpokah" "Netahkiteipimew" "Akakotos" "Stokimatis" "Pitahotiskin" "Stamixotakapiw" "Mastepitah" "Moyanymen"
+			"Ekaskine" "Kayookosis" "Ponokahstamix" "Omaksisapop" "Pitahsiksinum" "Apawonistaw" "Attistahhawes" "Pitah" "Pitahonistah" "Kayetapo"
+			"Mahtowewitko" "Toetahkiehnan" "Nochkpitshitoepish" "Sheohmantho" "Waywasecapow" "Otamakooewin" "Shapousetung" "Sukeman" "Misketo" "Etamepeton"
+			"Kawasaskotrepahik" "Makoyekin" "Nesoauases" "Onistah" "Pitahannes" "Wabasha" "Petette" "Tartunkanasiah" "Keejee" "Tarsega"
+			"Wamadetunka" "Wannata" "Kokomako" "Shacope" "Penision" "Etaseepa" "Wakauhee" "Poehapa" "Takewapa" "Tenchzepart"
+			"Mascpulochastosh" "Tetekarmunch" "Wasaota" "Oeyakoca" "Maktowahkeark" "Matowayouwe" "Makatozaza" "Belotonkatanga" "Nakapagigi" "Maktosabichis"
+			"Mewatanihanska" "Iyotake" "Iyapato" "Witko" "Maphiya" "Luta" "Sapa" "Sinte" "Gleska" "Ite"
+			"Omagazu" "Ogle"
+		}
+	}
+	female = {
+		names = {
+			"Tasinasapewin" "Thasinamani" "Tasinahlahlawin" "Dohumme" "Chapa" "Chapawee" "Chumani" "Dowanhowee" "Ehawee" "Hantaywee"
+			"Kimimela"
+		}
+	}
+	surnames = {
+		"Gleská" "Duta" "Iyotake" "Witko" "Luta" "Kohkophapi" "Sapa" "Huste" "Thankja" "Sichangu"
+		"Oglala" "Itazipcho" "Hunkpapha" "Mnikhowozu" "Sihasapa" "Oohenunpa" "Ihantkhunwan" "Ihankthunwanna" "Isanyathi" "Thithunwan"
+		"Wichiyena" "Wahpéthunwan" "Mdewakanthunwan" "Wahpéhute" "Sisithunwan" "Aegitina" "Bizibina" "Cephubi" "Canhdada" "Canhewincasta"
+		"Canknuhabi" "Hudesabina" "Hebina" "Huhumasmibi" "Huhuganebabi" "Sturgeon" "Eagle" "Blues Son" "Plumbed" "the Sioux"
+		"Brave by Hazard" "Hen Atonwaabina" "Inwantonwanbina" "Innianonbi" "Insaombi" "Indogahwincasta" "Minisoee Swnkeebi" "Minisatonwanbi" "Osnibi" "Ptegabina"
+		"Sunkcebi" "Sahiyaiyeskabi" "Snugabi" "Sihabi" "Tanidabi" "Tokanbi" "Tanzinapebina" "Unskaha" "Wadopabina" "Wadopahtonwan"
+		"Wiciyabina" "Waziyamwincasta" "Wasinazinyabi" "Wokpanbi" "Mesquakie" "Wagosh" "Asakiwakie" "Kickapoo" "Blackhawk" "Saukenuk"
+		"Thakiwakie" "Tama" "Osakis" "Etnataek" "Kickapougwoi" "Kithlipecanuk" "Jumping Fish" "Sun Fish" "Bear" "Giger"
+		"Lance" "Devil" "Big Eagle" "Wazhaze" "Tsishu" "Pasueli" "Wahakolin" "Sansueli" "Wyota" "Picayune"
+		"Koholo" "Neodesha" "Owasso" "Pawhuska" "Niukonska" "Doppike" "Neosho" "Chetopa" "Hominy" "Pahusan"
+	}
+	callsigns = {
+		"Siouan" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X31 = {
+	male = {
+		names = {
+			"Aysen" "Nyurgun" "Elley" "Aytal" "Manchaary"
+		}
+		surnames = {
+		"Okhlopkov" "Shishigin" "Shtyrov" "Ondar" "Sivtsev"
+		}
+	}
+	female = {
+		names = {
+			"Aiday" "Aiman" "Aina" "Aliya" "Anar" "Anara" "Anargul" "Aruzhan" "Ayaulym" "Ayna"
+			"Aynur" "Bibigul" "Gulnar" "Gulnara" "Gulnaz" "Inkar" "Inzhu" "Madina" "Saltanat" "Sezim"
+			"Zhuldyz"
+		}
+		surnames = {
+		"Okhlopkova" "Shishigina" "Shtyrova" "Ondarova" "Sivtseva"
+	}
+	}
+	callsigns = {
+		"Nuučča" "Sakha" "Abahy"
+	}
+}
+X32 = {
+	male = {
+		names = {
+			"Hswe" "Hsö" "Naw" "Hkam" "Hkun" "Hseng" "Hpa" "Pyi" "Nga" "Hmu"
+			"Natsu" "Pe" "Than" "Shwe" "Hpo" "Lun" "Sun"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Cheng" "Kaw" "Möng" "Hkawt" "Pak" "Nan" "Lek" "Leng" "Hmu" "Letya"
+		"Hung" "Thi" "Hpu" "Ya" "Min"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+X33 = {
+	male = {
+		names = {
+			"Hong" "Feng" "Shi" "Li" "Chen" "Liu" "Qiu" "Sun" "Soong" "Liao"
+			"Xue" "Zhang" "Xie" "Wu" "Shu" "Tsai" "Deng" "Zhen" "Huang" "Ye"
+			"Yang"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Xiuquan" "Yunshan" "Xiuqing" "Dakai" "Yucheng" "Rengan" "Zicai" "Yongfu" "Fengjia" "Yatsen"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X34 = {
+	male = {
+		names = {
+			"Dahadaghesa" "Waskanecqua" "Kagoregago" "Saraqundett" "Uwhanhierelera" "Waddon" "Hago" "Andra" "Sonque" "Wastahanda"
+			"Gosweinquecrakqua" "Wanahedana" "Auroghteregh" "Scarhuhadigh" "Rutchogah" "Nathheldaneh" "Sawahegeh" "Ahatsistari" "Adario" "Dunquat"
+			"Tarhe" "Teyandatontec" "Cheyawe" "Doueyenteat" "Terhataw" "Datasay" "Maudoronk" "Teyyaghtwa" "Haroenyou" "Tehaawtorens"
+			"Awmeyeeray" "Stayetah" "Shateyyaronyah" "Daughshuttayah" "Shaawrunthe" "Thateyyanayoh" "Tahunehawttee" "Shawrunthie" "Tschauendah" "Rontondu"
+			"Tuayaurontoyou" "Dauatout" "Horonu" "Hawdoro" "Skotous" "Quouqua" "Skahomat" "Teoudetosso" "Miere" "Sequoyah"
+			"Attakullaculla" "Guwisguwi" "Moytoy" "Yonaguska" "Tsiyu" "Gansini" "Agi" "It" "Boudinot" "Lach'n"
+			"Koatohee" "Scholauetta" "Tuskegatahu" "Ooskwha" "Kolakusta" "Newota" "Konatota" "Tuckasee" "Toostaka" "Untoola"
+			"Unsuokanail" "Chonosta" "Chescoonwho" "Chesetoa" "Chesecotetona" "Sketaloska" "Chokasatahe" "Onanoota" "Ookoseta" "Umatooetha"
+			"Necatee" "Amokontakona" "Kowetatahee" "Keukuck" "Tulatiska" "Wooaluka" "Tatliusta" "Skeleak" "Akonoluchta" "Cheanoka"
+			"Ostaiah" "Oortlokecteh" "Chockonnistaller" "Noothoietah" "Kunnateelah" "Utturah" "Weelee" "Oolassoteh" "Tlorene" "Jonnurteekee"
+			"Oonatakoteekee" "Kanowsurhee" "Yonah" "Oolah" "Tunksalenee" "Oorkullaukee" "Kumamah" "Chattakuteehee" "Kettegiskie" "Tauuotihee"
+			"Chuquilataque" "Salleekookoolah" "Tallotuskee" "Chellokee" "Tuskeegatee" "Neekaanneah" "Kulsateehee" "Keetakeuskah" "Akooh" "Sawanooekee"
+			"Yonahequah" "Keenahkunnah" "Kaweesoolaskee" "Teekalohenah" "Chochuchee" "Kostayeak" "Ookouseteeh" "Kanitta" "Nemetuah" "Wyuka"
+			"Tulco" "Theyanoguin" "Teiorhenhsere" "Thayendanega" "Oronhyatekha" "Onogwendahonji" "Touighnatogon" "Oheadanghton" "Tayagonendagighti" "Tehonwaenghrigagi"
+			"Otyadonenghti" "Dagaheari" "Oraghoaenendagen" "Onnonghsawenghti" "Kayenthoghke" "Cageaga" "Sawedowa" "Kiondushowa" "Oncahye" "Soaheas"
+			"Otachsaka" "Tekahias" "Onecnsetee" "Kiatulaho" "Kiandogewa" "Owenewa" "Gyantwaia" "Gyasota" "Kannasseee" "Achiout"
+			"Anachout" "Chishekoa" "Sessewa" "Sicahowa" "Tewanias" "Snoachshowa" "Hickonquash" "Ononyeahnee" "Konneatorteeooh" "Tokenhyouau"
+			"Oneshauee" "Aupaumut" "Neeshonshuk" "Sohhonteoquent" "Ooduhtsait" "Konoohqung" "Tossonggaulolus" "Skenendoa" "Oneatorleeooh" "Kussauwatau"
+			"Kohnyeaugaong" "Shaguiesa" "Teeroos" "Sooshaoowau" "Sonhyoowauna" "Onaahhah" "Hotoshahen" "Kaukondanaiya" "Kosshishtowau" "Oojaugenta"
+			"Toheonggo" "Ootaguasso" "Joonondauwanonch" "Kiyauhaonh" "Ootaujeaugenth" "Tauhoondos" "Twaukewasha" "Sequidonguquee" "Kodjeote" "Kenjauaugus"
+			"Soononhquaukau" "Twenniyana" "Jishkaaga" "Tuggehshotta" "Tehongyagauna" "Tehongyoowush" "Konneyoowesot" "Tioohquaottakauna" "Taoundaudeesh" "Honayawus"
+			"Soggooyawauthau" "Konyootiayoo" "Sauhtakaongyees" "Ounnashattakau" "Kaungyanehquee" "Sooayoowau" "Kaujeagaonh" "Soonoohshoowau" "Thaoowaunias" "Soonongjoowau"
+			"Kiantwhauka" "Kaunehshonggoo" "Kenneronkwa" "Telenemut" "Katarioniecha" "Kendarindgon" "Nondiyauka" "Kanatsoyh" "Eootenyootauook" "Aqueia"
+			"Tarondawagon"
+		}
+	}
+	female = {
+		names = {
+			"Ákat" "Degonwadonti" "Kahente" "Kanahstatsi"
+		}
+	}
+	surnames = {
+		"Ross" "Downing" "Potter" "Thompson" "Wolf" "Mayes" "Buffington" "Harris" "Rogers" "Boudinot"
+		"Awegen" "Ahaouet" "Canajoharie" "Canastigaone" "Canienga" "Caughnawaga" "Cahunghage" "Canowaroghere" "Deseroken" "Dayoitgao"
+		"Deonundagae" "Deyodeshot" "Deyohnegano" "Deyonongdadagana" "Gweugwehono" "Gandasetaigon" "Ganogeh" "Gayagaanhe" "Gewauga" "Goiogouen"
+		"Gadoquat" "Gannentaha" "Hostayuntwa" "Kawauka" "Kente" "Kanagaro" "Kowogoconnughariegugharie" "Kanadaseagea" "Kanatakowa" "Neodakheat"
+		"Nowadaga" "Nundawaono" "Onekagoncka" "Onoalagona" "Oquaga" "Osquake" "Onayotekaono" "Oriska" "Ossewingo" "Skannayutenate"
+		"Saratoga" "Schaunactada" "Schoharie" "Teatontaloga" "Tewanondadon" "Tionnontoguen" "Tegasoke" "Teseroken" "Tetosweken" "Yoroonwago"
+		"Mohe" "Diwali" "Waya" "Tsiyi" "Onacona" "Atagulkalu" "Degataga" "Cheasequah" "Adahy" "Andiata"
+		"Angoutenc" "Anonatea" "Arendaonatia" "Arente" "Arontaen" "Anioton" "Ahiragenrega" "Ahondihronon" "Andachkhrob" "Antouaronon"
+		"Aondironon" "Atiaonrek" "Atirhagenrat" "Atiraguenrek" "Attiragenrega" "Attiuoaisgon" "Cahiague" "Carhagouha" "Carmaron" "Contarea"
+		"Conchake" "Chequamegon" "Ekiodatsaan" "Endarahy" "Iahenhouton" "Junqueindundeh" "Junundat" "Karenhassa" "Kakouagoga" "Kandouche"
+		"Kehesetoa" "Khioetoa" "Oeniro" "Onentisati" "Ossossane" "Oukhahitoua" "Scanonaerat" "Sunyendeand" "Skenchioe" "Teanaustayae"
+		"Teandewiata" "Tonache" "Teadeouita" "Teanhatenaron" "Tondakhra" "Tiedonderoga" "Touaguainchain" "Tarhetown" "Teotoguiaton" "Akhrakouaeronon"
+		"Akwinoshioni" "Atquanachuke" "Carentouan" "Cepowig" "Junita" "Kaiuariegehaga" "Ohongeoguena" "Oscalui" "Quadroque" "Sconondihago"
+		"Seosquacke" "Takoulguehronon" "Tehaque" "Tesinigh" "Unquehiett" "Usququhaga" "Utochwig" "Wyoming" "Wysox" "Kanastoge"
+		"Onojutta-Haga" "Scahentoarrhonon" "Tehotitachsae"
+	}
+	callsigns = {
+		"Iroquoian" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X35 = {
+	male = {
+		names = {
+			"Nîshwi" "Nethwi" "Nyêwi" "Nyânanwi" "Neniwa" "Ihkwêwa" "Anemôha" "Kîshethwa" "Tepehkî-Kîshethwa" "Kapapamahchakwew"
+			"Abishabis" "Mistahi-maskwa" "Kamiokisihkwew" "Payipwat" "Pitikwahanapiwiyin" "Tepastenam" "Wahwaashkung" "Kiwash" "Nahookeesic" "Oombash"
+			"Panacheese" "Yesno" "Wenangasie" "Katchang" "Moonias" "Ostamas" "Kwakigigckewang" "Keneswabe" "Matawagan" "Odagamea"
+			"Missabay" "Pootoosh" "Nemekas" "Puckanese" "Macquettequet" "Shimnanaquette" "Pakenosega" "Kekenutchega" "Chimokemow" "Kekenutchegun"
+			"Muskobenense" "Waubonoosa" "Wausaquanai" "Minequet" "Otauson" "Tussegua" "Mixabee" "Kitchewawashen" "Neebeenaquin" "Anueemaycounbeeme"
+			"Onewequa" "Nayokeeman" "Peshquescum" "Muckcumcinau" "Kitcheenoting" "Waubeekeenew" "Sheemaugua" "Kauguest" "Kitsheematush" "Aneuwayba"
+			"Walkcaykeejugo" "Autowaynabee" "Nawgonisee" "owenisham" "Mooksonga" "Noukonwabe" "Shingwalk" "Wawaubequak" "Meewayson" "Wepecumgegut"
+			"Markkenwuwbe" "Fonegawne" "Nemetetowwa" "Kishkaukou" "Peenaysee" "Ogemaunkeketo" "Reaume" "Nowkeshuc" "Mixmunitou" "Wassau"
+			"Keneobe" "Moksauba" "Mutchwetau" "Okumanpinase" "Meckseonne" "Paupemiskobe" "Kogkakeshik" "Wauwassack" "Misheneanonquet" "Okemans"
+			"Nimeke" "Puckwash" "Waseneso" "Montons" "Kennewobe" "Shawshauwenaubais" "Okooyousinse" "Ondottowaugane" "Amickoneena" "Kitcheonundeeyo"
+			"Saugassauway" "Okeemanpeenaysee" "Minggeeseetay" "Waubishcan" "Peaypaymanshee" "Ocanauck" "Paymeenoting" "Naynooautienishkoan" "Kaujagonaygee" "Mayneeseno"
+			"Kakagouryan" "Kitchmokooman" "Singgok" "Saguhosh" "Saybo" "Obwole" "Aguagonabe" "Sigonak" "Kokoosh" "Pemaw"
+			"Kawotoktame" "Sabo" "Kewageone" "Metewa" "Kawgeshequm" "Keyacum" "Atowagesek" "Mawmawkens" "Mamawsecuta" "Penaysewaykesek"
+			"Kewaytinam" "Sepewan" "Shashebak" "Shaconk" "Paymusawtom" "Endus" "Aushetayawnekusa" "Wawapenishik" "Omikou" "Pashkobwis"
+			"Pashkeekou" "Mayto" "Wauweeyatam" "Nuwagon" "Mesnakrea" "Maytwayaushing" "Ogeebouinse" "Maneleugobwawaa" "Wahpeshakana" "Kenmahreneah"
+			"Pakeeshama" "Allenepeshensha" "Wassacanga" "Naynawitwa" "Wissineeaw" "Ramisswnoa" "Whkahpesewah" "Kemonsah" "Wapesae" "Pemekawai"
+			"Koongeepata" "Batticy" "Keemaranea" "Wecomakana" "Keeshammy" "Aramapingea" "Keemawassa" "Wackshingga" "Kitakimawa" "Manggonssa"
+			"Mooyakacke" "Pemmikawatta" "Papenegisawa" "Meshiwiratta" "Mahkattamaweya" "Queckaawpeeta" "Chessagouasse" "Mamentouensa" "Chicagou" "Ninkanape"
+			"Maressa" "Shopinna" "Wapamahwhawa" "Hokoleskwa" "Cottawamago" "Paxinos" "Wynepuechisika" "Weyapersenwah" "Tecumseh" "Aweecony"
+			"Kakawipilathy" "Malunthy" "Musquaconocah" "Meanymsecahh" "Waupaucowela" "Nihipeewa" "Nihinessicoe" "Wawelainni" "Kishkalwa" "Maywathekeha"
+			"Pathecoussa" "Nelawachika" "Waquiwais" "Napawita" "Papamousse" "Pemitacamchika" "Wyawimon" "Quamapea" "Pelmetachemo" "Neahmemsieeh"
+			"Makatewekasha" "Koitawaypie" "Misquacoonacaw" "Cutthewekasaw" "Kayseaesekah" "Weythapamattha" "Waytheah" "Weyapiersenwaw" "Nequetaughaw" "Hahgooseekaw"
+			"Weyapuseawaw" "Cutheaweasaw" "Auonashechla" "Cutewecusaw" "Tamenetha" "Piaseka" "Pomtha" "Shammothetho" "Pemthata" "Wethawakasika"
+			"Quetawah" "Sokutchemah" "Wynepuehsika" "Quitawepeh" "Teawascoota" "Tacomtequah" "Nianymseka" "Chiachska"
+		}
+	}
+	female = {
+		names = {
+			"Torotiy" "Meriy" "Elin" "Ashenee" "Astina" "Echa" "Kiche" "Kika" "Mati" "Matisa"
+			"Matisoon" "Nichena" "Osceola" "Pamoon" "Paniya"
+		}
+	}
+	surnames = {
+		"Auglaize" "Alawaymotakah" "Akepee" "Aqueloma" "Chillicothe" "Calaka" "Chalaakaatha" "Conedogwinit" "Hathawekela" "Hisoskok"
+		"Hawkawepitathy" "Kispoko" "Kiscopocoke" "Kispokotha" "Koshachkink" "Kagoughsage" "Kickapougowi" "Kithlipecanuk" "Mequachake" "Maykujay"
+		"Mekoce" "Maguck" "Oawikila" "Ochipway" "Okowellos" "Opeatako" "Oshawahnah" "Piqua" "Pekowi" "Paxtang"
+		"Peixtan" "Paheto" "Paytokothe" "Spitotha" "Sawanugi" "Sawauwone" "Saweeto" "Sawcunk" "Sewickley" "Shamokin"
+		"Sonnioto" "Thaawikila" "Thawegila" "Tippecanoe" "Sylacauga" "Wakatomica" "Wakatawicks" "Wapakoneta" "Wabapusito" "Wagunetee"
+		"Kaskaskia" "Cahokia" "Peoria" "Tamaroa" "Moingwena" "Michigamea" "Albiui" "Amonokoa" "Chepoussa" "Chinkoa"
+		"Coiracoentanon" "Espeminkia" "Maroa" "Matchinkoa" "Michibousa" "Negawichi" "Tapouara" "Missisage" "Saulteaux" "Bungee"
+		"Saginaw" "Achiligouan" "Amicoures" "Amikwa" "Auwause" "Bawating" "Chequamegon" "Keweenaw" "Kitchigami" "Macomille"
+		"Malanas" "Marameg" "Mackinac" "Mundua" "Nikikouek" "Noquet" "Mouusagai" "Ouasouarini" "Aousanik" "Outchibou"
+		"Outchougai" "Ouxeiacomingo" "Iyiyiw" "Chisasibi" "Wemindji" "Whapmagoostui" "Mistissini" "Nemaska" "Ouje-Bougoumou" "Waskaganish"
+		"Waswanipi" "Mosoni" "Maskekowak" "Nehinawak" "Attawapiskat" "Chemawawin" "Kashechewan" "Misipawistik" "Missanabie" "Mosakahiken"
+		"Neskntaga" "Opaskwayak" "Sapotaweyak" "Shamattawa" "Tatskweyak" "Taykwa" "Weenusk" "Wuskwi" "Bunibonibee" "Manto Sipi"
+		"Nisichawayashik" "O-pipon-na-piwin" "Pimicikamak" "Sakawithiniwak" "Kapawe'no" "Mikisew" "Wabasca" "Mamihkiyiniwak" "Nekaneet" "Ochapowace"
+		"Peepeekisis" "Winewak" "Karakuntie" "Moyese" "Plante" "Wanyandie" "Aseniwuche"
+	}
+	callsigns = {
+		"Kanata" "Awîyak Kamamâhtâwisit" "Kisemanito"
+	}
+}
+X36 = {
+	male = {
+		names = {
+			"Túpac Amaru" "Atahualpa" "Huáscar" "Huayna Cápac" "Manco Cápac" "Pachacútec" "Sayri Tupac" "Titu Cusi Yupanqui" "Túpac Hualpa" "Túpac Yupanqui"
+			"Viracocha" "Yahuar Hacuac" "Inca Roca" "Anquimarca" "Marcavilca" "Sahuaraura" "Zambiza" "Atoc Sopa" "Cayo Topa" "Coyllas"
+			"Cusichaca" "Guaritopa" "Huachuri" "Huaypalcon" "Luyes" "Ninan Cuyuchi" "Orco Varanca" "Pascac" "Pomaguala" "Pumi Sopa"
+			"Quispe Titu" "Ruminavi" "Surandaman" "Taraque" "Tucuycuyche" "Usca Curiatao" "Villac Umu" "Yamqui Mayta" "Yupanqui" "Zopahua"
+			"Anco Coyuch" "Caja Cimcim" "Chumun Caur" "Guaman Chumu" "Michan Caman" "Guari Cur" "Nancen Pico" "Tacaynamo" "Aiyotechapun" "Buvaovamu"
+			"Caja Cápac" "Cama Bergu" "Chumtiku" "Cuyuchi" "Docoshamu" "Draytonamu" "Ehenymacu" "Felan Tamuc" "Gusmango" "Ilsayunamu"
+			"Jotiantikaka" "Katitika" "Litun" "Melantonan" "Michan Chimor" "Muhton Belan" "Nartamamu" "Nehuametepun" "Opolcynamun" "Pacatmamu"
+			"Puznaymun" "Relyen Padnu" "Seton Apac" "Seran Tugun" "Taracun" "Troynuremo" "Urtyantemu" "Yetuniamu" "Zergoetanu" "Orco"
+			"Vetsalynun" "Agustín" "Alejandro" "Antauro" "Antonio" "Basilio" "Daniel" "Diego" "Eugenio" "Facundo"
+			"Felipe" "Francisco" "Gustavo" "Hilario" "Inca" "Isaac" "José María" "Julio" "Lorenzo" "Manuel"
+			"Marcos" "Mariano" "Martín" "Nicolás" "Osvaldo" "René" "Roberto" "Simón" "Túpac" "Ulises"
+			"Víctor"
+		}
+	}
+	female = {
+		names = {
+			"Axomamma" "Cavillaca" "Kantuta" "Nina" "Ana" "Maiara"
+		}
+	}
+	surnames = {
+		"Anquimarca" "Apo" "Atahualpa" "Atoc" "Atoc-Suqui" "Auqui-Huaman" "Canchari" "Chalcuchima" "Challco" "Chiaquitinta"
+		"Chilche" "Colla-Topa" "Curiatao" "Cusi" "Guacra" "Guaritito" "Guaritopa" "Huachuri" "Huaman" "Huascar"
+		"Huaypalcon" "Illaquita" "Inquill" "Llicllic" "Maila" "Maras" "Marcavilca" "Mayta" "Ninancoro" "Ozcoc"
+		"Parinango" "Paucar" "Paullu" "Pomacapi" "Puma" "Pusca" "Puyu-Vilca" "Quilaco" "Quingallumbo" "Quintiraura"
+		"Quisquis" "Quizo" "Rimac" "Ronpa" "Sahuaraura" "Sotaurco" "Tanqui" "Tucuycuyche" "Tupac-Amaru" "Yupanqui"
+		"Guacricaur" "Tacaynamo" "Tiso" "Nancempinco" "Luyes" "Illa" "Arguedas" "Barrientos" "Cajahuanca" "Canchata"
+		"Chambi" "Chihuán" "Cusurichi" "Espejo" "Frisancho" "Gamarra" "Guaman" "Guayasamín" "Gutiérrez" "Heredia"
+		"Humala" "Iturri" "Lazarte" "Ludueña" "Melgarejo" "Palacios" "Patiño" "Quispe" "Rodríguez" "Roncaglia"
+		"Santa Cruz" "Sosa" "Sumac" "Toledo" "Vargas" "Zapata"
+	}
+	callsigns = {
+		"Quechua" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X39 = {
+	male = {
+		names = {
+			"Birayamb" "Al-Buri" "Baka" "Birayma" "Mbanyi" "Lat" "Bakan-Tam" "Taanor" "Amado" "Ali Buri"
+			"Mba" "Birawa" "Samba"
+		}
+	}
+	female = {
+		names = {
+			"Fatoumata Sall" "Fatim" "Fatoumata" "Halima" "Hawa" "Ina" "Kadi" "Kilia" "Kolonkan" "Lorane"
+			"Mariam" "Nafissa" "Namandjé" "Namiss"
+		}
+	}
+	surnames = {
+		"N'Dyaye" "Seeku" "Khaari" "Yaago" "Peya" "Ma-Dyigen" "Koddu" "Paate" "Penda" "Aram"
+		"Kodu" "Tam" "Dior"
+	}
+	callsigns = {
+		"Black" "Africa" "Wolof" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X40 = {
+	male = {
+		names = {
+			"Aba" "Tekle" "Sacho" "Gawa" "Gaha" "Shagi" "Jilcha" "Jawe" "Sana" "Gunji"
+			"Galli" "Gaki" "Beshi" "Hoti" "Kaye"
+		}
+	}
+	female = {
+		names = {
+			"Ashille" "Bashshulle" "Caalttu" "Dararro"
+		}
+	}
+	surnames = {
+		"Ginocho" "Gaocho" "Sherocho" "Nechocho" "Sachi" "Bulgu" "Gomol"
+	}
+	callsigns = {
+		"Black" "Africa" "Sidama" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X41 = {
+	male = {
+		names = {
+			"Muhammad" "al-Amin" "Umar" "Mustapha" "Ahmad" "Dunama" "Ibrahim" "Ali" "Waziri" "Mamane"
+		}
+	}
+	female = {
+		names = {
+			"Tukule" "Kolo" "Yaalta" "Sato"
+		}
+	}
+	surnames = {
+		"al-Kanemi" "Sayfawa" "Dalatumi" "Lefiami" "Kingibe" "Imam" "Gana"
+	}
+	callsigns = {
+		"Black" "Africa" "Kanuri" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X42 = {
+	male = {
+		names = {
+			"Afaq" "Ahmed" "Arshad" "Bahayeddin" "Burhan" "Daud" "Hakim" "Husayin" "Kemal" "Maqsud"
+			"Muhammad" "Musa" "Rashidin" "Satuq" "Timur" "Yaqub"
+		}
+	}
+	female = {
+		names = {
+			"Sakina" "Temülen" "Börte" "Mandukhai" "Samar" "Zaufishan" "Mulan" "Aigiarn" "Borte" "Chabi"
+			"Conchaka" "Doquez-khatum" "Goland" "Ho'elun"
+		}
+	}
+	surnames = {
+		"Beg" "Khan"
+	}
+	callsigns = {
+		"Uyghirche" "Xenzuche" "Usta"
+	}
+}
+X43 = {
+	male = {
+		names = {
+			"Alexei" "Andrei" "Anton" "Arkadiy" "Borys" "Dmitro" "Fyodor" "Hryhoriy" "Ivan" "Lavr"
+			"Leonid" "Lev" "Mikhail" "Mykola" "Nikita" "Oleksandr" "Pavel" "Petro" "Roman" "Semyon"
+			"Sergiy" "Valeriy" "Viktor" "Volodimir" "Vladislav" "Yuriy"
+		}
+		surnames = {
+		"Bezruchko" "Chernyakhovsky" "Dyachenko" "Gamula" "Grigoriev" "Hrekov" "Ivanenko" "Ivanov" "Kapustiansky" "Kondratenko"
+		"Leshchenko" "Leshchinskiy" "Omelianovych-Pavlenko" "Paskevich" "Petliura" "Radchenko" "Shevchenko" "Skoropadskyi" "Stefaniv" "Tymoshenko"
+		"Vitovsky"
+		}
+	}
+	female = {
+		names = {
+			"Jelena" "Ludmila"
+		}
+		surnames = {
+		"Bezruchka" "Chernyakhovsʹkaya" "Dyachenka" "Hamula" "Hrihoriyeva" "Hrekova" "Ivanenka" "Ivanova" "Krapustiansʹkaya" "Kondratenka"
+		"Leshchenka" "Leshchinskaya" "Omelyanovych-Pavlenkova" "Paskevycha" "Petlyura" "Radchenka" "Shevchenka" "Skoropadsʹkaya" "Stefaniva" "Tymoshenka"
+		"Vitovsʹkaya"
+	}
+	}
+	callsigns = {
+		"Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon"
+		"Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky"
+		"Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka"
+	}
+}
+X44 = {
+	male = {
+		names = {
+			"Aariak" "Aassanaaq" "Aippaq" "Aklaq" "Amaqjuaq" "Ammagaruqnik" "Anik" "Apaata" "Aput" "Aputi"
+			"Aqakuktuq" "Aqillutaq" "Aqpalibaaqtuq" "Aquyittuq" "Arnauyq" "Asuilaak" "Atanarjuat" "Atiqtalaaq" "Atuqtuaq" "Aujaq"
+			"Aviqming" "Ila" "Ilannaq" "Innugati" "Iñuksuk" "Irniq" "Itigaituk" "Kanguq" "Kataktuaq" "Keedtapeck"
+			"Kissarviarsuk" "Kumaglak" "Kunik" "Kunikpaa" "Malik" "Nanouk" "Nasak" "Natsiq" "Nauja" "Nirliq"
+			"Nuniq" "Nuvuk" "Oki" "Pamiuq" "Patuktuq" "Pauloosie" "Petuwaq" "Pimniq" "Piqqaluyungmik" "Pittiulak"
+			"Pukajaak" "Qajak" "Qammutiq" "Qamut" "Qannik" "Qaumaniq" "Qausiqtuk" "Qimmiabruk" "Qimmiq" "Qulitalik"
+			"Sauri" "Sighna" "Siluk" "Sivoy" "Sivuugun" "Taktuq" "Taliriktug" "Tikaani" "Tiqriganiannig" "Tukkuyummavungga"
+			"Tulimak" "Tulimaq" "Tulugaq" "Tungajuaq" "Tupiq" "Tuuq" "Ugalik" "Ujurak" "Ukiuk" "Unnuk"
+			"Usuiituk"
+		}
+	}
+	female = {
+		names = {
+			"Amaruq" "Anjij" "Aput"
+		}
+	}
+	surnames = {
+		"Alakannuark" "Arreak" "Ashoona" "Enuaraq" "Evaloarjuk" "Ipeelee" "Irgittuq" "Keenainak" "Kunuk" "Kusugak"
+		"Maksagak" "Nutarak" "Paniloo" "Piugattuk" "Pudluk" "Tiktaalaaq" "Ungallaq" "Amaruq" "Pakak" "Silaluk"
+		"Kayuqtuq"
+	}
+	callsigns = {
+		"Eskaleut" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X45 = {
+	male = {
+		names = {
+			"Seku" "Famagan" "Samory" "Al-Hajj" "Koumbi" "Maghari" "Fode" "Muhammad" "al-Mustafa"
+		}
+	}
+	female = {
+		names = {
+			"Hawa" "Bintou" "Nassiran" "Korotoum" "Sita" "Assista" "Tenimba" "Barra" "Rokia" "Mariame"
+			"Marième"
+		}
+	}
+	surnames = {
+		"Wattara" "Toure" "Salim-Suwari" "Drame" "Saghanughu"
+	}
+	callsigns = {
+		"Black" "Africa" "Dyula" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X46 = {
+	male = {
+		names = {
+			"Poaty" "Loembe" "M'voudoukousala" "Pratt" "N'Gangue" "M'voumbe" "Mfutila" "Kivuzi" "Nteve" "Kenje"
+		}
+	}
+	female = {
+		names = {
+			"Nia" "Cadence" "Hanna" "Nala" "Zahra"
+		}
+	}
+	surnames = {
+		"Ma Nombo" "Ma N'Sangou" "N'Gombi" "Matou" "Mvemba" "Lukeni" "Mpanzu" "Nimi" "Nsindi"
+	}
+	callsigns = {
+		"The Black" "the Kongo" "Slave-owner"
+	}
+}
+X47 = {
+	male = {
+		names = {
+			"Kaumba" "Muteba" "Mushidi" "Mbala" "Mutand" "Mudib" "Kangapu" "Cimbindu" "Mbumb" "Cakasekene"
+			"Mulay" "Nawej" "Cikombe" "Waranankong"
+		}
+	}
+	female = {
+		names = {
+			"Jetta" "Vandana" "Zody"
+		}
+	}
+	surnames = {
+		"Kasang" "Nambing" "Kalong" "Mukaz" "Ditend" "Yaava" "Namwan" "Naweej" "Kamong" "Isot"
+		"Kat" "Muteba"
+	}
+	callsigns = {
+		"Black" "Africa" "Lunda" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X48 = {
+	male = {
+		names = {
+			"Muhammad" "Kumbari" "Sharif" "Yaji" "Baba" "Daud" "Abdullah" "Kanajeji" "Bugaya" "Usman"
+			"Tsamiya"
+		}
+	}
+	female = {
+		names = {
+			"Baturiya" "Delu" "Gambo" "Aishatu" "Bahijjah" "Fatima" "Hassana" "Husiana"
+		}
+	}
+	surnames = {
+		"al-Walid" "Abasama" "Zaki" "Kabe" "al-Hajj" "Zamnagawa" "Rumfa"
+	}
+	callsigns = {
+		"Black" "Africa" "Hausa" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X49 = {
+	male = {
+		names = {
+			"Kasongo" "Umpafu" "Ilunga" "Kisula" "Nday" "Kitamba" "Maloba" "Ndaye" "Kumwimba" "Maniema"
+		}
+	}
+	female = {
+		names = {
+			"Meta" "Bakaji" "Kapinga" "Ntumba" "Masengo" "Tshibola" "Misenga"
+		}
+	}
+	surnames = {
+		"Nsungu" "Kukaya" "Ngombe" "Muzinga" "Kabale" "Konkola" "Kalombo" "Mande" "Nyembo"
+	}
+	callsigns = {
+		"Black" "Africa" "Luba" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X50 = {
+	male = {
+		names = {
+			"Kasongo" "Umpafu" "Ilunga" "Kisula" "Nday" "Kitamba" "Maloba" "Ndaye" "Kumwimba" "Maniema"
+		}
+	}
+	female = {
+		names = {
+			"Meta" "Bakaji" "Kapinga" "Ntumba" "Masengo" "Tshibola" "Misenga"
+		}
+	}
+	surnames = {
+		"Nsungu" "Kukaya" "Ngombe" "Muzinga" "Kabale" "Konkola" "Kalombo" "Mande" "Nyembo"
+	}
+	callsigns = {
+		"Black" "Africa" "Luba" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X51 = {
+	male = {
+		names = {
+			"Nangklao" "Mongkut" "Rama" "Chulalongkorn" "Chao" "Vajiravudh" "Prajadhipok" "Naritsaranuwatiwong" "Phya" "Plaek"
+		}
+	}
+	female = {
+		names = {
+			"Dara" "Mya" "Chiraprapha" "Wisutthithewi" "Yasuntarathewi"
+		}
+	}
+	surnames = {
+		"Suriyawongse" "Saovabha" "Chichalerm" "Praya Siri" "Nitithada" "Phonphayuhasena"
+	}
+	callsigns = {
+		"Weīy Tnām" "Chāw Kạmphūchā" "Lāw" "S̄yām" "Chāw Cīn" "Chāw Māleseīy"
+	}
+}
+X53 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X54 = {
+	male = {
+		names = {
+			"Poaty" "Loembe" "M'voudoukousala" "Pratt" "N'Gangue" "M'voumbe" "Mfutila" "Kivuzi" "Nteve" "Kenje"
+		}
+	}
+	female = {
+		names = {
+			"Nia" "Cadence" "Hanna" "Nala" "Zahra"
+		}
+	}
+	surnames = {
+		"Ma Nombo" "Ma N'Sangou" "N'Gombi" "Matou" "Mvemba" "Lukeni" "Mpanzu" "Nimi" "Nsindi"
+	}
+	callsigns = {
+		"The Black" "the Kongo" "Slave-owner"
+	}
+}
+X55 = {
+	male = {
+		names = {
+			"Abul" "Muhammad" "Safiuddin" "Ahmad" "Muhieddin" "Zainul" "Cirebon" "Amir" "Arifin" "Panembahan"
+			"Haji" "Anom"
+		}
+	}
+	female = {
+		names = {
+			"Diah" "Siti"
+		}
+	}
+	surnames = {
+		"Salihin" "Mufakhir" "Alaeddin" "Muttakin" "Sepuh" "Nurus" "Khairuddin" "Djalaluddin" "Emiruddin" "Akbaruddin"
+		"Tajul" "Natadiningrat"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+X58 = {
+	male = {
+		names = {
+			"Ellyas" "Ignacio" "Jordao" "Michael" "Sonny" "Denny" "Mohammad" "Edinho" "Jos" "Levi"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Leiwakabessy" "Mainaky" "Weisapy" "Bouma" "Palyama" "Pattinama" "Pelmelay" "Lilipaly" "Hafiedz"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+X59 = {
+	male = {
+		names = {
+			"Hswe" "Hsö" "Naw" "Hkam" "Hkun" "Hseng" "Hpa" "Pyi" "Nga" "Hmu"
+			"Natsu" "Pe" "Than" "Shwe" "Hpo" "Lun" "Sun"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Cheng" "Kaw" "Möng" "Hkawt" "Pak" "Nan" "Lek" "Leng" "Hmu" "Letya"
+		"Hung" "Thi" "Hpu" "Ya" "Min"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+X60 = {
+	male = {
+		names = {
+			"Churachandra" "Kulachanrda" "Surachandra" "Chandrakirti" "Devendra" "Nara" "Genavira" "Pitambara" "Marjit" "Moduchanrda"
+			"Charajit" "Harshachandra" "Chingthang"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Singh" "Khomba" "Sai"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+X61 = {
+	male = {
+		names = {
+			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
+			"Tuanku" "Yusuf" "Idris" "Jalil" "Isandar" "Aziz"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Raja Inu" "al-Marhum" "Raja Ahmad" "Riayat Shah" "al-Khairat" "Muadzam" "Bendahara" "Aadzam" "Murshidul"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+X62 = {
+	male = {
+		names = {
+			"Andikan" "Amadi" "Aren" "Bahari" "Averey" "Bakari" "Bash" "Bayode" "Bitalo" "Chane"
+			"Chata" "Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni"
+			"Ife" "Ilo" "Issay" "Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi"
+			"Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" "Raimi" "Razi" "Reth"
+		}
+	}
+	female = {
+		names = {
+			"Sena"
+		}
+	}
+	surnames = {
+		"Mutiwapangome" "Cipfumba" "nyasoro" "Cimininyambo" "Kandeya" "Dambamupute"
+	}
+	callsigns = {
+		"Black" "Africa" "Sena" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X63 = {
+	male = {
+		names = {
+			"Yusuf" "Mahamud" "Ahmed" "Osman" "Ali" "Aul" "Shire" "Mohamud" "Naleye" "Abdikarim"
+			"Dalmar" "Ghdi" "Labaan" "Roble" "Taban" "Erasto" "Abdi"
+		}
+	}
+	female = {
+		names = {
+			"Dahabo" "Deeq" "Aanbro" "Raawe" "Fademu" "Klokallo"
+		}
+	}
+	surnames = {
+		"Ibrahim" "Adeer" "Hassan" "Gurey" "Hirsi" "Doreh" "Dekiye" "Afrah" "Mujahid" "Kenadid"
+	}
+	callsigns = {
+		"Black" "Africa" "Somali" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X64 = {
+	male = {
+		names = {
+			"Aritomo" "Goro" "Gentaro" "Gonnohyoe" "Heihachiro" "Hiroshi" "Hikonojo" "Hyoe" "Hayao" "Iwao"
+			"Jiro" "Jinzaburo" "Kiyotaka" "Kuranosuke" "Kozo" "Kantaro" "Koichiro" "Kagenori" "Kageaki" "Kotohito"
+			"Keisuke" "Kazushige" "Kenkichi" "Maresuke" "Masujiro" "Michisura" "Masatake" "Mitsuomi" "Mitsue" "Mineo"
+			"Nariaki" "Nobuyoshi" "Rokuro" "Sukeyuki" "Sukenori" "Shoin" "Sumiyoshi" "Samata" "Soroku" "Shichiro"
+			"Shigeto" "Sotokichi" "Shigeru" "Sadao" "Shinsaku" "Takayoshi" "Takamori" "Toshimichi" "Tsugumichi" "Tadakuni"
+			"Tomonosuke" "Taro" "Toshiyoshi" "Tetsutaro" "Taruhito" "Takeaki" "Tamemoto" "Tomasaburo" "Yoshika" "Yoshinobu"
+			"Yoshimichi" "Yoshida" "Yasukata" "Yahachi" "Yusaku" "Yoshifuru" "Yoshinori" "Yasuyoshi"
+		}
+	}
+	female = {
+		names = {
+			"Aimi" "Asami" "Asuka"
+		}
+	}
+	surnames = {
+		"Arisugawa" "Arichi" "Akiyama" "Araki" "Dewa" "Enomoto" "Hasegawa" "Honjo" "Ito" "Inoue"
+		"Ichinohe" "Itagaki" "Kido" "Kuroda" "Katsura" "Kodama" "Kabayama" "Kawamura" "Kuroki" "Kawakami"
+		"Kamimura" "Kataoka" "Kamio" "Kato" "Kanin" "Katsu" "Makino" "Muto" "Minami" "Masaki"
+		"Matsudaira" "Nakamuta" "Nogi" "Nire" "Nozu" "Okubo" "Oyama" "Omura" "Oku" "Okada"
+		"Osumi" "Saigo" "Suzuki" "Sato" "Sakura" "Shibayama" "Shimamura" "Shirakawa" "Togo" "Takashima"
+		"Tsuboi" "Tachibana" "Terauchi" "Tamon" "Takasugi" "Tokugawa" "Uehara" "Uryu" "Ugaki" "Ueda"
+		"Yamagata" "Yamamoto" "Yamakawa" "Yashiro" "Yui" "Yamashita" "Yamaya"
+	}
+	callsigns = {
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty"
+		"Lance" "Panther" "Shogun" "Vampire" "War Lord"
+	}
+}
+X66 = {
+	male = {
+		names = {
+			"Hswe" "Hsö" "Naw" "Hkam" "Hkun" "Hseng" "Hpa" "Pyi" "Nga" "Hmu"
+			"Natsu" "Pe" "Than" "Shwe" "Hpo" "Lun" "Sun"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Cheng" "Kaw" "Möng" "Hkawt" "Pak" "Nan" "Lek" "Leng" "Hmu" "Letya"
+		"Hung" "Thi" "Hpu" "Ya" "Min"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+X67 = {
+	male = {
+		names = {
+			"Nanni Chaddi" "Na tio tish" "Sitahle" "Oahtekah" "Ahzaah" "Kootzzah" "Moketaveto" "Ohtoahnesotowheo" "Harkkahome" "Munamenek"
+			"Otoahnisto" "Mahvipah" "Choseta" "Nahtan" "Konzhontaco" "Bazheech" "Tillaka" "Chacon" "Dasoda-hae" "Cochise"
+			"Juh" "Delshay" "Goyaale" "Chapitone" "Ashkii Diyin" "Dahaana Baadaane" "Hastiin Ch'ilhaajin" "Nabaah Jilt'aa" "Bislahalani" "Hozhooji Naat'a"
+			"Hastiin Daghaa" "Hastiin Daagi" "Haske Yahne Yah" "Toh Yah" "Hastiin Klah" "Ahway Eskay" "Hoksay Nolyae" "Atsidi Sani" "Beshiltheeni"
+		}
+	}
+	female = {
+		names = {
+			"Dahteste" "Ilthgozay" "Gouyen" "Lozen" "Tohayea"
+		}
+	}
+	surnames = {
+		"Jicarilla" "Mescalero" "Chiricahua" "Lipan" "Yavapai" "Tonto" "Navajo" "Ramah" "Mojave" "Toboso"
+		"Cholome" "Jocome" "Sibolo" "Pelone" "Manso" "Kiva" "Arivaipa" "Carlanas" "Ch'uuk'anen" "Cibecue"
+		"Coyotero" "Faraones" "Gileno" "KIowa" "Llanero" "Lipiyanes" "Mimbrenos" "Mogollon" "Na'iisha" "Natages"
+		"Pinal" "Querechos" "Bit'anhi" "Naaste'ezheh" "Kiyaa'aanii" "Dzilt'aadi" "Honaghaahnii" "To'ahani" "Ta'neeszahnii" "Hashk'aa Hadzohi"
+		"Nihoobaanii" "Ts'ah Yisk'idnii" "Todich'ii'nii" "To Baazhni'azhi" "Tseikeehee" "Naaket L'ahi" "Tsin Sikaadnii" "Biih Bitoodnii" "Tl'ogi" "Todik'ozhi"
+		"K'aahanaanii" "Totshnii" "Hooghan Lani" "Dzaaneez Lani" "Tse Deeshgizhnii" "Hasht L'ishnii" "Tabaaha" "Haltsooi" "Tachii'nii" "Kin Ichii'nii"
+		"Tsenjikini" "Dibelzhini" "Ma'ii Deeshgiizhinii" "Ashinuii" "Keha'atiinii" "To'aheedliinii" "Tsi'naajinii" "Deeshchii'nii" "Tl'izi Lani" "Tl'aaschi'I"
+		"Tsenabahituii" "Nashashi" "T'üschebaanii" "Jaa'yaaloolii" "Keha'atiintii" "Naashaashi" "Kiusta" "Kung" "Yan" "Hiellan"
+		"Skidegate" "Cha'atl" "Haina" "Kaisun" "Cumshewa" "Skedans" "Tanu" "Ninstints" "Masset" "Atewaas"
+		"Jaahguhl" "Kayung" "Hlk'yah GaawGa" "Klinkwan" "Sukkwan" "Howkan" "Kasaan"
+	}
+	callsigns = {
+		"Na-Dene" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X68 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X70 = {
+	male = {
+		names = {
+			"Sinté" "Thaóyate" "Thathanka" "Thasunke" "Mahpiya" "Istahba" "Hehaka" "Thahca" "Ohiyes" "Wanbdi"
+			"Tamaha" "Inkpaduta" "Teshuhimga" "Gradamnsa" "Caygaywachepeche" "Couchestawasta" "Mahsa" "Wanougpacha" "Hurate" "Wasabatougga"
+			"Nekaghre" "Mekewatanega" "Nangawahaegea" "Kemanha" "Papuisea" "Harachabe" "Pahelagren" "Tawangahuh" "Honencache" "Nichumali"
+			"Voithevoihe" "Voithechinga" "Tavoingare" "Osogahe" "Voichinodhe" "Voinache" "Voinonpache" "Qhihiramaki" "Caygache" "Pahuroguesie"
+			"Miaasa" "Manjaguida" "Mantsa" "Nicagaris" "Dogachinga" "Tavaingare" "Tavainthere" "Naguemani" "Nicanauthe" "Chonmelase"
+			"Nenonbas" "Pograngue" "Cayque" "Nonpevoite" "Vesasche" "Tonchenanque" "Lihibi" "Grinache" "Nicouilbran" "Chonnonsogue"
+			"Lisansandhe" "Mequaque" "Megahe" "Manhegare" "Meyhe" "Nudhetavoi" "Thecayque" "Voitasean" "Cahapiche" "Manhevoi"
+			"Talechiga" "Pedhechiga" "Cheganonsas" "Nesaque" "Lolechinga" "Panenvoiguanda" "Tavoinhihi" "Mithechinga" "Manquesi" "Chingavoisa"
+			"Talevoile" "Voiengran" "Scamani" "Nurahague" "Mechinga" "Pachigue" "Roudanique" "Voibisandhe" "Nehizanga" "Nehudhe"
+			"Pagranque" "Chahetonga" "Manguepeemani" "Voibalune" "Poneavoitaniga" "Taslondhe" "Nendogualui" "voibahe" "Onhehomani" "Nuranin"
+			"Noguinilayque" "Nanlatoho" "Bashemindhe" "Savoi" "Chouquemonnon" "Manilourana" "Nequevoile" "Chonguehanga" "Ponlachinga" "Aguigueda"
+			"Voidoguega" "Sindhe" "Ninchagari" "Voidhadani" "Quinihonigue" "Nognithechinga" "Natanhi" "Ousabe" "Voichinouthe" "Amanpasse"
+			"Cutsagabe" "Channahon" "Nonbasocri" "Pedhechinga" "Bassechinga" "Ponlavoitasuga" "Manyvoile" "Mandarihi" "Nepaste" "Keokuk Wapello"
+			"Pierremaskin Muckkatwagout Namasosanamet" "Mackkatananamakee Pashchenene Wapasai" "Malasenokama Kechaswa" "Catchacommu" "Waapaca" "Mataqua" "Paquampa" "Aquoqua" "Nemarqua" "Machenamau"
+			"Pesotaka" "Mishecaqua" "Capontwa" "Mowhinin" "Omquo" "Wonakasa" "Nautakawa" "Makataimeshekia" "Wathohuck" "Choukeka"
+			"Keesheswa" "Kenekuk" "Papiquan" "Pashepaho" "Lalyurva" "Hanshequarhiqua" "Outchequaka" "Quashquame" "Shamaga" "Weesaka"
+			"Chekaqua" "Kataka" "Mecaitch" "Neshota" "Chagasort" "Pecama" "Namachewana" "Nanochaatasa" "Taimah" "Catchemackeseo"
+			"Keokuk" "Wapello" "Pierremaskin" "Muckkatwagout" "Namasosanamet" "Mackkatananamakee" "Pashchenene" "Wapasai" "Malasenokama" "Kechaswa"
+			"Tepeeoska" "Wichawostaka" "Masgwahasid" "Chenka" "Kichipwot" "Stamixosok" "Emitahapiskinne" "Matapikomotziw" "Ayestipissimat" "Kissoum"
+			"Pitahotocan" "Apawstamix" "Onistahpokah" "Netahkiteipimew" "Akakotos" "Stokimatis" "Pitahotiskin" "Stamixotakapiw" "Mastepitah" "Moyanymen"
+			"Ekaskine" "Kayookosis" "Ponokahstamix" "Omaksisapop" "Pitahsiksinum" "Apawonistaw" "Attistahhawes" "Pitah" "Pitahonistah" "Kayetapo"
+			"Mahtowewitko" "Toetahkiehnan" "Nochkpitshitoepish" "Sheohmantho" "Waywasecapow" "Otamakooewin" "Shapousetung" "Sukeman" "Misketo" "Etamepeton"
+			"Kawasaskotrepahik" "Makoyekin" "Nesoauases" "Onistah" "Pitahannes" "Wabasha" "Petette" "Tartunkanasiah" "Keejee" "Tarsega"
+			"Wamadetunka" "Wannata" "Kokomako" "Shacope" "Penision" "Etaseepa" "Wakauhee" "Poehapa" "Takewapa" "Tenchzepart"
+			"Mascpulochastosh" "Tetekarmunch" "Wasaota" "Oeyakoca" "Maktowahkeark" "Matowayouwe" "Makatozaza" "Belotonkatanga" "Nakapagigi" "Maktosabichis"
+			"Mewatanihanska" "Iyotake" "Iyapato" "Witko" "Maphiya" "Luta" "Sapa" "Sinte" "Gleska" "Ite"
+			"Omagazu" "Ogle"
+		}
+	}
+	female = {
+		names = {
+			"Tasinasapewin" "Thasinamani" "Tasinahlahlawin" "Dohumme" "Chapa" "Chapawee" "Chumani" "Dowanhowee" "Ehawee" "Hantaywee"
+			"Kimimela"
+		}
+	}
+	surnames = {
+		"Gleská" "Duta" "Iyotake" "Witko" "Luta" "Kohkophapi" "Sapa" "Huste" "Thankja" "Sichangu"
+		"Oglala" "Itazipcho" "Hunkpapha" "Mnikhowozu" "Sihasapa" "Oohenunpa" "Ihantkhunwan" "Ihankthunwanna" "Isanyathi" "Thithunwan"
+		"Wichiyena" "Wahpéthunwan" "Mdewakanthunwan" "Wahpéhute" "Sisithunwan" "Aegitina" "Bizibina" "Cephubi" "Canhdada" "Canhewincasta"
+		"Canknuhabi" "Hudesabina" "Hebina" "Huhumasmibi" "Huhuganebabi" "Sturgeon" "Eagle" "Blues Son" "Plumbed" "the Sioux"
+		"Brave by Hazard" "Hen Atonwaabina" "Inwantonwanbina" "Innianonbi" "Insaombi" "Indogahwincasta" "Minisoee Swnkeebi" "Minisatonwanbi" "Osnibi" "Ptegabina"
+		"Sunkcebi" "Sahiyaiyeskabi" "Snugabi" "Sihabi" "Tanidabi" "Tokanbi" "Tanzinapebina" "Unskaha" "Wadopabina" "Wadopahtonwan"
+		"Wiciyabina" "Waziyamwincasta" "Wasinazinyabi" "Wokpanbi" "Mesquakie" "Wagosh" "Asakiwakie" "Kickapoo" "Blackhawk" "Saukenuk"
+		"Thakiwakie" "Tama" "Osakis" "Etnataek" "Kickapougwoi" "Kithlipecanuk" "Jumping Fish" "Sun Fish" "Bear" "Giger"
+		"Lance" "Devil" "Big Eagle" "Wazhaze" "Tsishu" "Pasueli" "Wahakolin" "Sansueli" "Wyota" "Picayune"
+		"Koholo" "Neodesha" "Owasso" "Pawhuska" "Niukonska" "Doppike" "Neosho" "Chetopa" "Hominy" "Pahusan"
+	}
+	callsigns = {
+		"Siouan" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X71 = {
+	male = {
+		names = {
+			"Aritomo" "Goro" "Gentaro" "Gonnohyoe" "Heihachiro" "Hiroshi" "Hikonojo" "Hyoe" "Hayao" "Iwao"
+			"Jiro" "Jinzaburo" "Kiyotaka" "Kuranosuke" "Kozo" "Kantaro" "Koichiro" "Kagenori" "Kageaki" "Kotohito"
+			"Keisuke" "Kazushige" "Kenkichi" "Maresuke" "Masujiro" "Michisura" "Masatake" "Mitsuomi" "Mitsue" "Mineo"
+			"Nariaki" "Nobuyoshi" "Rokuro" "Sukeyuki" "Sukenori" "Shoin" "Sumiyoshi" "Samata" "Soroku" "Shichiro"
+			"Shigeto" "Sotokichi" "Shigeru" "Sadao" "Shinsaku" "Takayoshi" "Takamori" "Toshimichi" "Tsugumichi" "Tadakuni"
+			"Tomonosuke" "Taro" "Toshiyoshi" "Tetsutaro" "Taruhito" "Takeaki" "Tamemoto" "Tomasaburo" "Yoshika" "Yoshinobu"
+			"Yoshimichi" "Yoshida" "Yasukata" "Yahachi" "Yusaku" "Yoshifuru" "Yoshinori" "Yasuyoshi"
+		}
+	}
+	female = {
+		names = {
+			"Aimi" "Asami" "Asuka"
+		}
+	}
+	surnames = {
+		"Arisugawa" "Arichi" "Akiyama" "Araki" "Dewa" "Enomoto" "Hasegawa" "Honjo" "Ito" "Inoue"
+		"Ichinohe" "Itagaki" "Kido" "Kuroda" "Katsura" "Kodama" "Kabayama" "Kawamura" "Kuroki" "Kawakami"
+		"Kamimura" "Kataoka" "Kamio" "Kato" "Kanin" "Katsu" "Makino" "Muto" "Minami" "Masaki"
+		"Matsudaira" "Nakamuta" "Nogi" "Nire" "Nozu" "Okubo" "Oyama" "Omura" "Oku" "Okada"
+		"Osumi" "Saigo" "Suzuki" "Sato" "Sakura" "Shibayama" "Shimamura" "Shirakawa" "Togo" "Takashima"
+		"Tsuboi" "Tachibana" "Terauchi" "Tamon" "Takasugi" "Tokugawa" "Uehara" "Uryu" "Ugaki" "Ueda"
+		"Yamagata" "Yamamoto" "Yamakawa" "Yashiro" "Yui" "Yamashita" "Yamaya"
+	}
+	callsigns = {
+		"Viper" "Lightning" "Devil" "Dragon" "Fury" "Bat" "Beer" "Sake" "Demon" "Dirty"
+		"Lance" "Panther" "Shogun" "Vampire" "War Lord"
+	}
+}
+X72 = {
+	male = {
+		names = {
+			"Siyanbola" "Lawani" "Adeyemi" "Adelu" "Atiba" "Oluewu" "Amodo" "Majotu" "Makua" "Adebo"
+			"Bello" "Onikepe" "Gbadegesin" "Ajikin" "Abisi" "Lauru" "Kase" "Agidigbo" "Ademufekun"
+		}
+	}
+	female = {
+		names = {
+			"Ayoola" "Tiaraoluwa" "Digiola" "Oluwadabira"
+		}
+	}
+	surnames = {
+		"Oladigbolu" "Adeniran" "Agogoja" "Alowolodu" "Atobatele" "Zumaw" "Oyo" "Tofa" "Tonyon" "Bezon"
+		"Hungbo" "Dudu"
+	}
+	callsigns = {
+		"Black" "Africa" "Yoruba" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X73 = {
+	male = {
+		names = {
+			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
+			"Tuanku" "Yusuf" "Idris" "Jalil" "Isandar" "Aziz"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Raja Inu" "al-Marhum" "Raja Ahmad" "Riayat Shah" "al-Khairat" "Muadzam" "Bendahara" "Aadzam" "Murshidul"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+X74 = {
+	male = {
+		names = {
+			"Tarahutacaw" "Tearilari" "Kakaletahaw" "Larapa" "Tahorou" "Letereeshar" "Tearacheticktickspaw" "Teakahore" "Tarara" "Teripakoo"
+			"Irarikau" "Taretuushta" "Charuvaru" "Skalavalacharo" "Panukuhike" "Ishtataveeirou" "Lecoutsaroushtu" "Tacatahekou" "Kewatookoush" "Teratuewit"
+			"Taheerish" "Petaperishta" "Talawehouree" "Shinggacahega" "Aiuwechooneeweeka" "Islacapee" "Settulushaa" "Shakororishshara" "Tarraecarwaa" "Tarrarevetiishta"
+			"Arorishhara" "Telawahecarookot" "Kagakereeouk" "Latatorishhara" "Lahehozrashea" "Taarakarukaishta" "Tarraricarrawaa" "Tashar" "Tsauninot" "Sationwnhown"
+			"Tinnehinan" "Tinnowin" "Chowabah" "Kianhoon" "Tiatesun" "Tehowawinow" "Tewinnun" "Tiohtow" "Tehawahinno" "Toackooch"
+			"Tchowainin" "Sanninow" "Sauninot" "Hiahidock" "Mattan" "Towahinnek" "Aach" "Sohone" "Ossinse" "Soakiantow"
+			"Kardy" "Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah"
+			"Absaquil" "Quintioosan" "Myneletta" "Quiaquatty" "Yalkus" "Kawkama" "Kiles" "Kowahtough" "Anta" "Quilala"
+			"Mequah" "Yackatee" "Tophor" "Hallale" "Tumwalth" "Obanahah" "Watchano" "Teapinick" "Wallahpicate" "Lalbick"
+			"Cuckamanna" "Towyecolla" "Laham" "Senegertta" "Tena" "Pulkuptima" "Sallaf" "Hoipkenek" "Yeptah" "Satinvose"
+			"Pulican" "Pulktah" "Talsapeer"
+		}
+	}
+	female = {
+		names = {
+			"Zacado" "Tstakurriwax" "Tstaka" "Tstarahuxtu" "Tsaktahiraas" "Tskusaski" "Tstaruri'u" "Tstapittarius"
+		}
+	}
+	surnames = {
+		"Clatsop" "Cathlamet" "Skilloot" "Cathlapotle" "Multnomah" "Watlala" "Clowwewalla" "Clackamas" "Chiluckittequaw" "Wishram"
+		"Wasco" "Atfalati" "Yamel" "Lakmiut" "Chepenafa" "Santiam" "Chelamela" "Calapooya" "Yoncalla" "Adai"
+		"Cahinnio" "Doustioni" "Eyeish" "Hainai" "Hasinai" "Kadohadacho" "Kichai" "Nabedache" "Nabiti" "Nacogdoche"
+		"Nacono" "Nadaco" "Nanatsoho" "Nasoni" "Natchitoches" "Nechaui" "Neche" "Ouachia" "Tula" "Yatasi"
+		"Marhar" "Skidi" "Turikaku" "Kitkehaxpakuxtu" "Tuhitspiat" "Tukistkita" "Tuhawukasa" "Arikararikutsu" "Arikarariki" "Thutsaku"
+		"Tuwarakaku" "Akapaxtsawa" "Tskisarikus" "Tsiskaatit" "Turawiu" "Pahuksatu" "Tskirirara" "Chuai" "Kitkehaki" "Pitahaureat"
+		"Kawaraki"
+	}
+	callsigns = {
+		"Redskin" "the American" "the Indian"
+	}
+}
+X75 = {
+	male = {
+		names = {
+			"Thibaw" "Mindon" "Pagan" "Tharawadi" "Gabyidaw" "Bodawphaya" "Maung" "Singu" "Hsinbyushin" "Naungdawkyi"
+			"Alaungphaya" "Maha" "Minkyaw" "Zeya"
+		}
+	}
+	female = {
+		names = {
+			"Yaza Dewi" "Atula Thiri" "Khin Myo Sit" "Khin Myat Hset" "Khin Ma Lat"
+		}
+	}
+	surnames = {
+		"Min" "Bagyidaw" "Bandula" "Ne Myo" "Myo" "Thura" "Dabayin"
+	}
+	callsigns = {
+		"Taungu" "Ava" "Pagan" "Prome" "Myede Mong" "Sagaing" "Kyaukse" "Pinya" "Myinsaing" "Konbaung"
+	}
+}
+X76 = {
+	male = {
+		names = {
+			"Adam" "Aleksander" "Antoni" "Boleslaw" "Bonawentura" "Bronislaw" "Dezydery" "Edmund" "Edward" "Emil"
+			"Eustachy" "Felicjan" "Franciszek" "Gustaw" "Henryk" "Ignacy" "Jakub" "Jan" "Jedrzej" "Józef"
+			"Juliusz" "Karol" "Kazimierz" "Klemens" "Konstanty" "Lech" "Leon" "Leopold" "Lucjan" "Ludwik"
+			"Maciej" "Marceli" "Marian" "Mariusz" "Melchior" "Michal" "Mieczyslaw" "Roman" "Romuald" "Samuel"
+			"Stanislaw" "Stefan" "Tadeusz" "Tomasz" "Waclaw" "Wilhelm" "Witold" "Wladyslaw" "Wojciech" "Zygmunt"
+		}
+		surnames = {
+		"Bem" "Bór-Komorowski" "Brzóska" "Chalasinski" "Chlaposwski" "Chlopicki" "Chrzanowski" "Dabrowski" "Dembinski" "Fabryvy"
+		"Hauke-Boask" "Iszikowski" "Jasinski" "Klicki" "Konopczynski" "Krukowiecki" "Kruszewski" "Langiewicz" "Madalinski" "Mierolawski"
+		"Mikolajczyk" "Mokronowski" "Niepokólczycki" "Ostrowski" "Pac" "Pilsudski" "Poniatowski" "Potocki" "Preadzynski" "Radziwill"
+		"Rokossowski" "Rola-Zymierski" "Rómmel" "Rózicky" "Rybinski" "Rydz-Smigly" "Sanguszko" "Skrzynecki" "Soltyk" "Sowinski"
+		"Taczaneowski" "Traugutt" "Wawrzecki" "Wieniawa-Dlugoszowski" "Wybicki" "Wysocki" "Zajaczek" "Zaluski" "Zamoyski" "Zeligowski"
+		}
+	}
+	female = {
+		names = {
+			"Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta"
+		}
+		surnames = {
+		"Bemowa" "Bór-Komorowska" "Brzóska" "Chałasińska" "Chłapowska" "Chłopicka" "Chrzanowska" "Dąbrowska" "Dembińska" "Fabryva"
+		"Hauke-Boaskowa" "Iszikowska" "Jasińska" "Klicka" "Konopczyńska" "Krukowiecka" "Kruszewska" "Langiewiczowa" "Madalinska" "Mierosławska"
+		"Mikołajczykowa" "Mokronowska" "Niepokólczycka" "Ostrowska" "Pacowa" "Pilsudska" "Poniatowska" "Potocka" "Prądzyńska" "Radziwiłłowa"
+		"Rokossowska" "Rola-Zymierska" "Rómmelowa" "Rózicka" "Rybinska" "Rydz-Śmigła" "Sanguszkowa" "Skrzynecka" "Sołtykowa" "Sowińska"
+		"Taczanowska" "Trauguttowa" "Wawrzecka" "Wieniawa-Długoszowska" "Wybicka" "Wysocka" "Zajączekowa" "Załuska" "Zamoyska" "Żeligowska"
+	}
+	}
+	callsigns = {
+		"Piast" "Preußen" "Russia" "Sejm" "Wojak"
+	}
+}
+X77 = {
+	male = {
+		names = {
+			"Shahabuddin" "Riayat" "Abdullah" "Jaafar" "Safiuddin" "Muhammad" "Ali" "Al-Mukammal" "Ismail" "Muabidin"
+			"Tuanku" "Yusuf" "Idris" "Jalil" "Isandar" "Aziz"
+		}
+	}
+	female = {
+		names = {
+			"Azura" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Raja Inu" "al-Marhum" "Raja Ahmad" "Riayat Shah" "al-Khairat" "Muadzam" "Bendahara" "Aadzam" "Murshidul"
+	}
+	callsigns = {
+		"Cina" "Melayu" "Indonesia" "Harimau" "Singa" "Filipina"
+	}
+}
+X78 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X79 = {
+	male = {
+		names = {
+			"Alexei" "Andrei" "Anton" "Arkadiy" "Borys" "Dmitro" "Fyodor" "Hryhoriy" "Ivan" "Lavr"
+			"Leonid" "Lev" "Mikhail" "Mykola" "Nikita" "Oleksandr" "Pavel" "Petro" "Roman" "Semyon"
+			"Sergiy" "Valeriy" "Viktor" "Volodimir" "Vladislav" "Yuriy"
+		}
+		surnames = {
+		"Bezruchko" "Chernyakhovsky" "Dyachenko" "Gamula" "Grigoriev" "Hrekov" "Ivanenko" "Ivanov" "Kapustiansky" "Kondratenko"
+		"Leshchenko" "Leshchinskiy" "Omelianovych-Pavlenko" "Paskevich" "Petliura" "Radchenko" "Shevchenko" "Skoropadskyi" "Stefaniv" "Tymoshenko"
+		"Vitovsky"
+		}
+	}
+	female = {
+		names = {
+			"Jelena" "Ludmila"
+		}
+		surnames = {
+		"Bezruchka" "Chernyakhovsʹkaya" "Dyachenka" "Hamula" "Hrihoriyeva" "Hrekova" "Ivanenka" "Ivanova" "Krapustiansʹkaya" "Kondratenka"
+		"Leshchenka" "Leshchinskaya" "Omelyanovych-Pavlenkova" "Paskevycha" "Petlyura" "Radchenka" "Shevchenka" "Skoropadsʹkaya" "Stefaniva" "Tymoshenka"
+		"Vitovsʹkaya"
+	}
+	}
+	callsigns = {
+		"Anvil" "Hammer" "Fury" "Arrow" "Storm" "Bear" "White Lily" "Devil" "Eagle" "Falcon"
+		"Fox" "Snowflake" "Greasy" "Guardian" "Gunman" "Hawk" "Hardball" "Howl" "Blizzard" "Husky"
+		"Ice" "Killer" "Steel" "Iron" "Skull" "Striker" "Thunder" "Warrior" "Wardog" "Vodka"
+	}
+}
+X80 = {
+	male = {
+		names = {
+			"Nîshwi" "Nethwi" "Nyêwi" "Nyânanwi" "Neniwa" "Ihkwêwa" "Anemôha" "Kîshethwa" "Tepehkî-Kîshethwa" "Kapapamahchakwew"
+			"Abishabis" "Mistahi-maskwa" "Kamiokisihkwew" "Payipwat" "Pitikwahanapiwiyin" "Tepastenam" "Wahwaashkung" "Kiwash" "Nahookeesic" "Oombash"
+			"Panacheese" "Yesno" "Wenangasie" "Katchang" "Moonias" "Ostamas" "Kwakigigckewang" "Keneswabe" "Matawagan" "Odagamea"
+			"Missabay" "Pootoosh" "Nemekas" "Puckanese" "Macquettequet" "Shimnanaquette" "Pakenosega" "Kekenutchega" "Chimokemow" "Kekenutchegun"
+			"Muskobenense" "Waubonoosa" "Wausaquanai" "Minequet" "Otauson" "Tussegua" "Mixabee" "Kitchewawashen" "Neebeenaquin" "Anueemaycounbeeme"
+			"Onewequa" "Nayokeeman" "Peshquescum" "Muckcumcinau" "Kitcheenoting" "Waubeekeenew" "Sheemaugua" "Kauguest" "Kitsheematush" "Aneuwayba"
+			"Walkcaykeejugo" "Autowaynabee" "Nawgonisee" "owenisham" "Mooksonga" "Noukonwabe" "Shingwalk" "Wawaubequak" "Meewayson" "Wepecumgegut"
+			"Markkenwuwbe" "Fonegawne" "Nemetetowwa" "Kishkaukou" "Peenaysee" "Ogemaunkeketo" "Reaume" "Nowkeshuc" "Mixmunitou" "Wassau"
+			"Keneobe" "Moksauba" "Mutchwetau" "Okumanpinase" "Meckseonne" "Paupemiskobe" "Kogkakeshik" "Wauwassack" "Misheneanonquet" "Okemans"
+			"Nimeke" "Puckwash" "Waseneso" "Montons" "Kennewobe" "Shawshauwenaubais" "Okooyousinse" "Ondottowaugane" "Amickoneena" "Kitcheonundeeyo"
+			"Saugassauway" "Okeemanpeenaysee" "Minggeeseetay" "Waubishcan" "Peaypaymanshee" "Ocanauck" "Paymeenoting" "Naynooautienishkoan" "Kaujagonaygee" "Mayneeseno"
+			"Kakagouryan" "Kitchmokooman" "Singgok" "Saguhosh" "Saybo" "Obwole" "Aguagonabe" "Sigonak" "Kokoosh" "Pemaw"
+			"Kawotoktame" "Sabo" "Kewageone" "Metewa" "Kawgeshequm" "Keyacum" "Atowagesek" "Mawmawkens" "Mamawsecuta" "Penaysewaykesek"
+			"Kewaytinam" "Sepewan" "Shashebak" "Shaconk" "Paymusawtom" "Endus" "Aushetayawnekusa" "Wawapenishik" "Omikou" "Pashkobwis"
+			"Pashkeekou" "Mayto" "Wauweeyatam" "Nuwagon" "Mesnakrea" "Maytwayaushing" "Ogeebouinse" "Maneleugobwawaa" "Wahpeshakana" "Kenmahreneah"
+			"Pakeeshama" "Allenepeshensha" "Wassacanga" "Naynawitwa" "Wissineeaw" "Ramisswnoa" "Whkahpesewah" "Kemonsah" "Wapesae" "Pemekawai"
+			"Koongeepata" "Batticy" "Keemaranea" "Wecomakana" "Keeshammy" "Aramapingea" "Keemawassa" "Wackshingga" "Kitakimawa" "Manggonssa"
+			"Mooyakacke" "Pemmikawatta" "Papenegisawa" "Meshiwiratta" "Mahkattamaweya" "Queckaawpeeta" "Chessagouasse" "Mamentouensa" "Chicagou" "Ninkanape"
+			"Maressa" "Shopinna" "Wapamahwhawa" "Hokoleskwa" "Cottawamago" "Paxinos" "Wynepuechisika" "Weyapersenwah" "Tecumseh" "Aweecony"
+			"Kakawipilathy" "Malunthy" "Musquaconocah" "Meanymsecahh" "Waupaucowela" "Nihipeewa" "Nihinessicoe" "Wawelainni" "Kishkalwa" "Maywathekeha"
+			"Pathecoussa" "Nelawachika" "Waquiwais" "Napawita" "Papamousse" "Pemitacamchika" "Wyawimon" "Quamapea" "Pelmetachemo" "Neahmemsieeh"
+			"Makatewekasha" "Koitawaypie" "Misquacoonacaw" "Cutthewekasaw" "Kayseaesekah" "Weythapamattha" "Waytheah" "Weyapiersenwaw" "Nequetaughaw" "Hahgooseekaw"
+			"Weyapuseawaw" "Cutheaweasaw" "Auonashechla" "Cutewecusaw" "Tamenetha" "Piaseka" "Pomtha" "Shammothetho" "Pemthata" "Wethawakasika"
+			"Quetawah" "Sokutchemah" "Wynepuehsika" "Quitawepeh" "Teawascoota" "Tacomtequah" "Nianymseka" "Chiachska"
+		}
+	}
+	female = {
+		names = {
+			"Torotiy" "Meriy" "Elin" "Ashenee" "Astina" "Echa" "Kiche" "Kika" "Mati" "Matisa"
+			"Matisoon" "Nichena" "Osceola" "Pamoon" "Paniya"
+		}
+	}
+	surnames = {
+		"Auglaize" "Alawaymotakah" "Akepee" "Aqueloma" "Chillicothe" "Calaka" "Chalaakaatha" "Conedogwinit" "Hathawekela" "Hisoskok"
+		"Hawkawepitathy" "Kispoko" "Kiscopocoke" "Kispokotha" "Koshachkink" "Kagoughsage" "Kickapougowi" "Kithlipecanuk" "Mequachake" "Maykujay"
+		"Mekoce" "Maguck" "Oawikila" "Ochipway" "Okowellos" "Opeatako" "Oshawahnah" "Piqua" "Pekowi" "Paxtang"
+		"Peixtan" "Paheto" "Paytokothe" "Spitotha" "Sawanugi" "Sawauwone" "Saweeto" "Sawcunk" "Sewickley" "Shamokin"
+		"Sonnioto" "Thaawikila" "Thawegila" "Tippecanoe" "Sylacauga" "Wakatomica" "Wakatawicks" "Wapakoneta" "Wabapusito" "Wagunetee"
+		"Kaskaskia" "Cahokia" "Peoria" "Tamaroa" "Moingwena" "Michigamea" "Albiui" "Amonokoa" "Chepoussa" "Chinkoa"
+		"Coiracoentanon" "Espeminkia" "Maroa" "Matchinkoa" "Michibousa" "Negawichi" "Tapouara" "Missisage" "Saulteaux" "Bungee"
+		"Saginaw" "Achiligouan" "Amicoures" "Amikwa" "Auwause" "Bawating" "Chequamegon" "Keweenaw" "Kitchigami" "Macomille"
+		"Malanas" "Marameg" "Mackinac" "Mundua" "Nikikouek" "Noquet" "Mouusagai" "Ouasouarini" "Aousanik" "Outchibou"
+		"Outchougai" "Ouxeiacomingo" "Iyiyiw" "Chisasibi" "Wemindji" "Whapmagoostui" "Mistissini" "Nemaska" "Ouje-Bougoumou" "Waskaganish"
+		"Waswanipi" "Mosoni" "Maskekowak" "Nehinawak" "Attawapiskat" "Chemawawin" "Kashechewan" "Misipawistik" "Missanabie" "Mosakahiken"
+		"Neskntaga" "Opaskwayak" "Sapotaweyak" "Shamattawa" "Tatskweyak" "Taykwa" "Weenusk" "Wuskwi" "Bunibonibee" "Manto Sipi"
+		"Nisichawayashik" "O-pipon-na-piwin" "Pimicikamak" "Sakawithiniwak" "Kapawe'no" "Mikisew" "Wabasca" "Mamihkiyiniwak" "Nekaneet" "Ochapowace"
+		"Peepeekisis" "Winewak" "Karakuntie" "Moyese" "Plante" "Wanyandie" "Aseniwuche"
+	}
+	callsigns = {
+		"Kanata" "Awîyak Kamamâhtâwisit" "Kisemanito"
+	}
+}
+X81 = {
+	male = {
+		names = {
+			"Comcomly" "Tumulth" "Napesa" "Injice" "Tasyah" "Nessick" "Etnama" "Cheenlenten" "Nasyah" "Absaquil"
+			"Quintioosan" "Talsapeer" "Myneletta" "Quiaquatty" "Yalkus" "Kawkama" "Kiles" "Kowahtough" "Anta" "Quilala"
+			"Mequah" "Yackatee" "Tophor" "Hallale" "Pulktah" "Tumwalth" "Obanahah" "Watchano" "Teapinick" "Wallahpicate"
+			"Lalbick" "Cuckamanna" "Towyecolla" "Laham" "Senegertta" "Pulican" "Tena" "Pulkuptima" "Sallaf" "Hoipkenek"
+			"Yeptah" "Satinvose" "Sequoyah" "Attakullaculla" "Johan Ross" "Moytoy" "Yonaguska" "Dragging" "Canoe" "Agi"
+			"It" "Boudinot" "Oacpicagiguya" "Kaviu" "Papago" "Panhop" "Cajemé" "Popé" "Ku-htihth" "Galisteo"
+			"Xenome" "Ollito" "Tagu" "Bolsas" "Naranjo" "Catiti"
+		}
+	}
+	female = {
+		names = {
+			"Ootcakao" "Kahavasooah" "Ootcakao" "Sacagawea" "Chipeta" "Tocmetone"
+		}
+	}
+	surnames = {
+		"Acoma" "Cochiti" "Isleta" "Jemez" "Laguna" "Nambe" "Ohkay Owingeh" "Picuris" "Pojoaque" "Sandia"
+		"Taos" "Tesuque" "Zia" "Zuni" "Hopi" "Piru" "Akimel" "Tohono" "Hia Ced" "Sobaipuri"
+		"Otama" "Kina" "Equituni" "Uturituc" "Sacaton" "Onk Akimal" "Yoreme" "Hiakim" "Potam" "Vicam"
+		"Torim" "Bacum" "Cocorit" "Huirivis" "Benem" "Rahum" "Clatsop" "Cathlamet" "Skilloot" "Cathlapotle"
+		"Multnomah" "Watlala" "Clowwewalla" "Clackamas" "Chiluckittequaw" "Wishram" "Wasco" "Atfalati" "Yamel" "Lakmiut"
+		"Chepenafa" "Santiam" "Chelamela" "Calapooya" "Yoncalla"
+	}
+	callsigns = {
+		"Sonoran" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X82 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X83 = {
+	male = {
+		names = {
+			"Alessandro" "Armando" "Augusto" "Carlo" "Cesare" "Corrado" "Domenico" "Enrico" "Fabio" "Fabrizio"
+			"Ferdinando" "Francesco" "Gaetano" "Giacomo" "Giovanni" "Giulio" "Giuseppe" "Guglielmo" "Leopoldo" "Lorenzo"
+			"Ludovico" "Marcantonio" "Marino" "Mario" "Matteo" "Nicola" "Orazio" "Sigismondo" "Tommasso" "Vincenzo"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Anna"
+		}
+	}
+	surnames = {
+		"Anfora" "Barberini-Colonna" "Bonaccorsi" "Caraga" "Cattaneo" "Chigi" "Clary" "Colonna" "de Liguori" "de Riseis"
+		"della Rovere" "di Borbone della Due Sicilia" "Diaz" "Ferrari" "Filangieri" "Gironda" "Gravina" "Grifeo" "Lanza" "Lombardo"
+		"Lunardi" "Molinelli" "Orsini" "Ottaviani" "Pironti" "Scammacca" "Torlonia" "Turrisi" "Vernazza" "Zunica"
+	}
+	callsigns = {
+		"Buzzard" "Dusty" "Falcon" "Hawk" "Hammer" "Viper" "Banshee" "The Baron" "Lightning" "Duce"
+		"Raven" "Two Shot" "Rosso"
+	}
+}
+X84 = {
+	male = {
+		names = {
+			"Sinté" "Thaóyate" "Thathanka" "Thasunke" "Mahpiya" "Istahba" "Hehaka" "Thahca" "Ohiyes" "Wanbdi"
+			"Tamaha" "Inkpaduta" "Teshuhimga" "Gradamnsa" "Caygaywachepeche" "Couchestawasta" "Mahsa" "Wanougpacha" "Hurate" "Wasabatougga"
+			"Nekaghre" "Mekewatanega" "Nangawahaegea" "Kemanha" "Papuisea" "Harachabe" "Pahelagren" "Tawangahuh" "Honencache" "Nichumali"
+			"Voithevoihe" "Voithechinga" "Tavoingare" "Osogahe" "Voichinodhe" "Voinache" "Voinonpache" "Qhihiramaki" "Caygache" "Pahuroguesie"
+			"Miaasa" "Manjaguida" "Mantsa" "Nicagaris" "Dogachinga" "Tavaingare" "Tavainthere" "Naguemani" "Nicanauthe" "Chonmelase"
+			"Nenonbas" "Pograngue" "Cayque" "Nonpevoite" "Vesasche" "Tonchenanque" "Lihibi" "Grinache" "Nicouilbran" "Chonnonsogue"
+			"Lisansandhe" "Mequaque" "Megahe" "Manhegare" "Meyhe" "Nudhetavoi" "Thecayque" "Voitasean" "Cahapiche" "Manhevoi"
+			"Talechiga" "Pedhechiga" "Cheganonsas" "Nesaque" "Lolechinga" "Panenvoiguanda" "Tavoinhihi" "Mithechinga" "Manquesi" "Chingavoisa"
+			"Talevoile" "Voiengran" "Scamani" "Nurahague" "Mechinga" "Pachigue" "Roudanique" "Voibisandhe" "Nehizanga" "Nehudhe"
+			"Pagranque" "Chahetonga" "Manguepeemani" "Voibalune" "Poneavoitaniga" "Taslondhe" "Nendogualui" "voibahe" "Onhehomani" "Nuranin"
+			"Noguinilayque" "Nanlatoho" "Bashemindhe" "Savoi" "Chouquemonnon" "Manilourana" "Nequevoile" "Chonguehanga" "Ponlachinga" "Aguigueda"
+			"Voidoguega" "Sindhe" "Ninchagari" "Voidhadani" "Quinihonigue" "Nognithechinga" "Natanhi" "Ousabe" "Voichinouthe" "Amanpasse"
+			"Cutsagabe" "Channahon" "Nonbasocri" "Pedhechinga" "Bassechinga" "Ponlavoitasuga" "Manyvoile" "Mandarihi" "Nepaste" "Keokuk Wapello"
+			"Pierremaskin Muckkatwagout Namasosanamet" "Mackkatananamakee Pashchenene Wapasai" "Malasenokama Kechaswa" "Catchacommu" "Waapaca" "Mataqua" "Paquampa" "Aquoqua" "Nemarqua" "Machenamau"
+			"Pesotaka" "Mishecaqua" "Capontwa" "Mowhinin" "Omquo" "Wonakasa" "Nautakawa" "Makataimeshekia" "Wathohuck" "Choukeka"
+			"Keesheswa" "Kenekuk" "Papiquan" "Pashepaho" "Lalyurva" "Hanshequarhiqua" "Outchequaka" "Quashquame" "Shamaga" "Weesaka"
+			"Chekaqua" "Kataka" "Mecaitch" "Neshota" "Chagasort" "Pecama" "Namachewana" "Nanochaatasa" "Taimah" "Catchemackeseo"
+			"Keokuk" "Wapello" "Pierremaskin" "Muckkatwagout" "Namasosanamet" "Mackkatananamakee" "Pashchenene" "Wapasai" "Malasenokama" "Kechaswa"
+			"Tepeeoska" "Wichawostaka" "Masgwahasid" "Chenka" "Kichipwot" "Stamixosok" "Emitahapiskinne" "Matapikomotziw" "Ayestipissimat" "Kissoum"
+			"Pitahotocan" "Apawstamix" "Onistahpokah" "Netahkiteipimew" "Akakotos" "Stokimatis" "Pitahotiskin" "Stamixotakapiw" "Mastepitah" "Moyanymen"
+			"Ekaskine" "Kayookosis" "Ponokahstamix" "Omaksisapop" "Pitahsiksinum" "Apawonistaw" "Attistahhawes" "Pitah" "Pitahonistah" "Kayetapo"
+			"Mahtowewitko" "Toetahkiehnan" "Nochkpitshitoepish" "Sheohmantho" "Waywasecapow" "Otamakooewin" "Shapousetung" "Sukeman" "Misketo" "Etamepeton"
+			"Kawasaskotrepahik" "Makoyekin" "Nesoauases" "Onistah" "Pitahannes" "Wabasha" "Petette" "Tartunkanasiah" "Keejee" "Tarsega"
+			"Wamadetunka" "Wannata" "Kokomako" "Shacope" "Penision" "Etaseepa" "Wakauhee" "Poehapa" "Takewapa" "Tenchzepart"
+			"Mascpulochastosh" "Tetekarmunch" "Wasaota" "Oeyakoca" "Maktowahkeark" "Matowayouwe" "Makatozaza" "Belotonkatanga" "Nakapagigi" "Maktosabichis"
+			"Mewatanihanska" "Iyotake" "Iyapato" "Witko" "Maphiya" "Luta" "Sapa" "Sinte" "Gleska" "Ite"
+			"Omagazu" "Ogle"
+		}
+	}
+	female = {
+		names = {
+			"Tasinasapewin" "Thasinamani" "Tasinahlahlawin" "Dohumme" "Chapa" "Chapawee" "Chumani" "Dowanhowee" "Ehawee" "Hantaywee"
+			"Kimimela"
+		}
+	}
+	surnames = {
+		"Gleská" "Duta" "Iyotake" "Witko" "Luta" "Kohkophapi" "Sapa" "Huste" "Thankja" "Sichangu"
+		"Oglala" "Itazipcho" "Hunkpapha" "Mnikhowozu" "Sihasapa" "Oohenunpa" "Ihantkhunwan" "Ihankthunwanna" "Isanyathi" "Thithunwan"
+		"Wichiyena" "Wahpéthunwan" "Mdewakanthunwan" "Wahpéhute" "Sisithunwan" "Aegitina" "Bizibina" "Cephubi" "Canhdada" "Canhewincasta"
+		"Canknuhabi" "Hudesabina" "Hebina" "Huhumasmibi" "Huhuganebabi" "Sturgeon" "Eagle" "Blues Son" "Plumbed" "the Sioux"
+		"Brave by Hazard" "Hen Atonwaabina" "Inwantonwanbina" "Innianonbi" "Insaombi" "Indogahwincasta" "Minisoee Swnkeebi" "Minisatonwanbi" "Osnibi" "Ptegabina"
+		"Sunkcebi" "Sahiyaiyeskabi" "Snugabi" "Sihabi" "Tanidabi" "Tokanbi" "Tanzinapebina" "Unskaha" "Wadopabina" "Wadopahtonwan"
+		"Wiciyabina" "Waziyamwincasta" "Wasinazinyabi" "Wokpanbi" "Mesquakie" "Wagosh" "Asakiwakie" "Kickapoo" "Blackhawk" "Saukenuk"
+		"Thakiwakie" "Tama" "Osakis" "Etnataek" "Kickapougwoi" "Kithlipecanuk" "Jumping Fish" "Sun Fish" "Bear" "Giger"
+		"Lance" "Devil" "Big Eagle" "Wazhaze" "Tsishu" "Pasueli" "Wahakolin" "Sansueli" "Wyota" "Picayune"
+		"Koholo" "Neodesha" "Owasso" "Pawhuska" "Niukonska" "Doppike" "Neosho" "Chetopa" "Hominy" "Pahusan"
+	}
+	callsigns = {
+		"Siouan" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X85 = {
+	male = {
+		names = {
+			"Radama" "Rainilaiarivony" "Rabiby" "Andriamanely" "Ndriantompoinairivo" "Tonanahary" "Ratsimivila" "Ramasoandro" "Andriantsirotso" "Lamboina"
+			"Tsialana" "Tsimiharo"
+		}
+	}
+	female = {
+		names = {
+			"Mavuto" "Mayamiko" "Mayeso" "Mbali" "Mchumba" "Meklit" "Mirembe" "Mojisola" "Monifa" "Mphatso"
+			"Mtendere" "Mudiwa" "Munashe" "Mwanajuma" "Nakato"
+		}
+	}
+	surnames = {
+		"Tsiranana" "Ramanantsoa" "Ratsimandrava" "Andriamahazo" "Ratsiraka"
+	}
+	callsigns = {
+		"Black" "Africa" "Malagasy" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X86 = {
+	male = {
+		names = {
+			"Asllak" "Biejas" "Dure" "Erke" "Hanno" "Iskko" "Joha" "Laras" "Markkos" "Mikko"
+			"Niillas" "Osku" "Uhkku"
+		}
+	}
+	female = {
+		names = {
+			"Maria" "Helena" "Anneli" "Johanna" "Kaarina" "Marjatta" "Hannele" "Kristiina" "Liisa" "Emilia"
+			"Elina" "Annikki" "Tuulikki" "Maarit" "Sofia" "Susanna" "Leena" "Katariina" "Anna" "Marja"
+			"Sinikkka" "Inkeri" "Riitta" "Kyllikki" "Aino" "Tuula" "Anne" "Päivi" "Orvokki" "Ritva"
+			"Tellervo" "Maija" "Pirjo" "Karoliina" "Pauliina" "Minna" "Sari" "Irmeli" "Eeva" "Tiina"
+			"Laura" "Elisabet" "Marika" "Pirkko" "Eveliina" "Tarja" "Anja" "Satu" "Mari" "Seija"
+			"Hanna" "Eila" "Marita" "Heidi" "Sirpa" "Raija" "Annika" "Irene" "Sisko" "Jaana"
+			"Anita" "Sanna" "Eija" "Kirsi" "Ilona" "Marianne" "Julia" "Merja" "Katriina" "Amanda"
+			"Ulla" "Sirkka" "Paula" "Kaisa" "Marketta" "Terttu" "Anni" "Marjaana" "Tuulia" "Elisabeth"
+			"Matilda" "Elisa" "Linnea" "Jenni" "Helmi" "Olivia" "Katja" "Hilkka" "Mirjami" "Heli"
+			"Aurora" "Iida" "Kirsti" "Raili" "Emma" "Mirja" "Nina" "Katri"
+		}
+	}
+	surnames = {
+		"Hætta" "Somby" "Turi" "Magga" "Dunfjeld" "Kvitfjell" "Kappfjell"
+	}
+	callsigns = {
+		"the Sami" "Santa" "Rudolph"
+	}
+}
+X88 = {
+	male = {
+		names = {
+			"Emilio" "Apolinario" "Andrés" "José" "Hermano" "Jacinto" "Mariano" "Deodato" "Ladislao" "Teodoro"
+			"Valentíne" "Antonio" "León" "Simeón" "Arcadio" "Artemio" "Manuel"
+		}
+	}
+	female = {
+		names = {
+			"Anela" "Merenui" "Metetini" "Miri" "Moea" "Moeata" "Moerani" "Mohea" "Nanihi" "Nu’utea"
+			"Orama" "Poe" "Pear" "Poehina" "Poenui" "Poerava" "Puaiti"
+		}
+	}
+	surnames = {
+		"Aguainaldo" "Mabini" "Bonifacio" "Jacinto" "Rizal" "Díaz" "Plata" "Diwa" "Arellano"
+	}
+	callsigns = {
+		"Intsik" "Malay" "Indonesia" "Tigre" "Lion" "Pilipinas"
+	}
+}
+X89 = {
+	male = {
+		names = {
+			"Dahadaghesa" "Waskanecqua" "Kagoregago" "Saraqundett" "Uwhanhierelera" "Waddon" "Hago" "Andra" "Sonque" "Wastahanda"
+			"Gosweinquecrakqua" "Wanahedana" "Auroghteregh" "Scarhuhadigh" "Rutchogah" "Nathheldaneh" "Sawahegeh" "Ahatsistari" "Adario" "Dunquat"
+			"Tarhe" "Teyandatontec" "Cheyawe" "Doueyenteat" "Terhataw" "Datasay" "Maudoronk" "Teyyaghtwa" "Haroenyou" "Tehaawtorens"
+			"Awmeyeeray" "Stayetah" "Shateyyaronyah" "Daughshuttayah" "Shaawrunthe" "Thateyyanayoh" "Tahunehawttee" "Shawrunthie" "Tschauendah" "Rontondu"
+			"Tuayaurontoyou" "Dauatout" "Horonu" "Hawdoro" "Skotous" "Quouqua" "Skahomat" "Teoudetosso" "Miere" "Sequoyah"
+			"Attakullaculla" "Guwisguwi" "Moytoy" "Yonaguska" "Tsiyu" "Gansini" "Agi" "It" "Boudinot" "Lach'n"
+			"Koatohee" "Scholauetta" "Tuskegatahu" "Ooskwha" "Kolakusta" "Newota" "Konatota" "Tuckasee" "Toostaka" "Untoola"
+			"Unsuokanail" "Chonosta" "Chescoonwho" "Chesetoa" "Chesecotetona" "Sketaloska" "Chokasatahe" "Onanoota" "Ookoseta" "Umatooetha"
+			"Necatee" "Amokontakona" "Kowetatahee" "Keukuck" "Tulatiska" "Wooaluka" "Tatliusta" "Skeleak" "Akonoluchta" "Cheanoka"
+			"Ostaiah" "Oortlokecteh" "Chockonnistaller" "Noothoietah" "Kunnateelah" "Utturah" "Weelee" "Oolassoteh" "Tlorene" "Jonnurteekee"
+			"Oonatakoteekee" "Kanowsurhee" "Yonah" "Oolah" "Tunksalenee" "Oorkullaukee" "Kumamah" "Chattakuteehee" "Kettegiskie" "Tauuotihee"
+			"Chuquilataque" "Salleekookoolah" "Tallotuskee" "Chellokee" "Tuskeegatee" "Neekaanneah" "Kulsateehee" "Keetakeuskah" "Akooh" "Sawanooekee"
+			"Yonahequah" "Keenahkunnah" "Kaweesoolaskee" "Teekalohenah" "Chochuchee" "Kostayeak" "Ookouseteeh" "Kanitta" "Nemetuah" "Wyuka"
+			"Tulco" "Theyanoguin" "Teiorhenhsere" "Thayendanega" "Oronhyatekha" "Onogwendahonji" "Touighnatogon" "Oheadanghton" "Tayagonendagighti" "Tehonwaenghrigagi"
+			"Otyadonenghti" "Dagaheari" "Oraghoaenendagen" "Onnonghsawenghti" "Kayenthoghke" "Cageaga" "Sawedowa" "Kiondushowa" "Oncahye" "Soaheas"
+			"Otachsaka" "Tekahias" "Onecnsetee" "Kiatulaho" "Kiandogewa" "Owenewa" "Gyantwaia" "Gyasota" "Kannasseee" "Achiout"
+			"Anachout" "Chishekoa" "Sessewa" "Sicahowa" "Tewanias" "Snoachshowa" "Hickonquash" "Ononyeahnee" "Konneatorteeooh" "Tokenhyouau"
+			"Oneshauee" "Aupaumut" "Neeshonshuk" "Sohhonteoquent" "Ooduhtsait" "Konoohqung" "Tossonggaulolus" "Skenendoa" "Oneatorleeooh" "Kussauwatau"
+			"Kohnyeaugaong" "Shaguiesa" "Teeroos" "Sooshaoowau" "Sonhyoowauna" "Onaahhah" "Hotoshahen" "Kaukondanaiya" "Kosshishtowau" "Oojaugenta"
+			"Toheonggo" "Ootaguasso" "Joonondauwanonch" "Kiyauhaonh" "Ootaujeaugenth" "Tauhoondos" "Twaukewasha" "Sequidonguquee" "Kodjeote" "Kenjauaugus"
+			"Soononhquaukau" "Twenniyana" "Jishkaaga" "Tuggehshotta" "Tehongyagauna" "Tehongyoowush" "Konneyoowesot" "Tioohquaottakauna" "Taoundaudeesh" "Honayawus"
+			"Soggooyawauthau" "Konyootiayoo" "Sauhtakaongyees" "Ounnashattakau" "Kaungyanehquee" "Sooayoowau" "Kaujeagaonh" "Soonoohshoowau" "Thaoowaunias" "Soonongjoowau"
+			"Kiantwhauka" "Kaunehshonggoo" "Kenneronkwa" "Telenemut" "Katarioniecha" "Kendarindgon" "Nondiyauka" "Kanatsoyh" "Eootenyootauook" "Aqueia"
+			"Tarondawagon"
+		}
+	}
+	female = {
+		names = {
+			"Ákat" "Degonwadonti" "Kahente" "Kanahstatsi"
+		}
+	}
+	surnames = {
+		"Ross" "Downing" "Potter" "Thompson" "Wolf" "Mayes" "Buffington" "Harris" "Rogers" "Boudinot"
+		"Awegen" "Ahaouet" "Canajoharie" "Canastigaone" "Canienga" "Caughnawaga" "Cahunghage" "Canowaroghere" "Deseroken" "Dayoitgao"
+		"Deonundagae" "Deyodeshot" "Deyohnegano" "Deyonongdadagana" "Gweugwehono" "Gandasetaigon" "Ganogeh" "Gayagaanhe" "Gewauga" "Goiogouen"
+		"Gadoquat" "Gannentaha" "Hostayuntwa" "Kawauka" "Kente" "Kanagaro" "Kowogoconnughariegugharie" "Kanadaseagea" "Kanatakowa" "Neodakheat"
+		"Nowadaga" "Nundawaono" "Onekagoncka" "Onoalagona" "Oquaga" "Osquake" "Onayotekaono" "Oriska" "Ossewingo" "Skannayutenate"
+		"Saratoga" "Schaunactada" "Schoharie" "Teatontaloga" "Tewanondadon" "Tionnontoguen" "Tegasoke" "Teseroken" "Tetosweken" "Yoroonwago"
+		"Mohe" "Diwali" "Waya" "Tsiyi" "Onacona" "Atagulkalu" "Degataga" "Cheasequah" "Adahy" "Andiata"
+		"Angoutenc" "Anonatea" "Arendaonatia" "Arente" "Arontaen" "Anioton" "Ahiragenrega" "Ahondihronon" "Andachkhrob" "Antouaronon"
+		"Aondironon" "Atiaonrek" "Atirhagenrat" "Atiraguenrek" "Attiragenrega" "Attiuoaisgon" "Cahiague" "Carhagouha" "Carmaron" "Contarea"
+		"Conchake" "Chequamegon" "Ekiodatsaan" "Endarahy" "Iahenhouton" "Junqueindundeh" "Junundat" "Karenhassa" "Kakouagoga" "Kandouche"
+		"Kehesetoa" "Khioetoa" "Oeniro" "Onentisati" "Ossossane" "Oukhahitoua" "Scanonaerat" "Sunyendeand" "Skenchioe" "Teanaustayae"
+		"Teandewiata" "Tonache" "Teadeouita" "Teanhatenaron" "Tondakhra" "Tiedonderoga" "Touaguainchain" "Tarhetown" "Teotoguiaton" "Akhrakouaeronon"
+		"Akwinoshioni" "Atquanachuke" "Carentouan" "Cepowig" "Junita" "Kaiuariegehaga" "Ohongeoguena" "Oscalui" "Quadroque" "Sconondihago"
+		"Seosquacke" "Takoulguehronon" "Tehaque" "Tesinigh" "Unquehiett" "Usququhaga" "Utochwig" "Wyoming" "Wysox" "Kanastoge"
+		"Onojutta-Haga" "Scahentoarrhonon" "Tehotitachsae"
+	}
+	callsigns = {
+		"Iroquoian" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X90 = {
+	male = {
+		names = {
+			"Andikan" "Amadi" "Aren" "Bahari" "Averey" "Bakari" "Bash" "Bayode" "Bitalo" "Chane"
+			"Chata" "Dakarai" "Davu" "Dume" "Fabunni" "Gamba" "Genet" "Guban" "Hajari" "Haruni"
+			"Ife" "Ilo" "Issay" "Jabari" "Jabilo" "Jaguan" "Kabili" "Kamwimbile" "Kasim" "Kenyi"
+			"Khairi" "Makalo" "Mansa" "Morathi" "Musawenkosi" "Raimi" "Razi" "Reth"
+		}
+	}
+	female = {
+		names = {
+			"Sena"
+		}
+	}
+	surnames = {
+		"Mutiwapangome" "Cipfumba" "nyasoro" "Cimininyambo" "Kandeya" "Dambamupute"
+	}
+	callsigns = {
+		"Black" "Africa" "Sena" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X91 = {
+	male = {
+		names = {
+			"Cocijoeza" "Cocijopi" "Xolo" "Nucano" "Cocijocza" "Zaachilla" "Cocijouza" "Jzió" "Pwuix" "Dao"
+			"Binech" "Bzojj" "Chsáaxcejj" "Cháalaxa" "Chonna" "Bicu" "Coqui" "Djoraxa" "Gwèibóoné" "Gyazob"
+			"Gyejj" "Ipalnemoani" "Ji" "Láxdaóxo" "Lyebe" "Mbalaz" "Na" "Yel" "Naquichinisa" "Naxiñanguiiu"
+			"Ngolbex" "An" "Nguiiu" "Rire" "Nisa" "Ro" "Pijje" "Rusiguunda" "Véeni" "Veziá"
+			"Zne" "Zniá" "Zyrx" "Beljjw" "Bibejw" "Jituh" "Tobi" "Agustín" "Alberto" "Alfonso"
+			"Alfredo" "Andrés" "Benito" "Carlos" "César" "Eduardo" "Eugenio" "Felipe" "Fernando" "Gabriel"
+			"Gilberto" "Gregorio" "Jacinto" "Jesús" "José" "Juan" "Julio" "Macario" "Manuel" "Miguel"
+			"Nazario" "Nicolás" "Oliverio" "Pablo" "Porfirio" "Rodolfo" "Rufino"
+		}
+	}
+	female = {
+		names = {
+			"Zyanya" "Nayeli" "Yoltzin" "Xilonen" "Xiloxoch" "Xiuhtomiyauhtzin" "Xochitl" "Xocoh" "Xocoyotl" "Yaretzi"
+			"Zeltzin"
+		}
+	}
+	surnames = {
+		"Beljjw" "Bibejw" "Binech" "Bzojj Chsáaxcejj" "Cháalaxa" "Coqui" "Djoraxa" "Gwpeibóoné" "Gyazob" "Gyejj"
+		"Ji Jzió" "Jituh" "Jzió" "Láxdaóxo" "Lyebe" "Mbalaz" "Na Yel" "Ngolbex An" "Pijje Jzió" "Pwuix Dao"
+		"Véeni" "Vziá" "Zne Yel" "Zniá" "Zyrx" "Zaachila" "Ñuhu Tocuisi" "Oaxaca" "Alonso" "Antúnez"
+		"Cabrera" "Cajigas" "Chacón" "Chiñas" "Cortés" "Fernández" "Gamboa" "García" "González" "Gutiérrez"
+		"Guzmán" "Henestrosa" "Isael" "Jiménez" "Juárez" "López" "Matus" "Mérida" "Morales" "Nayeli"
+		"Orozco" "Ortíz" "Pineda" "Rojas" "Ruíz" "Suárez" "Tamayo" "Vichido"
+	}
+	callsigns = {
+		"Zapotec" "the European" "Blood God" "Demon" "Devil" "Spirit" "Ghost"
+	}
+}
+X92 = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}
+X93 = {
+	male = {
+		names = {
+			"Spot" "Star" "Spirit" "Blaze" "Lucky" "Chief" "Rain" "Stormy" "Duke" "Traveler"
+			"Clever Hans" "Dreamer" "Midnight" "Twilight" "Arion" "Carlos" "Triumph"
+		}
+	}
+	female = {
+		names = {
+			"Glitterhoof" "Kasztanka" "Sergeant Reckless" "Buttermilk" "Lady Wonder" "Silhouette" "Beauty" "Lightning" "Flash" "Alfonso"
+			"Artax" "Blackjack" "Boxer" "Ferd" "Furia" "Flame" "The Houyhnhnm" "Hwin" "Merrylegs"
+		}
+	}
+	surnames = {
+		"Glitterhoof" "Sparklemane" "Moontail" "Opaleye" "Silvercoat" "Goldmuzzle"
+	}
+	callsigns = {
+		"Incitatus" "Glitterhoof" "Chancellor"
+	}
+}
+X94 = {
+	male = {
+		names = {
+			"Aaron" "Abrams" "Alberts" "Aleksandrs" "Aloisz" "Andrejs" "Arkadij" "Armands" "Arnolds" "Atis"
+			"Brunis" "Bruno" "Eduards" "Eliass" "Elmars" "Emils" "Evgenijs" "Filips" "Fricis" "Gustavs"
+			"Heinrihs" "Hermanis" "Izaks" "Janis" "Jazeps" "Jekabs" "Johans" "Juris" "Karlis" "Krisjanis"
+			"Leo" "Mark" "Martins" "Mihails" "Mikelis" "Nikolajs" "Oskars" "Pauls" "Peteris" "Rihards"
+			"Roberts" "Romans" "Sandis" "Sergejs" "Valdemars" "Valerians" "Valter" "Vilis" "Vladimirs" "Zigfrids"
+		}
+	}
+	female = {
+		names = {
+			"Anna"
+		}
+	}
+	surnames = {
+		"Abakovskis" "Apsenieks" "Balodis" "Baumanis" "Berkis" "Berzin" "Betins" "Braons" "Caks" "Cakste"
+		"Caps" "Celmins" "Dalins" "Dambitis" "Darzins" "de Kolongs" "Desslers" "Eizenteins" "Goppers" "Halsmans"
+		"Irbitis" "Kalnins" "Kalpaks" "Kucis" "Kovalevskis" "Krogzems" "Kronvalds" "Kuks" "Kviesis" "Lacis"
+		"Leiko" "Loskis" "Maters" "Matisons" "Meierovics" "Mihelssons" "Milenbahs" "Millers" "Needra" "Ozolins"
+		"Petrovs" "Plieksans" "Pumpurs" "Rothko" "Simanis" "Stucka" "Tumins" "Ulmanis" "Veidenbaums"
+	}
+	callsigns = {
+		"Latviešu" "Lībiešu" "Igauņu" "Poļu" "Krievu" "Somu"
+	}
+}
+X95 = {
+	male = {
+		names = {
+			"Yuhi" "Rwabuguri" "Sentwali" "Runihura" "Sebahive" "Nkundiushuti" "Kagame" "Nyillingondo" "Habimana" "Hakizimana"
+			"Gahiji" "Dukuzumuremyi"
+		}
+	}
+	female = {
+		names = {
+			"Nana" "Carene" "Nadege"
+		}
+	}
+	surnames = {
+		"Musinga" "Gahindiro" "Rwogera" "Rutarindwa" "Mutara" "Ndahindurwa"
+	}
+	callsigns = {
+		"Black" "Africa" "Ruanda" "the Foreigner" "the White" "Colonizer" "Hunter"
+	}
+}
+X96 = {
+	male = {
+		names = {
+			"Tsarong" "Chamba" "Trimon" "Penor" "Gendün" "Jamphel" "Norbhu" "Mipham" "Tsepon" "Andruk"
+			"Namgang"
+		}
+	}
+	female = {
+		names = {
+			"Kamala" "Indira" "Dawa" "Dechen" "Diki" "Choden" "Dohna" "Dolkar" "Karma" "Sonam"
+			"Sangmu"
+		}
+	}
+	surnames = {
+		"Dzasa" "Wangyal" "Shatra" "Lungshar" "Rinpoche" "Chöphel" "Shakabpa" "Tashi"
+	}
+	callsigns = {
+		"Rgya" "Phoke" "Bdud"
+	}
+}
+X97 = {
+	male = {
+		names = {
+			"Adrian" "Alexandru" "Andrei" "Anton" "Artur" "Bogdan" "Carol" "Cezar" "Constantin" "Constin"
+			"Cosmin" "Daniel" "Dumitru" "Emanuel" "Eremia" "Eugen" "Ferdinand" "Flaviu" "Florea" "Gheorghe"
+			"Grigore" "Henric" "Horatiu" "Iacob" "Ilie" "Ioan" "Ion" "Ion Emanuel" "Iosif" "Iulian"
+			"Iuliu" "Laurentiu" "Leontin" "Luca" "Lucian" "Mihai" "Mircea" "Nicolae" "Ovidiu" "Petru"
+			"Radu" "Sergiu" "Silviu" "Simion" "Stefan" "Valeriu" "Vasile" "Victor" "Vintila" "Vlad"
+		}
+	}
+	female = {
+		names = {
+			"Andrea"
+		}
+	}
+	surnames = {
+		"Angelescu" "Antonescu" "Argetoianu" "Averescu" "Baldescu" "Barozzi" "Berindei" "Cernat" "Christecu" "Cihoski"
+		"Ciuperca" "Coanda" "Crainiceanu" "Critescu" "Culcer" "Cuza" "de Hohenzollern" "Dona" "Dragalina" "Dumitrescu"
+		"Falcoianu" "Florescu" "Gardescu" "Grigorescu" "Froza" "Harjeu" "Holban" "Iancovescu" "Iliasevici" "Iliescu"
+		"Ionascu" "Ionescu" "Ionitiu" "Koslinski" "Lahovary" "Lupescu" "Mardarescu" "Murgescu" "Poenaru" "Prezan"
+		"Salajan" "Samsonovici" "Schitiu" "Scodrea" "Slaniceanu" "Steflea" "Tatarascu" "Tenescu" "Vaitoianu" "Zottu"
+	}
+	callsigns = {
+		"Dracula" "the Vampire" "Wallachia"
+	}
+}
+X99 = {
+	male = {
+		names = {
+			"Murshid" "Quli" "Shujauddin" "Alauddin" "Alivardi" "Sirajuddaula" "Mir Muhammad" "Najimuddin" "Reza" "Saifuddaula"
+			"Zainul" "Ahmad" "Mansur" "Mubarak" "Hasan" "Wasif" "Waris"
+		}
+	}
+	female = {
+		names = {
+			"Indira"
+		}
+	}
+	surnames = {
+		"Jafar" "Muhammad" "Sarfaraz" "Ali" "Qasim Ali" "Najabut" "Bahadur" "Mirza"
+	}
+	callsigns = {
+		"Hindi" "Asamiya" "Bangalee" "Bihaaree" "Manipuree" "Nepaalee" "Oriya" "Sinhalee" "Avadhee" "Kanauji"
+		"Panjaabee" "Kashmeeree" "Gujaraatee" "Maraathee" "Sindee" "Raajapoot" "Kannad" "Malayaalam" "Taamil" "Telegu"
+	}
+}
+YUG = {
+	male = {
+		names = {
+			"Alaksandar" "Blagoje" "Bozidar" "Branko" "Danilo" "Dejan" "Djordje" "Dragan" "Dragisa" "Dragoljub"
+			"Dragutin" "Draza" "Dusan" "Gavrilo" "Goran" "Janko" "Jovan" "Koca" "Kosta" "Krsto"
+			"Ljubisa" "Mihailo" "Milan" "Miliutin" "Milivoje" "Milojko" "Milos" "Miodrag" "Mirko" "Miroslav"
+			"Momcilo" "Nebojsa" "Nikola" "Pavle" "Peko" "Petar" "Radomir" "Ratko" "Sava" "Slobodan"
+			"Stepa" "Stojan" "Veljko" "Vaselien" "Vladimir" "Vojislav" "Zivojin" "Zivota" "Zoran" "Zvezdan"
+		}
+	}
+	female = {
+		names = {
+			"Adriana" "Anna" "Borislava" "Cededa" "Doroteja" "Dorothy" "Ekaterina" "Catherine" "Helena" "Helen"
+			"Jadviga"
+		}
+	}
+	surnames = {
+		"Adzic" "Arandelovic" "Belimarkovic" "Blaznacac" "Bojovic" "Bozanovic" "Bozinovic" "Brankovic" "Damjanic" "Dapcevic"
+		"Dragutinovic" "Grujic" "Hadzilic" "Horvatovic" "Isakovic" "Jankovic" "Jokic" "Jovanovic" "Kadijevic" "Karadjordjevic"
+		"Lesjanin" "Ljubicic" "Maric" "Mihailovic" "Miliutinovic" "Miloradovic" "Misic" "Nad" "Nedic" "Novak"
+		"Obrenovic" "Ojdanic" "Panic" "Paskas" "Pavkovic" "Pesic" "Petrovic" "Popovic" "Putnik" "Radulovic"
+		"Rasic" "Sijan" "Simovic" "Sokolovic" "Stepanovic" "Vasiljevic" "Veric" "Vojvodic" "Vukotic" "Zivkovic"
+	}
+	callsigns = {
+		"Slovenački" "Hrvat" "Dalmatinac" "Bošnjak" "Srpski" "Vojvodina" "Kosovo" "Crna Gora"
+	}
+}
+YUN = {
+	male = {
+		names = {
+			"Wang" "Li" "Zhang" "Liu" "Chen" "Huang" "Liang" "Luo" "Kwong" "Hsia"
+			"Zhu" "Mao" "Hu" "Liao" "Tan" "Deng" "Cheng" "Yang" "Gao" "Xie"
+			"Ma" "Kong" "Dong" "Pan" "Yu"
+		}
+	}
+	female = {
+		names = {
+			"Heying" "Chunmei" "Tianhui" "Kon" "Mao" "Yuying" "Yuantong" "Yanxiang" "Xiurong" "Shouying"
+			"Fuyuan" "Luzhen" "Ruirong" "Suzhen"
+		}
+	}
+	surnames = {
+		"Zhao" "Wu" "Sun" "Ma" "Hu" "Peng" "Dong" "Ye" "Lü" "Tian"
+		"Jiang" "Wei" "Ting" "Shen" "Fang" "Jin" "Qiu"
+	}
+	callsigns = {
+		"Hán" "Yěmán Rén" "Móguǐ" "Mǎnzhōu De" "Huángdì" "Shén"
+	}
+}

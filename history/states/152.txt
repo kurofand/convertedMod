@@ -1,0 +1,38 @@
+
+state={
+	id=152
+	name="STATE_152"
+	resources={
+		oil=16.000
+		rubber=242.000
+		steel=4.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			7381 13 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			7381 = {
+				naval_base = 10
+			}
+			air_base = 8
+
+		}
+		add_core_of = INS
+		add_core_of = X55
+		add_core_of = X77
+	}
+
+	provinces={
+		1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
+	}
+	manpower=17417532
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

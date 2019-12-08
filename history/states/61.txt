@@ -1,0 +1,29 @@
+
+state={
+	id=61
+	name="STATE_61"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			12371 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12371 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1546 4509 4552 7269 7529 7570 8235 8250 10369 10396 10436 10990 12371 
+	}
+	manpower=204208
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

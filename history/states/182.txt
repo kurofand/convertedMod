@@ -1,0 +1,33 @@
+
+state={
+	id=182
+	name="STATE_182"
+	resources={
+		steel=33.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11535 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = FRA
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		485 539 553 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
+	}
+	manpower=3605572
+	buildings_max_level_factor=1.000
+	state_category=city
+}

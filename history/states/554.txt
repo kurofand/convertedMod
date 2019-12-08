@@ -1,0 +1,37 @@
+
+state={
+	id=554
+	name="STATE_554"
+	resources={
+		oil=11.000
+		rubber=2.000
+		steel=4.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			12721 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 4
+			dockyard = 2
+			10895 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = U78
+		add_core_of = USA
+	}
+
+	provinces={
+		1945 1952 4946 7921 7973 8003 8057 10738 10853 10871 10895 12721 
+	}
+	manpower=14650636
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

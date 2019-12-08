@@ -1,0 +1,34 @@
+
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		owner = RME
+		victory_points = {
+			6906 8 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			6817 = {
+				naval_base = 6
+			}
+			air_base = 3
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SPR
+		add_core_of = X00
+	}
+
+	provinces={
+		832 942 962 1093 3799 3873 4098 4195 6817 6856 6906 6959 7111 9889 9896 9903 10024 10109 11807 11812 11884 
+	}
+	manpower=4626868
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

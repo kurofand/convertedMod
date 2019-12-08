@@ -1,0 +1,35 @@
+
+state={
+	id=532
+	name="STATE_532"
+
+	history={
+		owner = USA
+		victory_points = {
+			4622 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 4
+			arms_factory = 4
+			dockyard = 4
+			7480 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = CSA
+		add_core_of = USA
+		add_core_of = X08
+		add_core_of = X19
+		add_core_of = X23
+	}
+
+	provinces={
+		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 
+	}
+	manpower=12638588
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

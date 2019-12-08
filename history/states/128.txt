@@ -1,0 +1,37 @@
+
+state={
+	id=128
+	name="STATE_128"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = X64
+		victory_points = {
+			7072 7 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 1
+			dockyard = 1
+			1051 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = JAP
+		add_core_of = SOV
+		add_core_of = X30
+		add_core_of = X64
+	}
+
+	provinces={
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
+	}
+	manpower=16192412
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

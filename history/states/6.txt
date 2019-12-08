@@ -1,0 +1,33 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = X02
+		victory_points = {
+			4646 11 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 2
+			1399 = {
+				naval_base = 10
+			}
+			air_base = 7
+
+		}
+		add_core_of = JAP
+		add_core_of = RAJ
+		add_core_of = X02
+	}
+
+	provinces={
+		1399 1512 1515 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 13037 
+	}
+	manpower=6670068
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=598
+	name="STATE_598"
+
+	history={
+		owner = W10
+		victory_points = {
+			13017 9 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 2
+			13017 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = W10
+	}
+
+	provinces={
+		13017 
+	}
+	manpower=2798912
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

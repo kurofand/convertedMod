@@ -1,0 +1,25 @@
+add_namespace = rme
+country_event = {
+	id = rme.1
+	title = rme.1.t
+	description = rme.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    
+	fire_only = yes
+    
+	trigger = {
+		tag = RME
+		has_defensive_war = no
+		absolutist < 0.45
+	}
+	
+	option = {
+		name = rme.1.a
+		hidden_effect = {
+			start_civil_war = {
+				ideology = democratic
+				size = 0.5
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=709
+	name="STATE_709"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		victory_points = {
+			5079 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2066 5079 
+	}
+	manpower=52200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

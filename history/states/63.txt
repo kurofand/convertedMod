@@ -1,0 +1,32 @@
+
+state={
+	id=63
+	name="STATE_63"
+	resources={
+		tungsten=37.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			4971 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = RAJ
+		add_core_of = W03
+		add_core_of = W06
+	}
+
+	provinces={
+		1199 1908 2054 2092 4149 4971 4984 7905 7998 10847 10866 12041 12718 12829 12844 12876 12886 
+	}
+	manpower=9207816
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

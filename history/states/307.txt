@@ -1,0 +1,39 @@
+
+state={
+	id=307
+	name="STATE_307"
+	resources={
+		chromium=6.000
+		rubber=3.000
+		steel=28.000
+		tungsten=47.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			1047 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			11981 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = RME
+		add_core_of = W24
+	}
+
+	provinces={
+		994 1018 1038 1047 1070 1087 1131 1187 4023 4092 4160 7039 7044 7135 7152 7192 9963 10004 10080 10105 11926 11938 11941 11963 11981 11983 11990 12023 12077 12095 
+	}
+	manpower=7719460
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

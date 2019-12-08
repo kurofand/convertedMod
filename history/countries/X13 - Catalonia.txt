@@ -1,0 +1,70 @@
+﻿capital = 202
+set_research_slots = 3
+
+oob = "X13_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X13_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X13_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = USA modifier = positive_15 }
+add_opinion_modifier = { target = W00 modifier = positive_15 }
+add_opinion_modifier = { target = W07 modifier = positive_15 }
+add_opinion_modifier = { target = X01 modifier = positive_15 }
+add_opinion_modifier = { target = X40 modifier = positive_15 }
+add_opinion_modifier = { target = X64 modifier = positive_15 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_catalan
+}
+create_country_leader = {
+    name = "Pasqual Sor"
+    desc = "POLITICS_PASQUAL_SOR_DESC"
+    picture = "gfx/leaders/OC/Portrait_SPR_Alfonso_XIII.dds"
+    expire = "1965.1.1"
+    ideology = absolute_monarchy
+    traits = {
+    }
+}
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

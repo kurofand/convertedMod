@@ -1,0 +1,28 @@
+
+state={
+	id=633
+	name="STATE_633"
+
+	history={
+		owner = W14
+		victory_points = {
+			11560 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_core_of = W14
+	}
+
+	provinces={
+		11560 
+	}
+	manpower=725328
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

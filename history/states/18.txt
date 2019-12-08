@@ -1,0 +1,33 @@
+
+state={
+	id=18
+	name="STATE_18"
+
+	history={
+		owner = X06
+		victory_points = {
+			4401 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 1
+			4223 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = CAM
+		add_core_of = SIA
+		add_core_of = X06
+	}
+
+	provinces={
+		1396 1423 4223 4284 4341 4401 7303 7331 10261 12133 12232 12288 
+	}
+	manpower=3722912
+	buildings_max_level_factor=1.000
+	state_category=city
+}

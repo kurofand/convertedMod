@@ -1,0 +1,31 @@
+
+state={
+	id=213
+	name="STATE_213"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			519 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_core_of = RME
+	}
+
+	provinces={
+		519 694 
+	}
+	manpower=1050472
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

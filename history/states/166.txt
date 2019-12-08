@@ -1,0 +1,35 @@
+
+state={
+	id=166
+	name="STATE_166"
+	resources={
+		aluminium=4.000
+		steel=16.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			377 7 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+
+		}
+		add_core_of = ENG
+		add_core_of = GER
+		add_core_of = RME
+		add_core_of = X98
+	}
+
+	provinces={
+		253 311 377 407 3274 6363 9364 11361 
+	}
+	manpower=4191344
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

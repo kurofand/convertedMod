@@ -1,0 +1,31 @@
+
+state={
+	id=91
+	name="STATE_91"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X41
+		victory_points = {
+			1993 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X41
+		add_core_of = X48
+	}
+
+	provinces={
+		1993 
+	}
+	manpower=637224
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=260
+	name="STATE_260"
+
+	history={
+		owner = RME
+		victory_points = {
+			7176 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		1015 1086 1201 4088 4206 7107 7176 11970 
+	}
+	manpower=3477028
+	buildings_max_level_factor=1.000
+	state_category=city
+}

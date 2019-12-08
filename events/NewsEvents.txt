@@ -1,0 +1,121 @@
+﻿add_namespace = news
+
+news_event = {
+	id = news.237
+	title = "The Roman Empire formalizes alliance with Pasai"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.238
+	title = "The Roman Empire refuses the alliance offer of Pasai"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.239
+	title = "Swahili formalizes alliance with Pasai"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.240
+	title = "Swahili refuses the alliance offer of Pasai"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.241
+	title = "Yi formalizes alliance with Pasai"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.242
+	title = "Yi refuses the alliance offer of Pasai"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.243
+	title = "The Roman Empire formalizes alliance with Pasai"
+	desc = "The leaders of both countries have announced their intent of military cooperation."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}
+
+news_event = {
+	id = news.244
+	title = "The Roman Empire refuses the alliance offer of Pasai"
+	desc = "The alliance negotiations ended in disagreement."
+	picture = news_event_generic_sign_treaty1
+	
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Interesting"
+	}
+}

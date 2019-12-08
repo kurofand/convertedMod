@@ -1,0 +1,31 @@
+
+state={
+	id=602
+	name="STATE_602"
+
+	history={
+		owner = W14
+		victory_points = {
+			12505 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			4720 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = CAN
+		add_core_of = W14
+	}
+
+	provinces={
+		1426 1785 4720 4787 7758 7788 12503 12505 12680 12698 
+	}
+	manpower=4328556
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

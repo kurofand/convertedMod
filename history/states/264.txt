@@ -1,0 +1,29 @@
+
+state={
+	id=264
+	name="STATE_264"
+
+	history={
+		owner = RME
+		victory_points = {
+			705 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 2
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=4687240
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

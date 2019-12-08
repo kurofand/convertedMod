@@ -1,0 +1,33 @@
+
+state={
+	id=589
+	name="STATE_589"
+	resources={
+		chromium=0.000
+		oil=0.000
+		rubber=0.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			12806 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W00
+		add_core_of = W07
+	}
+
+	provinces={
+		7925 10743 10795 12800 12806 
+	}
+	manpower=8246036
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

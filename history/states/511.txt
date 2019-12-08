@@ -1,0 +1,31 @@
+
+state={
+	id=511
+	name="STATE_511"
+
+	history={
+		owner = USA
+		victory_points = {
+			10595 13 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 9
+
+		}
+		add_core_of = MEX
+		add_core_of = USA
+		add_core_of = W14
+		add_core_of = X74
+		add_core_of = X84
+	}
+
+	provinces={
+		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
+	}
+	manpower=11007088
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

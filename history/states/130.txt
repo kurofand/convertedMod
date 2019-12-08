@@ -1,0 +1,32 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X66
+		victory_points = {
+			4425 9 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = BRM
+		add_core_of = X66
+		add_core_of = X87
+	}
+
+	provinces={
+		1082 4425 8063 10920 12464 
+	}
+	manpower=1171556
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

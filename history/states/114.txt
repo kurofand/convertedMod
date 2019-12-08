@@ -1,0 +1,19 @@
+
+state={
+	id=114
+	name="STATE_114"
+	impassable = yes
+
+	history={
+		owner = X48
+		add_core_of = X07
+		add_core_of = X48
+	}
+
+	provinces={
+		1956 4913 7939 10917 
+	}
+	manpower=321268
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

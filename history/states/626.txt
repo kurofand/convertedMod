@@ -1,0 +1,33 @@
+
+state={
+	id=626
+	name="STATE_626"
+	resources={
+		oil=0.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			6377 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 6
+			arms_factory = 6
+			air_base = 4
+
+		}
+		add_core_of = CRO
+		add_core_of = GER
+		add_core_of = W14
+		add_core_of = YUG
+	}
+
+	provinces={
+		247 309 3234 3395 6377 9281 11233 11264 11388 
+	}
+	manpower=6244376
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

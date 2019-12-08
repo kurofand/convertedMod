@@ -1,0 +1,29 @@
+
+state={
+	id=393
+	name="STATE_393"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			2126 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1552 2126 4735 
+	}
+	manpower=790004
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

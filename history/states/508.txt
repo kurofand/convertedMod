@@ -1,0 +1,30 @@
+
+state={
+	id=508
+	name="STATE_508"
+
+	history={
+		owner = USA
+		victory_points = {
+			4432 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			4432 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		4362 4432 7379 
+	}
+	manpower=1813408
+	buildings_max_level_factor=1.000
+	state_category=city
+}

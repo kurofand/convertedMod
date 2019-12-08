@@ -1,0 +1,29 @@
+
+state={
+	id=66
+	name="STATE_66"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			8042 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = PER
+		add_core_of = TIB
+		add_core_of = W03
+	}
+
+	provinces={
+		4973 8042 10911 
+	}
+	manpower=3721360
+	buildings_max_level_factor=1.000
+	state_category=city
+}

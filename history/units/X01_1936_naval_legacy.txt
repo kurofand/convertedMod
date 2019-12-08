@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 8051
+		task_force = {
+			name = "1st Fleet"
+			location = 8051
+			ship = { name = "Anwar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X01 } } }
+			ship = { name = "Ayham" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X01 } } }
+			ship = { name = "Alif" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X01 } } }
+			ship = { name = "Amin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X01 } } }
+		}
+	}
+}

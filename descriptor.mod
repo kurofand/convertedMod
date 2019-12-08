@@ -1,0 +1,6 @@
+name = "Converted - autosave"
+user_dir = "autosave_user_dir"
+replace_path="common/ideologies"
+replace_path="history/countries"
+replace_path="history/states"
+supported_version="1.8.1"

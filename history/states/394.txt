@@ -1,0 +1,30 @@
+
+state={
+	id=394
+	name="STATE_394"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			4879 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		4879 8136 10957 10978 12519 12921 13217 
+	}
+	manpower=1238088
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

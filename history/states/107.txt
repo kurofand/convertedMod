@@ -1,0 +1,34 @@
+
+state={
+	id=107
+	name="STATE_107"
+	resources={
+		chromium=3.000
+		steel=0.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			12908 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W26
+		add_core_of = X46
+		add_core_of = X62
+	}
+
+	provinces={
+		12908 
+	}
+	manpower=1038792
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

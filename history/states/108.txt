@@ -1,0 +1,33 @@
+
+state={
+	id=108
+	name="STATE_108"
+	resources={
+		chromium=6.000
+		steel=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			7842 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W26
+		add_core_of = X46
+	}
+
+	provinces={
+		2216 7842 
+	}
+	manpower=893988
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=604
+	name="STATE_604"
+
+	history={
+		owner = W14
+		victory_points = {
+			7315 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			7315 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+		add_core_of = W14
+		add_core_of = W20
+	}
+
+	provinces={
+		4296 4398 7315 7386 7414 7442 10157 10242 10271 12214 
+	}
+	manpower=3868104
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

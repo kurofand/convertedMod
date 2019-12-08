@@ -1,0 +1,31 @@
+
+state={
+	id=642
+	name="STATE_642"
+
+	history={
+		owner = W14
+		victory_points = {
+			11542 8 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = CRO
+		add_core_of = LIT
+		add_core_of = W14
+		add_core_of = X76
+		add_core_of = YUG
+	}
+
+	provinces={
+		424 445 469 494 543 583 3418 3462 3585 5283 6418 6440 6470 6592 7857 9414 9421 9429 9541 9555 9569 11401 11414 11432 11525 11542 11556 
+	}
+	manpower=11673328
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

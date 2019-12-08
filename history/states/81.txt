@@ -1,0 +1,32 @@
+
+state={
+	id=81
+	name="STATE_81"
+	resources={
+		oil=2.000
+		steel=1.000
+		tungsten=29.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			5179 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X36
+	}
+
+	provinces={
+		2160 5179 10924 10938 10982 10987 12902 12916 12930 12973 
+	}
+	manpower=15272000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

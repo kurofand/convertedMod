@@ -1,0 +1,33 @@
+
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		aluminium=1.000
+		steel=1.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			2106 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		add_core_of = W14
+	}
+
+	provinces={
+		2106 
+	}
+	manpower=1208068
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

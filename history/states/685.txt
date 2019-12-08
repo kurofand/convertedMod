@@ -1,0 +1,32 @@
+
+state={
+	id=685
+	name="STATE_685"
+	resources={
+		oil=6.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			8187 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ARG
+		add_core_of = W14
+		add_core_of = W16
+	}
+
+	provinces={
+		8187 8238 11007 12964 
+	}
+	manpower=3161764
+	buildings_max_level_factor=1.000
+	state_category=city
+}

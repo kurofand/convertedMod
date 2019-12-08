@@ -1,0 +1,374 @@
+﻿capital = 87
+set_research_slots = 3
+
+oob = "JAP_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "JAP_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "JAP_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.6.17"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 100
+	neutrality = 0
+}
+
+add_opinion_modifier = { target = BEN modifier = positive_21 }
+add_opinion_modifier = { target = BRU modifier = negative_20 }
+add_opinion_modifier = { target = KEN modifier = negative_15 }
+add_opinion_modifier = { target = PER modifier = negative_17 }
+add_opinion_modifier = { target = PHI modifier = negative_10 }
+add_opinion_modifier = { target = RAJ modifier = negative_32 }
+add_opinion_modifier = { target = RME modifier = positive_8 }
+add_opinion_modifier = { target = USA modifier = negative_26 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = VIN modifier = negative_5 }
+add_opinion_modifier = { target = W00 modifier = negative_8 }
+add_opinion_modifier = { target = W05 modifier = negative_5 }
+add_opinion_modifier = { target = W07 modifier = negative_20 }
+add_opinion_modifier = { target = W14 modifier = positive_99 }
+add_opinion_modifier = { target = W26 modifier = negative_36 }
+add_opinion_modifier = { target = X01 modifier = negative_20 }
+add_opinion_modifier = { target = X02 modifier = negative_5 }
+add_opinion_modifier = { target = X04 modifier = negative_20 }
+add_opinion_modifier = { target = X06 modifier = negative_5 }
+add_opinion_modifier = { target = X14 modifier = positive_18 }
+add_opinion_modifier = { target = X28 modifier = positive_20 }
+add_opinion_modifier = { target = X36 modifier = positive_18 }
+add_opinion_modifier = { target = X40 modifier = positive_175 }
+add_opinion_modifier = { target = X43 modifier = negative_10 }
+add_opinion_modifier = { target = X45 modifier = negative_20 }
+add_opinion_modifier = { target = X46 modifier = negative_30 }
+add_opinion_modifier = { target = X51 modifier = positive_15 }
+add_opinion_modifier = { target = X62 modifier = positive_15 }
+add_opinion_modifier = { target = X66 modifier = negative_5 }
+add_opinion_modifier = { target = X73 modifier = negative_20 }
+add_opinion_modifier = { target = X75 modifier = negative_5 }
+add_opinion_modifier = { target = X93 modifier = negative_20 }
+add_opinion_modifier = { target = X95 modifier = negative_50 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_japanese
+}
+set_stability = 0.60
+set_war_support = 0.80
+create_country_leader = {
+    name = "Yoshifuru Okubo"
+    desc = "POLITICS_YOSHIFURU_OKUBO_DESC"
+    picture = "GFX_CHI_Sun_Fo"
+    expire = "1965.1.1"
+    ideology = liberalism
+    traits = {
+    }
+}
+create_corps_commander = {
+	name = "Hikonojo Yamaya"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mitsue Oku"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mitsuomi Kamimura"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sumiyoshi Terauchi"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kotohito Enomoto"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Soroku Ueda"
+	picture = ""
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aritomo Tachibana"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Tamemoto Araki"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Takamori Dewa"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Tomonosuke Kodama"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kiyotaka Osumi"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yoshimichi Yamakawa"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mitsuomi Uryu"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Tomasaburo Ito"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mineo Ito"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Taruhito Makino"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Yasuyoshi Kuroda"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Masatake Saigo"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Tomasaburo Yamashita"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = JAP_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = JAP_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = JAP_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

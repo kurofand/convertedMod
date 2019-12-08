@@ -1,0 +1,27 @@
+
+state={
+	id=408
+	name="STATE_408"
+
+	history={
+		owner = RME
+		victory_points = {
+			4941 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		1181 1950 2034 2073 2154 4941 6027 11934 12783 12808 12847 
+	}
+	manpower=1623108
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

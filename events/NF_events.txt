@@ -1,0 +1,391 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.0
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Russia"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			RME = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = SOV
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.1
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by Persia"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			RME = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = PER
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by India"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			RME = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = RAJ
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by India"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			W14 = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = RAJ
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "Pasai Demands Philippines!"
+	desc = "Today Pasai sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with Pasai might prove to be fruiteful. Our people would be safe with the mighty army of Pasai and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				X77 = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				X77 = { has_army_size = { size > 39 } }
+			}
+		}
+		X77 = {
+			country_event = { hours = 2 id = NFEvents.5 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+
+			modifier = {
+				factor = 0
+				X77 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				X77 = { has_army_size = { size < 30 } }
+			}
+		}
+		X77 = {
+			country_event = { hours = 2 id = NFEvents.6 }
+			if = {
+				limit = { is_in_faction_with = PHI }
+				remove_from_faction = PHI
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.6
+	title = "Philippines Refuses!"
+	desc = "Philippines Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = PHI
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.5
+	title = "Philippines accepts!"
+	desc = "Philippines accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		147 = {
+			if = {
+				limit = { is_owned_by = PHI }
+				add_core_of = X77
+			}
+		}
+		148 = {
+			if = {
+				limit = { is_owned_by = PHI }
+				add_core_of = X77
+			}
+		}
+
+		annex_country = { target = PHI transfer_troops = yes }
+		add_political_power = 50
+		add_named_threat = { threat = 2 name = "Philippines annexed Philippines" }
+		set_country_flag = PHI_annexed
+	}
+}
+
+country_event = {
+	id = NFEvents.7
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Pasai. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		RME = {
+			add_ai_strategy = {
+				type = alliance
+				id = "X77"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				X77 = {
+					is_in_faction = no
+				}
+			}
+			X77 = {
+				create_faction = "Pasai"
+			}
+		}
+		X77 = {
+			add_to_faction = RME
+		}
+		hidden_effect = {
+			news_event = { id = news.237 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.238 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.8
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Pasai. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		KEN = {
+			add_ai_strategy = {
+				type = alliance
+				id = "X77"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				X77 = {
+					is_in_faction = no
+				}
+			}
+			X77 = {
+				create_faction = "Pasai"
+			}
+		}
+		X77 = {
+			add_to_faction = KEN
+		}
+		hidden_effect = {
+			news_event = { id = news.239 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.240 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.9
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Pasai. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		X28 = {
+			add_ai_strategy = {
+				type = alliance
+				id = "X77"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				X77 = {
+					is_in_faction = no
+				}
+			}
+			X77 = {
+				create_faction = "Pasai"
+			}
+		}
+		X77 = {
+			add_to_faction = X28
+		}
+		hidden_effect = {
+			news_event = { id = news.241 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.242 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.10
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with Pasai. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		RME = {
+			add_ai_strategy = {
+				type = alliance
+				id = "X77"
+				value = 200
+			}
+			dismantle_faction = yes
+		}
+		if = {
+			limit = {
+				X77 = {
+					is_in_faction = no
+				}
+			}
+			X77 = {
+				create_faction = "Pasai"
+			}
+		}
+		X77 = {
+			add_to_faction = RME
+		}
+		hidden_effect = {
+			news_event = { id = news.243 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			news_event = { id = news.244 }
+		}
+	}
+}

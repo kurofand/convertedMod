@@ -1,0 +1,36 @@
+
+state={
+	id=282
+	name="STATE_282"
+	resources={
+		oil=42.000
+		steel=8.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			5005 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 1
+			5005 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = PER
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		1922 5005 5089 7953 
+	}
+	manpower=4721016
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

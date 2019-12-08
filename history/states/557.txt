@@ -1,0 +1,32 @@
+
+state={
+	id=557
+	name="STATE_557"
+
+	history={
+		owner = USA
+		victory_points = {
+			12753 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 1
+			dockyard = 2
+			12867 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = COL
+		add_core_of = USA
+	}
+
+	provinces={
+		1900 2021 4904 4965 12753 12867 
+	}
+	manpower=17598328
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

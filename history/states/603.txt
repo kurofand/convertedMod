@@ -1,0 +1,31 @@
+
+state={
+	id=603
+	name="STATE_603"
+
+	history={
+		owner = W14
+		victory_points = {
+			373 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 1
+			373 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = CAN
+		add_core_of = W14
+	}
+
+	provinces={
+		373 
+	}
+	manpower=636736
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

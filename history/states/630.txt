@@ -1,0 +1,38 @@
+
+state={
+	id=630
+	name="STATE_630"
+	resources={
+		chromium=2.000
+		oil=0.000
+		steel=21.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			3522 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = CRO
+		add_core_of = GER
+		add_core_of = ICE
+		add_core_of = SCA
+		add_core_of = W14
+		add_core_of = YUG
+	}
+
+	provinces={
+		425 538 3522 3561 6487 6501 6524 6582 9238 9456 9560 11359 11545 
+	}
+	manpower=4812184
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

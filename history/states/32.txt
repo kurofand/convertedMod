@@ -1,0 +1,29 @@
+
+state={
+	id=32
+	name="STATE_32"
+
+	history={
+		owner = VIN
+		victory_points = {
+			7645 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CAM
+		add_core_of = SIA
+		add_core_of = VIN
+	}
+
+	provinces={
+		1620 7645 10204 12150 
+	}
+	manpower=171832
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

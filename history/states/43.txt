@@ -1,0 +1,37 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		oil=6.000
+		rubber=2.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			1581 13 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 9
+
+		}
+		add_core_of = RAJ
+		add_core_of = TIB
+		add_core_of = W04
+		add_core_of = W09
+		add_core_of = X60
+		add_core_of = X66
+	}
+
+	provinces={
+		997 1075 1497 1525 1553 1581 7179 7455 7634 10090 10349 10514 12322 12366 12395 
+	}
+	manpower=7941240
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

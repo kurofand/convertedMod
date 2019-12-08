@@ -1,0 +1,32 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			5010 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W00
+		add_core_of = W11
+		add_core_of = X40
+	}
+
+	provinces={
+		5010 
+	}
+	manpower=2936204
+	buildings_max_level_factor=1.000
+	state_category=city
+}

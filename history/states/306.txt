@@ -1,0 +1,35 @@
+
+state={
+	id=306
+	name="STATE_306"
+	resources={
+		aluminium=2.000
+		steel=4.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			12732 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = CHI
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = X24
+	}
+
+	provinces={
+		 7997 1698 12596 5076 517 531 556 1630 1647 1933 1985 2022 2028 3742 3745 4313 4888 4939 5025 5057 5100 6638 7270 7397 7911 8081 11448 12327 12732 12797 12882 
+	}
+	manpower=4454408
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,66 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10149
+		task_force = {
+			name = "4th Fleet"
+			location = 10149
+			ship = { name = "1st Constantinopolis Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Constantinopolis Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Faro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Venice Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Lucca Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Grosetto Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Gerona Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Santander Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Castellón Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Cádiz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Almería Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Genoa Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Faro Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Venice Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Lucca Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Grosetto Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Constantinopolis Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Alexandropolis Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Volos Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Corinth Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Alexandropolis Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Basra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "3rd Canterbury Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "3rd Basra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "4th Canterbury Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "4th Basra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "5th Canterbury Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 9833
+		task_force = {
+			name = "2nd Fleet"
+			location = 9833
+			ship = { name = "4th Constantinopolis Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RME } } }
+			ship = { name = "5th Constantinopolis Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RME } } }
+			ship = { name = "3rd Constantinopolis Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "4th Constantinopolis Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "5th Constantinopolis Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Canterbury Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Basra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Canterbury Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RME } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 10149
+		task_force = {
+			name = "5th Fleet"
+			location = 10149
+			ship = { name = "1st Constantinopolis Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Constantinopolis Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RME } } }
+			ship = { name = "3rd Constantinopolis Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = RME } } }
+			ship = { name = "1st Basra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+			ship = { name = "2nd Basra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RME } } }
+		}
+	}
+}

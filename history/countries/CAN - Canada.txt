@@ -1,0 +1,88 @@
+﻿capital = 507
+set_research_slots = 2
+
+oob = "CAN_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CAN_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "CAN_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 59
+	democratic = 39
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BEN modifier = negative_30 }
+add_opinion_modifier = { target = BRU modifier = negative_30 }
+add_opinion_modifier = { target = JAP modifier = negative_30 }
+add_opinion_modifier = { target = KOR modifier = negative_30 }
+add_opinion_modifier = { target = RAJ modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = positive_20 }
+add_opinion_modifier = { target = VIN modifier = negative_30 }
+add_opinion_modifier = { target = W00 modifier = negative_15 }
+add_opinion_modifier = { target = W05 modifier = negative_30 }
+add_opinion_modifier = { target = W07 modifier = positive_5 }
+add_opinion_modifier = { target = W26 modifier = negative_30 }
+add_opinion_modifier = { target = X01 modifier = negative_15 }
+add_opinion_modifier = { target = X06 modifier = negative_30 }
+add_opinion_modifier = { target = X28 modifier = negative_30 }
+add_opinion_modifier = { target = X40 modifier = negative_15 }
+add_opinion_modifier = { target = X45 modifier = negative_30 }
+add_opinion_modifier = { target = X46 modifier = negative_30 }
+add_opinion_modifier = { target = X64 modifier = negative_15 }
+add_opinion_modifier = { target = X66 modifier = negative_30 }
+add_opinion_modifier = { target = X73 modifier = negative_30 }
+add_opinion_modifier = { target = X75 modifier = negative_30 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X93 modifier = negative_30 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_croat
+}
+create_country_leader = {
+    name = "Filip Njegovan"
+    desc = "POLITICS_FILIP_NJEGOVAN_DESC"
+    picture = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+    expire = "1965.1.1"
+    ideology = prussian_const
+    traits = {
+    }
+}
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

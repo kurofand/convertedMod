@@ -1,0 +1,36 @@
+
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			3152 12 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 1
+			4640 = {
+				naval_base = 10
+			}
+			air_base = 8
+
+		}
+		add_core_of = EST
+		add_core_of = SOV
+		add_core_of = X94
+	}
+
+	provinces={
+		83 185 308 496 567 592 3074 3152 3174 4640 6099 6178 6201 6381 6408 9079 9221 9485 11057 11127 11291 11426 11443 
+	}
+	manpower=4485816
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

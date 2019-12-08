@@ -1,0 +1,33 @@
+
+state={
+	id=606
+	name="STATE_606"
+	resources={
+		aluminium=52.000
+		oil=20.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			4975 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = MEX
+		add_core_of = USA
+		add_core_of = W14
+	}
+
+	provinces={
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 
+	}
+	manpower=2139384
+	buildings_max_level_factor=1.000
+	state_category=town
+}

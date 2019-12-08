@@ -1,0 +1,37 @@
+
+state={
+	id=153
+	name="STATE_153"
+	resources={
+		rubber=52.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			12330 18 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 1
+			dockyard = 4
+			10222 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = BRU
+		add_core_of = TAN
+		add_core_of = X58
+		add_core_of = X77
+	}
+
+	provinces={
+		1098 1289 1419 1437 1484 1505 1518 1561 1574 1589 4262 4307 4308 4349 4493 4537 4564 7311 7336 7369 7413 7557 7598 10141 10153 10169 10197 10222 10263 10342 10409 10450 10464 12330 12358 12444 
+	}
+	manpower=12555912
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

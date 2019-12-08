@@ -1,0 +1,13 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7232
+		task_force = {
+			name = "3rd Fleet"
+			location = 7232
+			ship = { name = "Fatimah" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Early Destroyer" } } }
+			ship = { name = "Alia" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Early Destroyer" } } }
+			ship = { name = "Khan" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Early Destroyer" } } }
+		}
+	}
+}

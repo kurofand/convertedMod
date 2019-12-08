@@ -1,0 +1,35 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		aluminium=2.000
+		steel=43.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11516 6 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = FRA
+		add_core_of = ICE
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SCA
+	}
+
+	provinces={
+		521 680 698 3533 3546 3560 3666 5291 6531 6698 9505 9642 9658 11488 11516 11642 
+	}
+	manpower=5552184
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

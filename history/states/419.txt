@@ -1,0 +1,28 @@
+
+state={
+	id=419
+	name="STATE_419"
+
+	history={
+		owner = RME
+		victory_points = {
+			2038 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		2038 2094 
+	}
+	manpower=2809176
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

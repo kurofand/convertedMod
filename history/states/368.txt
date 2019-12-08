@@ -1,0 +1,31 @@
+
+state={
+	id=368
+	name="STATE_368"
+
+	history={
+		owner = RME
+		victory_points = {
+			10995 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			10995 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		10995 
+	}
+	manpower=874564
+	buildings_max_level_factor=1.000
+	state_category=town
+}

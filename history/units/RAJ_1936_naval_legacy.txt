@@ -1,0 +1,13 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7232
+		task_force = {
+			name = "3rd Fleet"
+			location = 7232
+			ship = { name = "Fatimah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Alia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Khan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RAJ } } }
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=552
+	name="STATE_552"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			10765 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			4908 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = SER
+		add_core_of = U78
+		add_core_of = USA
+		add_core_of = YUG
+	}
+
+	provinces={
+		1892 1904 2069 4908 4977 7964 8012 8033 8119 10765 10848 12461 12736 12833 12859 13215 13216 
+	}
+	manpower=7283656
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

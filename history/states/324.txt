@@ -1,0 +1,29 @@
+
+state={
+	id=324
+	name="STATE_324"
+
+	history={
+		owner = RME
+		victory_points = {
+			2015 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 7
+			arms_factory = 0
+			air_base = 2
+
+		}
+		add_core_of = PER
+		add_core_of = RME
+		add_core_of = W12
+	}
+
+	provinces={
+		1703 1766 1943 1970 2015 2074 4682 4828 5016 5042 5087 7790 7949 8086 8112 10315 10865 10885 12119 12864 
+	}
+	manpower=6249040
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

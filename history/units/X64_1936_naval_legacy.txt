@@ -1,0 +1,15 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1092
+		task_force = {
+			name = "1st Fleet"
+			location = 1092
+			ship = { name = "1st Nara Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X64 } } }
+			ship = { name = "2nd Hiroshima Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X64 } } }
+			ship = { name = "Anil" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X64 } } }
+			ship = { name = "Amar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X64 } } }
+			ship = { name = "Asim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X64 } } }
+		}
+	}
+}

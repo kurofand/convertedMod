@@ -1,0 +1,35 @@
+
+state={
+	id=433
+	name="STATE_433"
+
+	history={
+		owner = SOV
+		victory_points = {
+			6332 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 6
+			3288 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = ICE
+		add_core_of = LIT
+		add_core_of = SCA
+		add_core_of = SOV
+		add_core_of = X76
+	}
+
+	provinces={
+		281 348 395 3288 3384 6332 11265 
+	}
+	manpower=6620180
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

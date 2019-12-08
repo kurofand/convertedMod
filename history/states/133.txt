@@ -1,0 +1,34 @@
+
+state={
+	id=133
+	name="STATE_133"
+	resources={
+		rubber=45.000
+	}
+
+	history={
+		owner = X73
+		victory_points = {
+			12131 11 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 3
+			12131 = {
+				naval_base = 10
+			}
+			air_base = 7
+
+		}
+		add_core_of = X65
+		add_core_of = X73
+	}
+
+	provinces={
+		1279 4297 7236 12131 
+	}
+	manpower=4280976
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

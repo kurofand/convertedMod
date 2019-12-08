@@ -1,0 +1,32 @@
+
+state={
+	id=703
+	name="STATE_703"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = W22
+		victory_points = {
+			7459 6 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = W22
+		add_core_of = X53
+	}
+
+	provinces={
+		1004 1603 4519 4547 6932 7459 7508 7568 7656 10364 11931 12012 
+	}
+	manpower=3785444
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=479
+	name="STATE_479"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			11752 9 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 6
+
+		}
+		add_core_of = MON
+		add_core_of = SOV
+		add_core_of = X42
+	}
+
+	provinces={
+		1551 1608 1796 1811 1871 3978 4222 4555 4612 4655 7578 7648 10363 10372 10499 11752 12348 12448 12554 
+	}
+	manpower=2418316
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

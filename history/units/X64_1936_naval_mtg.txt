@@ -1,0 +1,15 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1092
+		task_force = {
+			name = "1st Fleet"
+			location = 1092
+			ship = { name = "1st Nara Battleship" definition = heavy_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X64 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Hiroshima Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X64 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Anil" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X64 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Amar" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X64 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Asim" definition = light_cruiser start_experience_factor = 0.25577 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X64 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}

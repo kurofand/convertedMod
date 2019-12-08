@@ -1,0 +1,34 @@
+
+state={
+	id=612
+	name="STATE_612"
+	resources={
+		aluminium=20.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			12458 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = MEX
+		add_core_of = USA
+		add_core_of = W14
+		add_core_of = X08
+		add_core_of = X70
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+	}
+	manpower=6774092
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

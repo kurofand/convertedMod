@@ -1,0 +1,29 @@
+
+state={
+	id=220
+	name="STATE_220"
+
+	history={
+		owner = RME
+		victory_points = {
+			3707 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 0
+			air_base = 2
+
+		}
+		add_core_of = GRE
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		414 565 577 3407 3577 3701 3704 3707 3724 6600 6727 6743 9683 11686 11705 
+	}
+	manpower=1914660
+	buildings_max_level_factor=1.000
+	state_category=city
+}

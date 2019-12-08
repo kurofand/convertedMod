@@ -1,0 +1,35 @@
+
+state={
+	id=646
+	name="STATE_646"
+
+	history={
+		owner = W14
+		victory_points = {
+			362 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 0
+			3380 = {
+				naval_base = 6
+			}
+			air_base = 2
+
+		}
+		add_core_of = ICE
+		add_core_of = POL
+		add_core_of = SCA
+		add_core_of = SOV
+		add_core_of = W14
+		add_core_of = X76
+	}
+
+	provinces={
+		266 362 3295 3351 3380 6347 6375 6402 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=3446916
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=676
+	name="STATE_676"
+	resources={
+		steel=5.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			12953 9 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = PRU
+		add_core_of = W14
+		add_core_of = X25
+	}
+
+	provinces={
+		2225 12953 
+	}
+	manpower=2233544
+	buildings_max_level_factor=1.000
+	state_category=city
+}

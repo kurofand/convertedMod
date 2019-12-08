@@ -1,0 +1,32 @@
+
+state={
+	id=438
+	name="STATE_438"
+
+	history={
+		owner = SOV
+		victory_points = {
+			11370 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 7
+
+		}
+		add_core_of = BLR
+		add_core_of = SER
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = X79
+		add_core_of = YUG
+	}
+
+	provinces={
+		215 216 294 304 331 360 386 3203 3267 3293 3350 3507 3759 6232 6319 6373 6556 9249 11216 11313 11370 11453 
+	}
+	manpower=3027528
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

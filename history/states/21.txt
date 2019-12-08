@@ -1,0 +1,38 @@
+
+state={
+	id=21
+	name="STATE_21"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = BEN
+		victory_points = {
+			4952 8 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			4952 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = BEN
+		add_core_of = X48
+		add_core_of = X69
+		add_core_of = X72
+	}
+
+	provinces={
+		4952 12900 
+	}
+	manpower=1039928
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=292
+	name="STATE_292"
+	resources={
+		aluminium=5.000
+		rubber=15.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			10278 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 5
+			dockyard = 2
+			10149 = {
+				naval_base = 8
+			}
+			air_base = 3
+
+		}
+		add_core_of = RAJ
+		add_core_of = RME
+	}
+
+	provinces={
+		1268 1344 1381 1409 4327 4416 4420 7265 7436 10149 10246 10278 12164 12247 
+	}
+	manpower=14273040
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

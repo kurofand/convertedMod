@@ -1,0 +1,32 @@
+
+state={
+	id=248
+	name="STATE_248"
+	resources={
+		chromium=54.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			947 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 4
+			air_base = 3
+
+		}
+		add_core_of = GRE
+		add_core_of = RME
+	}
+
+	provinces={
+		856 909 947 981 3786 3851 3856 3907 3951 3983 6808 6877 6945 9878 11811 11831 11867 
+	}
+	manpower=9644472
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

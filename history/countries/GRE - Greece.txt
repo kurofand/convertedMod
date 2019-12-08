@@ -1,0 +1,71 @@
+﻿capital = 246
+set_research_slots = 3
+
+oob = "GRE_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "GRE_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "GRE_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 89
+	democratic = 9
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = USA modifier = positive_30 }
+add_opinion_modifier = { target = VEN modifier = negative_15 }
+add_opinion_modifier = { target = W00 modifier = positive_15 }
+add_opinion_modifier = { target = W07 modifier = positive_15 }
+add_opinion_modifier = { target = X01 modifier = positive_15 }
+add_opinion_modifier = { target = X40 modifier = positive_15 }
+add_opinion_modifier = { target = X64 modifier = positive_30 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_greek
+}
+create_country_leader = {
+    name = "Charalambos Typaldos-Alfonsatos"
+    desc = "POLITICS_CHARALAMBOS_TYPALDOS-ALFONSATOS_DESC"
+    picture = "gfx/leaders/OC/portrait_GRE_King_George.dds"
+    expire = "1965.1.1"
+    ideology = absolute_monarchy
+    traits = {
+    }
+}
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

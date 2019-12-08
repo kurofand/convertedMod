@@ -1,0 +1,32 @@
+
+state={
+	id=96
+	name="STATE_96"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = X45
+		victory_points = {
+			8065 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X45
+	}
+
+	provinces={
+		8065 
+	}
+	manpower=319164
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

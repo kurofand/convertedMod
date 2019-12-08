@@ -1,0 +1,36 @@
+
+state={
+	id=154
+	name="STATE_154"
+	resources={
+		rubber=4.000
+	}
+
+	history={
+		owner = X77
+		victory_points = {
+			4273 12 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 1
+			10191 = {
+				naval_base = 10
+			}
+			air_base = 8
+
+		}
+		add_core_of = INS
+		add_core_of = X55
+		add_core_of = X77
+	}
+
+	provinces={
+		4273 7293 10191 12162 
+	}
+	manpower=9806352
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

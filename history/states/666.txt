@@ -1,0 +1,31 @@
+
+state={
+	id=666
+	name="STATE_666"
+
+	history={
+		owner = W14
+		victory_points = {
+			4155 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			1440 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = CUB
+		add_core_of = W14
+	}
+
+	provinces={
+		1440 4155 
+	}
+	manpower=6517852
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

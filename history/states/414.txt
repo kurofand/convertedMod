@@ -1,0 +1,32 @@
+
+state={
+	id=414
+	name="STATE_414"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9522 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = ICE
+		add_core_of = RME
+		add_core_of = SCA
+	}
+
+	provinces={
+		9522 
+	}
+	manpower=2576980
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

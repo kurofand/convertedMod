@@ -1,0 +1,32 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = W14
+		victory_points = {
+			1965 13 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 5
+			dockyard = 1
+			12810 = {
+				naval_base = 4
+			}
+			air_base = 8
+
+		}
+		add_core_of = MEX
+		add_core_of = W14
+	}
+
+	provinces={
+		1965 7913 10732 10889 12810 
+	}
+	manpower=16867296
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

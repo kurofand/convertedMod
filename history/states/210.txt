@@ -1,0 +1,29 @@
+
+state={
+	id=210
+	name="STATE_210"
+
+	history={
+		owner = RME
+		victory_points = {
+			11360 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 2
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		11360 
+	}
+	manpower=1200500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

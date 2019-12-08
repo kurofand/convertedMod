@@ -1,0 +1,35 @@
+
+state={
+	id=581
+	name="STATE_581"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+	}
+
+	history={
+		owner = W00
+		victory_points = {
+			12971 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			12971 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = W00
+		add_core_of = W26
+	}
+
+	provinces={
+		12971 
+	}
+	manpower=967096
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

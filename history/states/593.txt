@@ -1,0 +1,28 @@
+
+state={
+	id=593
+	name="STATE_593"
+
+	history={
+		owner = W07
+		victory_points = {
+			5017 9 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = W07
+		add_core_of = W11
+	}
+
+	provinces={
+		2088 5017 12723 
+	}
+	manpower=1723400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

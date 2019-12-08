@@ -1,0 +1,31 @@
+
+state={
+	id=484
+	name="STATE_484"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			10790 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = COL
+		add_core_of = SOV
+	}
+
+	provinces={
+		7993 10790 
+	}
+	manpower=1052996
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = X02
+		victory_points = {
+			1182 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 1
+			4188 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = JAP
+		add_core_of = X02
+	}
+
+	provinces={
+		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
+	}
+	manpower=4953308
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

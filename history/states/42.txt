@@ -1,0 +1,39 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			9935 18 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 0
+			dockyard = 6
+			9935 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = RAJ
+		add_core_of = W04
+		add_core_of = W09
+		add_core_of = X03
+		add_core_of = X06
+		add_core_of = X99
+	}
+
+	provinces={
+		2843 4162 7078 7124 9935 9991 10035 10321 11911 11968 12010 12251 
+	}
+	manpower=5333740
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

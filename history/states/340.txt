@@ -1,0 +1,31 @@
+
+state={
+	id=340
+	name="STATE_340"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9989 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		5078 7079 7148 9989 10061 11910 11967 12033 12091 
+	}
+	manpower=1439744
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

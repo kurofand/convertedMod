@@ -1,0 +1,30 @@
+
+state={
+	id=575
+	name="STATE_575"
+
+	history={
+		owner = W00
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			12991 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = W00
+	}
+
+	provinces={
+		1905 1964 1966 2020 2063 4909 5065 5068 8094 8164 10777 10818 10833 10891 10921 10928 11014 12759 12814 12840 12941 12991 
+	}
+	manpower=3569320
+	buildings_max_level_factor=1.000
+	state_category=city
+}

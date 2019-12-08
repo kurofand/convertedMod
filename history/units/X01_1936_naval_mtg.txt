@@ -1,0 +1,14 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 8051
+		task_force = {
+			name = "1st Fleet"
+			location = 8051
+			ship = { name = "Anwar" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+			ship = { name = "Ayham" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+			ship = { name = "Alif" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+			ship = { name = "Amin" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X01 version_name = "Early Destroyer" } } }
+		}
+	}
+}

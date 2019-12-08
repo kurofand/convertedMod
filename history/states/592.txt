@@ -1,0 +1,21 @@
+
+state={
+	id=592
+	name="STATE_592"
+	resources={
+		steel=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = W07
+		add_core_of = W07
+	}
+
+	provinces={
+		8103 
+	}
+	manpower=1756452
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

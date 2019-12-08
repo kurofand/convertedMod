@@ -1,0 +1,39 @@
+
+state={
+	id=631
+	name="STATE_631"
+	resources={
+		chromium=2.000
+		steel=81.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			514 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 10
+			arms_factory = 2
+			air_base = 4
+
+		}
+		add_core_of = CRO
+		add_core_of = GER
+		add_core_of = ICE
+		add_core_of = POL
+		add_core_of = SCA
+		add_core_of = W14
+		add_core_of = X76
+		add_core_of = YUG
+	}
+
+	provinces={
+		482 514 573 3500 3514 3535 6559 9441 9471 9497 9535 11481 
+	}
+	manpower=16832088
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

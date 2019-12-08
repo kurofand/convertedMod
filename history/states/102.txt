@@ -1,0 +1,33 @@
+
+state={
+	id=102
+	name="STATE_102"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			8248 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			8248 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = X46
+	}
+
+	provinces={
+		8248 
+	}
+	manpower=1120096
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

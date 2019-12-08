@@ -1,0 +1,31 @@
+
+state={
+	id=627
+	name="STATE_627"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			11445 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_core_of = W14
+	}
+
+	provinces={
+		526 564 6513 6549 9375 9524 11402 11445 11468 11493 
+	}
+	manpower=4636996
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=566
+	name="STATE_566"
+	resources={
+		oil=3.000
+		steel=4.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			7696 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		2407 7696 7830 7901 10527 10703 13075 
+	}
+	manpower=6696068
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

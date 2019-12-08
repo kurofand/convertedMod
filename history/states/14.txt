@@ -1,0 +1,35 @@
+
+state={
+	id=14
+	name="STATE_14"
+	resources={
+		rubber=0.000
+		steel=3.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = X06
+		victory_points = {
+			4585 12 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 10
+			arms_factory = 0
+			air_base = 8
+
+		}
+		add_core_of = BRM
+		add_core_of = X06
+		add_core_of = X66
+		add_core_of = X87
+	}
+
+	provinces={
+		1170 1333 1492 1566 1650 2061 4019 4059 4202 4210 4585 4626 7034 7400 7469 7562 10283 10344 10386 12284 12363 12404 12449 12492 
+	}
+	manpower=8927308
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

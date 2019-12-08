@@ -1,0 +1,37 @@
+
+state={
+	id=112
+	name="STATE_112"
+	resources={
+		steel=4.000
+		tungsten=11.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7155 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			7155 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = JAP
+		add_core_of = KOR
+		add_core_of = X02
+	}
+
+	provinces={
+		848 1003 4004 4107 7070 7155 9981 10065 11915 11958 12040 
+	}
+	manpower=2052780
+	buildings_max_level_factor=1.000
+	state_category=city
+}

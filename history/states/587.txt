@@ -1,0 +1,32 @@
+
+state={
+	id=587
+	name="STATE_587"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			9152 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W07
+		add_core_of = W23
+		add_core_of = X48
+	}
+
+	provinces={
+		1883 2081 3181 7919 9152 13211 
+	}
+	manpower=6583600
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

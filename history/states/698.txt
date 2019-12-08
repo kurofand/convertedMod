@@ -1,0 +1,30 @@
+
+state={
+	id=698
+	name="STATE_698"
+	resources={
+		chromium=59.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			1237 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W14
+	}
+
+	provinces={
+		1237 4247 7390 12120 
+	}
+	manpower=566776
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

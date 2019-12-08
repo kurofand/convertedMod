@@ -1,0 +1,33 @@
+
+state={
+	id=5
+	name="STATE_5"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = X02
+		victory_points = {
+			855 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			12446 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = X02
+	}
+
+	provinces={
+		855 1322 1742 1755 1820 12446 
+	}
+	manpower=1581788
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

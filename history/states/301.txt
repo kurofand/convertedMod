@@ -1,0 +1,33 @@
+
+state={
+	id=301
+	name="STATE_301"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			12019 7 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			arms_factory = 5
+			air_base = 3
+
+		}
+		add_core_of = CHI
+		add_core_of = RME
+		add_core_of = X26
+		add_core_of = X82
+	}
+
+	provinces={
+		1083 1099 1125 1171 4105 4173 4203 7035 7104 7222 10017 10044 10064 11937 11994 12019 12061 
+	}
+	manpower=8875604
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

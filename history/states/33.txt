@@ -1,0 +1,35 @@
+
+state={
+	id=33
+	name="STATE_33"
+	resources={
+		chromium=4.000
+		steel=4.000
+		tungsten=14.000
+	}
+
+	history={
+		owner = VIN
+		victory_points = {
+			4379 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			4379 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		1302 4255 4379 4397 7229 7280 9988 10016 10137 10309 11909 11936 12297 
+	}
+	manpower=5655268
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

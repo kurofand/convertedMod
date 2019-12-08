@@ -1,0 +1,31 @@
+
+state={
+	id=57
+	name="STATE_57"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			13056 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			13056 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = W09
+	}
+
+	provinces={
+		13054 13055 13056 13057 
+	}
+	manpower=489528
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

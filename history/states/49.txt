@@ -1,0 +1,37 @@
+
+state={
+	id=49
+	name="STATE_49"
+	resources={
+		aluminium=4.000
+		chromium=5.000
+		tungsten=61.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			1349 7 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 1
+			7232 = {
+				naval_base = 8
+			}
+			air_base = 3
+
+		}
+		add_core_of = RAJ
+		add_core_of = W09
+	}
+
+	provinces={
+		1273 1349 1405 4072 4278 4291 4353 4395 7119 7177 7205 7232 7250 10019 10210 10270 11993 12105 12142 12182 12208 12269 12295 
+	}
+	manpower=8039228
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

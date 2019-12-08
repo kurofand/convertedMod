@@ -1,0 +1,31 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			13015 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_core_of = X46
+	}
+
+	provinces={
+		8219 13015 
+	}
+	manpower=9520604
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

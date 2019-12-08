@@ -1,0 +1,27 @@
+
+state={
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = JAP
+		victory_points = {
+			10845 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		10845 
+	}
+	manpower=324676
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

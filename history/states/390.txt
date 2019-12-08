@@ -1,0 +1,18 @@
+
+state={
+	id=390
+	name="STATE_390"
+	impassable = yes
+
+	history={
+		owner = RME
+		add_core_of = RME
+	}
+
+	provinces={
+		1043 1901 4903 5095 8061 10749 12849 
+	}
+	manpower=1415544
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

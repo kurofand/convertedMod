@@ -1,0 +1,28 @@
+
+state={
+	id=270
+	name="STATE_270"
+
+	history={
+		owner = RME
+		victory_points = {
+			6490 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = RME
+	}
+
+	provinces={
+		449 484 509 3417 3443 3478 3489 3505 6468 6490 6503 9415 9459 9474 11400 
+	}
+	manpower=1866192
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

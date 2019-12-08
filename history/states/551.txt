@@ -1,0 +1,37 @@
+
+state={
+	id=551
+	name="STATE_551"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			7630 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 3
+			7617 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = COL
+		add_core_of = SER
+		add_core_of = USA
+		add_core_of = YUG
+	}
+
+	provinces={
+		1633 4611 4624 7617 7630 10482 
+	}
+	manpower=7628512
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

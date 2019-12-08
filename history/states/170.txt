@@ -1,0 +1,30 @@
+
+state={
+	id=170
+	name="STATE_170"
+
+	history={
+		owner = RME
+		victory_points = {
+			11221 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 0
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		221 271 296 322 3287 11221 11253 11374 
+	}
+	manpower=5201108
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

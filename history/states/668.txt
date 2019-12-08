@@ -1,0 +1,33 @@
+
+state={
+	id=668
+	name="STATE_668"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			10747 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = CRO
+		add_core_of = W14
+		add_core_of = W19
+		add_core_of = YUG
+	}
+
+	provinces={
+		2079 10747 
+	}
+	manpower=1641276
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=338
+	name="STATE_338"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			3996 6 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 0
+			dockyard = 1
+			4076 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SAU
+	}
+
+	provinces={
+		992 1071 3996 4055 4076 4145 7011 7164 10073 
+	}
+	manpower=4654244
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

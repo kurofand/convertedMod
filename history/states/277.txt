@@ -1,0 +1,37 @@
+
+state={
+	id=277
+	name="STATE_277"
+	resources={
+		aluminium=8.000
+		steel=2.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			1896 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = ARM
+		add_core_of = GRE
+		add_core_of = ICE
+		add_core_of = PER
+		add_core_of = RME
+		add_core_of = SAU
+		add_core_of = SCA
+	}
+
+	provinces={
+		1636 1822 1896 2071 4553 4755 4825 4901 7604 10454 10523 12793 12861 
+	}
+	manpower=11062508
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

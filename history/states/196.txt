@@ -1,0 +1,38 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		aluminium=135.000
+		steel=43.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11834 8 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 3
+			9909 = {
+				naval_base = 6
+			}
+			air_base = 3
+
+		}
+		add_core_of = ITA
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = X83
+	}
+
+	provinces={
+		911 956 958 3838 3928 3959 3961 9728 9851 9909 11711 11713 11804 11834 11849 11875 11877 
+	}
+	manpower=8185348
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=707
+	name="STATE_707"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+	}
+
+	history={
+		owner = W26
+		victory_points = {
+			5155 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_core_of = W26
+	}
+
+	provinces={
+		5155 
+	}
+	manpower=2651856
+	buildings_max_level_factor=1.000
+	state_category=city
+}

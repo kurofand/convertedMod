@@ -1,0 +1,36 @@
+
+state={
+	id=238
+	name="STATE_238"
+	resources={
+		aluminium=5.000
+		oil=1.000
+		steel=8.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			949 13 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 8
+			arms_factory = 1
+			dockyard = 3
+			air_base = 8
+
+		}
+		add_core_of = BUL
+		add_core_of = GRE
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		878 893 935 949 965 3908 3937 3971 6814 6857 6923 6952 6967 6982 9818 9862 9888 9902 9919 11813 
+	}
+	manpower=9884084
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=89
+	name="STATE_89"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			7912 8 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = W00
+		add_core_of = W07
+		add_core_of = W11
+		add_core_of = X40
+	}
+
+	provinces={
+		2009 7912 8019 8062 10734 12856 
+	}
+	manpower=4275548
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

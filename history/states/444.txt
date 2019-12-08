@@ -1,0 +1,37 @@
+
+state={
+	id=444
+	name="STATE_444"
+	resources={
+		aluminium=50.000
+		chromium=16.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			9809 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			9809 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SER
+		add_core_of = SOV
+		add_core_of = YUG
+	}
+
+	provinces={
+		937 3922 6913 9809 11858 
+	}
+	manpower=2268512
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=570
+	name="STATE_570"
+
+	history={
+		owner = VEN
+		victory_points = {
+			7915 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = U77
+		add_core_of = VEN
+	}
+
+	provinces={
+		5317 7915 
+	}
+	manpower=15904
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

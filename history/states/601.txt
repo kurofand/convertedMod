@@ -1,0 +1,31 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = W14
+		victory_points = {
+			1424 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			7361 = {
+				naval_base = 4
+			}
+			air_base = 2
+
+		}
+		add_core_of = CAN
+		add_core_of = W14
+	}
+
+	provinces={
+		634 1354 1424 4285 4342 4360 4430 4623 7304 7361 7644 10244 12289 
+	}
+	manpower=11420492
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

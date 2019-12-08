@@ -1,0 +1,66 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10149
+		task_force = {
+			name = "4th Fleet"
+			location = 10149
+			ship = { name = "1st Constantinopolis Battleship" definition = heavy_cruiser start_experience_factor = 0.17646 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Constantinopolis Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Faro Commerce Raider" definition = destroyer start_experience_factor = 0.05229 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Venice Commerce Raider" definition = destroyer start_experience_factor = 0.05018 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Lucca Commerce Raider" definition = destroyer start_experience_factor = 0.05062 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Grosetto Commerce Raider" definition = destroyer start_experience_factor = 0.0529 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Gerona Commerce Raider" definition = destroyer start_experience_factor = 0.04646 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Santander Commerce Raider" definition = destroyer start_experience_factor = 0.06828 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Castellón Commerce Raider" definition = destroyer start_experience_factor = 0.04461 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Cádiz Commerce Raider" definition = destroyer start_experience_factor = 0.04762 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Almería Commerce Raider" definition = destroyer start_experience_factor = 0.05854 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Genoa Commerce Raider" definition = destroyer start_experience_factor = 0.06828 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Faro Commerce Raider" definition = destroyer start_experience_factor = 0.05642 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Venice Commerce Raider" definition = destroyer start_experience_factor = 0.06207 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Lucca Commerce Raider" definition = destroyer start_experience_factor = 0.06207 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Grosetto Commerce Raider" definition = destroyer start_experience_factor = 0.05731 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Constantinopolis Commerce Raider" definition = destroyer start_experience_factor = 0.07134 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Alexandropolis Commerce Raider" definition = destroyer start_experience_factor = 0.07874 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Volos Commerce Raider" definition = destroyer start_experience_factor = 0.10404 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Corinth Commerce Raider" definition = destroyer start_experience_factor = 0.0733 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Alexandropolis Commerce Raider" definition = destroyer start_experience_factor = 0.09312 equipment = { ship_hull_light_2 = { amount = 1 owner = RME version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Basra Cruiser" definition = light_cruiser start_experience_factor = 0.277 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Canterbury Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Basra Cruiser" definition = light_cruiser start_experience_factor = 0.25181 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Canterbury Cruiser" definition = light_cruiser start_experience_factor = 0.26975 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Basra Cruiser" definition = light_cruiser start_experience_factor = 0.25181 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Canterbury Cruiser" definition = light_cruiser start_experience_factor = 0.25181 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 9833
+		task_force = {
+			name = "2nd Fleet"
+			location = 9833
+			ship = { name = "4th Constantinopolis Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = RME version_name = "1936 Battleship" } } }
+			ship = { name = "5th Constantinopolis Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = RME version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Constantinopolis Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Constantinopolis Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Constantinopolis Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Canterbury Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Basra Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Canterbury Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 10149
+		task_force = {
+			name = "5th Fleet"
+			location = 10149
+			ship = { name = "1st Constantinopolis Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = RME version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Constantinopolis Dreadnought" definition = battleship start_experience_factor = 0.27272 equipment = { ship_hull_heavy_2 = { amount = 1 owner = RME version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Constantinopolis Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = RME version_name = "1936 Battleship" } } }
+			ship = { name = "1st Basra Battleship" definition = heavy_cruiser start_experience_factor = 0.27272 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Basra Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RME version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+}

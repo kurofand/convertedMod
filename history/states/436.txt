@@ -1,0 +1,38 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		oil=2.000
+		steel=16.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			3544 13 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 9
+
+		}
+		add_core_of = ICE
+		add_core_of = LIT
+		add_core_of = POL
+		add_core_of = SCA
+		add_core_of = SER
+		add_core_of = SOV
+		add_core_of = X76
+		add_core_of = YUG
+	}
+
+	provinces={
+		400 402 467 524 3230 3254 3521 3544 3559 6259 6321 6484 6511 6567 6580 9290 9316 9400 9452 9521 9544 11274 11329 11357 11385 11399 11466 11492 12562 
+	}
+	manpower=6050308
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

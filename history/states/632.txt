@@ -1,0 +1,29 @@
+
+state={
+	id=632
+	name="STATE_632"
+
+	history={
+		owner = W14
+		victory_points = {
+			589 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_core_of = GER
+		add_core_of = W14
+	}
+
+	provinces={
+		589 3397 3524 3574 6444 6488 9486 
+	}
+	manpower=2267576
+	buildings_max_level_factor=1.000
+	state_category=town
+}

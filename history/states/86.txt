@@ -1,0 +1,27 @@
+
+state={
+	id=86
+	name="STATE_86"
+
+	history={
+		owner = X36
+		victory_points = {
+			8175 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X36
+	}
+
+	provinces={
+		2142 2147 8175 11010 12939 
+	}
+	manpower=13561272
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

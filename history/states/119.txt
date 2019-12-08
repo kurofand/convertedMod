@@ -1,0 +1,32 @@
+
+state={
+	id=119
+	name="STATE_119"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X48
+		victory_points = {
+			1992 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X48
+	}
+
+	provinces={
+		1992 
+	}
+	manpower=1239952
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

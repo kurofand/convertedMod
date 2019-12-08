@@ -1,0 +1,35 @@
+
+state={
+	id=679
+	name="STATE_679"
+	resources={
+		aluminium=4.000
+		steel=9.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			650 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			8222 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = ARG
+		add_core_of = W14
+	}
+
+	provinces={
+		650 5191 5192 5228 8194 8222 11000 12914 
+	}
+	manpower=7180484
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

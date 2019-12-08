@@ -1,0 +1,36 @@
+
+state={
+	id=335
+	name="STATE_335"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9994 8 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 1
+			11969 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+		add_core_of = SAU
+	}
+
+	provinces={
+		1037 1046 1105 3987 4061 4129 4163 4992 7005 7077 7162 7180 9983 9994 10026 10082 10091 11921 11935 11957 11969 12000 
+	}
+	manpower=8131608
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

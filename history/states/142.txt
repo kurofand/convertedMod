@@ -1,0 +1,36 @@
+
+state={
+	id=142
+	name="STATE_142"
+
+	history={
+		owner = PER
+		victory_points = {
+			8183 9 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			2196 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = JAP
+		add_core_of = KEN
+		add_core_of = MLI
+		add_core_of = PER
+		add_core_of = W00
+		add_core_of = W02
+	}
+
+	provinces={
+		2196 8183 8205 12911 
+	}
+	manpower=2484892
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

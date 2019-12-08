@@ -1,0 +1,31 @@
+
+state={
+	id=269
+	name="STATE_269"
+	resources={
+		steel=21.000
+		tungsten=14.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			3330 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		338 365 410 452 497 566 3330 3404 3486 6339 6424 6473 6502 9337 9445 9549 11321 11433 11458 11537 
+	}
+	manpower=435052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

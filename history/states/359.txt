@@ -1,0 +1,34 @@
+
+state={
+	id=359
+	name="STATE_359"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			10919 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = BEN
+		add_core_of = DAH
+		add_core_of = RME
+	}
+
+	provinces={
+		10919 
+	}
+	manpower=415832
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=232
+	name="STATE_232"
+
+	history={
+		owner = RME
+		victory_points = {
+			4159 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 4
+			4159 = {
+				naval_base = 6
+			}
+			air_base = 3
+
+		}
+		add_core_of = GRE
+		add_core_of = ITA
+		add_core_of = RME
+		add_core_of = X83
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12003 12047 
+	}
+	manpower=9306580
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

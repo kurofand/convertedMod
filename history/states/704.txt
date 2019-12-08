@@ -1,0 +1,33 @@
+
+state={
+	id=704
+	name="STATE_704"
+	resources={
+		aluminium=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = W22
+		victory_points = {
+			7126 6 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = W22
+		add_core_of = X53
+	}
+
+	provinces={
+		4066 7085 7126 9995 10079 10098 
+	}
+	manpower=3560240
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

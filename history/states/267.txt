@@ -1,0 +1,27 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = RME
+		victory_points = {
+			6794 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		481 498 520 618 742 745 757 759 3413 3435 3439 3461 3475 3487 3503 3597 3726 3746 3774 3777 6463 6486 6516 6541 6575 6620 6758 6760 6765 6791 6794 9426 9440 9442 9455 9530 9581 9592 9594 9720 9735 9739 9753 11416 11429 11447 11474 11484 11566 11579 11706 11724 11736 
+	}
+	manpower=1509980
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

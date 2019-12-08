@@ -1,0 +1,32 @@
+
+state={
+	id=370
+	name="STATE_370"
+	resources={
+		aluminium=33.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			10947 8 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 4
+			dockyard = 1
+			air_base = 3
+
+		}
+		add_core_of = BRA
+		add_core_of = RME
+	}
+
+	provinces={
+		1583 5112 5167 5186 7553 7636 10360 10432 10513 10947 10994 11003 11008 12438 12937 12972 
+	}
+	manpower=9168996
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

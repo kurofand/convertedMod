@@ -1,0 +1,35 @@
+
+state={
+	id=665
+	name="STATE_665"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = W14
+		victory_points = {
+			4641 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			4641 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = CUB
+		add_core_of = W14
+	}
+
+	provinces={
+		1594 1635 4598 4641 7632 7660 10484 
+	}
+	manpower=9041892
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

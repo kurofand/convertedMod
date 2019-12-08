@@ -1,0 +1,127 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3325
+		task_force = {
+			name = "2nd Fleet"
+			location = 3325
+			ship = { name = "3rd Iceland Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Trondheim Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Lübeck Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Oldenburg Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Elbing Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Trieste Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "3rd Västerås Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Split Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "4th Trondheim Commerce Raider" definition = destroyer start_experience_factor = 0.03354 equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "5th Trondheim Commerce Raider" definition = destroyer start_experience_factor = 0.03633 equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 4543
+		task_force = {
+			name = "4th Fleet"
+			location = 4543
+			ship = { name = "1st Kalmar Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Elbing Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Lübeck Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Oldenburg Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "1st Esbjerg Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Trondheim Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Luleå Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Lübeck Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Bremen Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+			ship = { name = "2nd Elbing Commerce Raider" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = W14 version_name = "1936 Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "3rd Fleet"
+			location = 9206
+			ship = { name = "1st Viipuri Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = W14 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Viipuri Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Dubrovnik Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Kandalaksha Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Viipuri Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Viipuri Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Dubrovnik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Kandalaksha Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Dubrovnik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Kandalaksha Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Viipuri Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Dubrovnik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Kandalaksha Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Dubrovnik Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Kandalaksha Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "14th Fleet"
+			location = 9206
+			ship = { name = "4th Viipuri Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "5th Fleet"
+			location = 9206
+			ship = { name = "2nd Dubrovnik Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "6th Fleet"
+			location = 9206
+			ship = { name = "2nd Kandalaksha Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "8th Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "8th Fleet"
+			location = 9206
+			ship = { name = "3rd Dubrovnik Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "12th Fleet"
+		naval_base = 9206
+		task_force = {
+			name = "12th Fleet"
+			location = 9206
+			ship = { name = "3rd Kandalaksha Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 6889
+		task_force = {
+			name = "13th Fleet"
+			location = 6889
+			ship = { name = "4th Dubrovnik Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 6181
+		task_force = {
+			name = "16th Fleet"
+			location = 6181
+			ship = { name = "4th Kandalaksha Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = W14 version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+}

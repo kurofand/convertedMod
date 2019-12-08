@@ -1,0 +1,31 @@
+
+state={
+	id=93
+	name="STATE_93"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X41
+		victory_points = {
+			7963 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X41
+		add_core_of = X48
+	}
+
+	provinces={
+		7963 
+	}
+	manpower=425560
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=255
+	name="STATE_255"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9860 9 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 11
+			arms_factory = 1
+			air_base = 4
+
+		}
+		add_core_of = ARM
+		add_core_of = GRE
+		add_core_of = RME
+	}
+
+	provinces={
+		864 876 1463 3890 4512 4583 6935 6965 7470 7530 7620 9761 9823 9858 9860 9912 10399 10497 11739 11759 11871 11880 12318 12376 12387 12416 12476 
+	}
+	manpower=13060820
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

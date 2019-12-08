@@ -1,0 +1,15 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4245
+		task_force = {
+			name = "1st Fleet"
+			location = 4245
+			ship = { name = "1st Calcutta Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W05 } } }
+			ship = { name = "1st Calcutta Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W05 } } }
+			ship = { name = "2nd Calcutta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W05 } } }
+			ship = { name = "3rd Calcutta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W05 } } }
+			ship = { name = "4th Calcutta Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W05 } } }
+		}
+	}
+}

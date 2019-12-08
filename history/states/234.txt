@@ -1,0 +1,31 @@
+
+state={
+	id=234
+	name="STATE_234"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9602 4 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_core_of = ROM
+	}
+
+	provinces={
+		630 6634 9602 9756 
+	}
+	manpower=1259472
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		oil=10.000
+		steel=24.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			1836 9 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = USA
+		add_core_of = X05
+		add_core_of = X74
+	}
+
+	provinces={
+		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 
+	}
+	manpower=11906636
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

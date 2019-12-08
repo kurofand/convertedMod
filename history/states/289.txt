@@ -1,0 +1,35 @@
+
+state={
+	id=289
+	name="STATE_289"
+	resources={
+		aluminium=17.000
+		chromium=21.000
+		steel=15.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			5062 7 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = RME
+		add_core_of = SOV
+		add_core_of = W12
+	}
+
+	provinces={
+		1483 1675 1825 2058 4224 4316 4391 4768 4923 5062 10408 10488 10530 10660 12370 12511 12581 
+	}
+	manpower=4556680
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

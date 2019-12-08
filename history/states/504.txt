@@ -1,0 +1,27 @@
+
+state={
+	id=504
+	name="STATE_504"
+
+	history={
+		owner = X93
+		victory_points = {
+			12960 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X93
+	}
+
+	provinces={
+		12960 
+	}
+	manpower=382984
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
