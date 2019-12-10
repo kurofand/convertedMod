@@ -15,7 +15,7 @@ ideas = {
             }
             modifier = {
                 stability_factor = -0.2
-                war_support_factor = -0.3
+                war_support_factor = -0.4
                 conscription = -0.012
             }
             picture = generic_volunteer_expedition_bonus
@@ -26,15 +26,102 @@ ideas = {
             }
             modifier = {
                 stability_factor = -0.1
-                #absolutist_drift = -0.03
                 communism_drift = 0.2
                 democratic_drift = 0.25
-                consumer_goods_factor = 0.1
-                production_factory_max_efficiency_factor = -0.2
-                production_speed_buildings_factor = -0.2
             }
             picture = FRA_scw_intervention_republicans_focus
         }
+		reform_desire_1 = {
+			allowed = {
+				has_government = absolutist
+			}
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.15
+				democratic_drift = 0.2
+				political_power_factor = -0.5
+			}
+			picture = FRA_scw_intervention_republicans_focus
+		}
+		reform_desire_2 = {
+			allowed = {
+				has_government = absolutist
+			}
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.1
+				democratic_drift = 0.15
+				absolutist_drift = 0.01
+			}
+			picture = FRA_scw_intervention_republicans_focus
+		}
+		striking_workers = {
+			allowed = {
+				has_government = absolutist
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+                production_speed_buildings_factor = -0.2
+			}
+			picture = chi_war_of_resistance3
+		}
+		striking_workers_1 = {
+			allowed = {
+				has_government = absolutist
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.17
+				production_speed_buildings_factor = -0.1
+			}
+			picture = chi_war_of_resistance3
+		}
+		better_work_conditions = {
+			allowed = {
+				AND = {
+					has_completed_focus = ImproveConditionsRME
+					has_war = no
+				}
+			}
+			cancel = { has_war = yes }
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factor = -0.1
+			}
+		}
+		mass_arrest = {
+			allowed = {
+				has_completed_focus = EmpireStrikesBackRME
+			}
+			modifier = {
+				industrial_capacity_factor = -0.5
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+			}
+		}
+		unemployment_population = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+			picture = risk_of_famine
+		}
+		on_reforms = {
+			allowed = {
+				AND = {
+					has_government = absolutist
+					#has_completed_focus = 
+				}
+			}
+			modifier = {
+				stability_factor = -0.1
+				stability_weekly = -0.01
+			}
+			picture = generic_political_support
+		}
     }
 	political_advisor = {
 		RME_absolutist_advisor = {
