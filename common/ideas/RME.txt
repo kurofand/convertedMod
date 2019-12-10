@@ -39,7 +39,7 @@ ideas = {
 				stability_factor = -0.1
 				communism_drift = 0.15
 				democratic_drift = 0.2
-				political_power_factor = -0.5
+				#political_power_factor = -0.5
 			}
 			picture = FRA_scw_intervention_republicans_focus
 		}
@@ -107,7 +107,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.2
 			}
-			picture = risk_of_famine
+			picture = raj_risk_of_famine
 		}
 		on_reforms = {
 			allowed = {
@@ -118,7 +118,7 @@ ideas = {
 			}
 			modifier = {
 				stability_factor = -0.1
-				stability_weekly = -0.01
+				stability_weekly = -0.002
 			}
 			picture = generic_political_support
 		}

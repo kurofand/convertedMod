@@ -162,7 +162,10 @@ add_ideas = {
 	eternal_empire
 	enforced_white_peace
 	reform_desire
+	striking_workers
+	unemployment_population
 	culture_romanian
+	early_mobilization
 }
 set_stability = 0.60
 set_war_support = 0.60

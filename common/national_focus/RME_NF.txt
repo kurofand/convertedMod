@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
+			add = 20
 			tag = RME
 		}
 	}
@@ -14,11 +14,11 @@ focus_tree = {
 
 	focus = {
         id = PrepareReformsRME
-        icon = GFX_goal_tfv_strengthen_commonwealth
+        icon = GFX_goal_tfv_strengthen_commonwealth_ties
         bypass = {
 			has_idea = reform_desire_1
         }
-        x = 0
+        x = 4
         y = 0
         cost = 5
         cancel = {
@@ -34,7 +34,7 @@ focus_tree = {
 	
 	focus = {
 		id = ApplyReformsRME
-		#icon = 
+		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = PrepareReformsRME }
 		x = 0
 		y = 1
@@ -45,6 +45,7 @@ focus_tree = {
 				remove_idea = reform_desire_1
 				add_idea = reform_desire_2
 			}
+			add_ideas = { on_reforms }
 		}
 	}
 	
@@ -68,7 +69,7 @@ focus_tree = {
 		id = PlanFightWithUnemploymentRME
 		#icon = 
 		prerequisite = {focus = PreparePressCampaignRME }
-		x = -1
+		x = -3
 		y = 3
 		relative_position_id = PrepareReformsRME
 		cost = 10
