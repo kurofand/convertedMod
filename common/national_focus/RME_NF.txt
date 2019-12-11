@@ -51,7 +51,7 @@ focus_tree = {
 	
 	focus = {
 		id = PreparePressCampaignRME
-		#icon = 
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = ApplyReformsRME }
 		x = 0
 		y = 2
@@ -67,27 +67,27 @@ focus_tree = {
 	
 	focus = {
 		id = PlanFightWithUnemploymentRME
-		#icon = 
+		icon = GFX_goal_generic_consumer_goods
 		prerequisite = {focus = PreparePressCampaignRME }
 		x = -3
 		y = 3
 		relative_position_id = PrepareReformsRME
 		cost = 10
 		available = {
-			absolutism > 0.7
+			absolutist > 0.7
 		}
 	}
 	
 	focus = {
 		id = StrikingWorkersRME
-		#icon = 
+		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = PreparePressCampaignRME }
 		x = 0
 		y = 3
 		relative_position_id = PrepareReformsRME
 		cost = 10
 		available = {
-			absolutism > 0.7
+			absolutist > 0.7
 		}
 		cancel_if_invalid = no
 		completion_reward = {
@@ -100,7 +100,7 @@ focus_tree = {
 	
 	focus = {
 		id = ImproveConditionsRME
-		#icon = 
+		icon = GFX_goal_tfv_burn_the_royal_portraits
 		prerequisite = {focus = StrikingWorkersRME}
 		x = -1
 		y = 1
@@ -120,7 +120,7 @@ focus_tree = {
 	
 	focus = {
 		id = EmpireStrikesBackRME
-		#icon = 
+		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = StrikingWorkersRME }
 		x = 1
 		y = 1
@@ -136,6 +136,16 @@ focus_tree = {
 				days = 180
 			}
 		}
+	}
+	
+	focus = {
+		id = FightWithRadicalsRME
+		#icon = 
+		prerequisite = { focus = PreparePressCampaignRME }
+		x = 3
+		y = 3
+		relative_position_id = PreparePressCampaignRME
+		cost = 10
 	}
 
 }

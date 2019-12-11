@@ -103,6 +103,11 @@ create_country_leader = {
     traits = {
     }
 }
+add_ai_strategy = {
+    type = alliance
+    id = "W14"
+    value = 200
+}
 create_corps_commander = {
 	name = "Mustapha Lefiami"
 	picture = ""

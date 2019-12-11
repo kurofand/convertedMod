@@ -1,0 +1,58 @@
+propaganda_efforts = {
+	start_press_campaign = {
+		cost = 50
+		available = {
+			has_completed_focus = PreparePressCampaignRME
+		}
+		visible = {
+			AND = {
+				has_completed_focus = PreparePressCampaignRME
+				absolutist <= 70
+			}
+		}
+		complete_effect = {
+			communism_drift = -0.05
+			democratic_drift = -0.05
+			absolutist_drift = 0.1
+			consumer_goods_factor = 0.1
+		}
+		days_remove = 30
+		days_re_enable = 30
+	}
+}
+
+prestigious_projects = {
+	build_in_greece = {
+		allowed = { tag = RME }
+	}
+	build_in_anatolia = {
+		allowed = { tag = RME }
+	}
+	build_in_dacia = {
+		allowed = { tag = RME }
+	}
+	build_in_africa = {
+		allowed = { tag = RME }
+	}
+	build_in_iberia = {
+		allowed = { tag = RME }
+	}
+	build_in_aqitania = {
+		allowed = { tag = RME }
+	}
+	build_in_gallia = {
+		allowed = { tag = RME }
+	}
+	build_in_italia = {
+		allowed = { tag = RME }
+	}
+	build_in_britania = {
+		allowed = { tag = RME }
+	}
+	build_in_parthia = {
+		allowed = { tag = RME }
+	}
+	build_in_sina = {
+		allowed = { tag = RME }
+	}
+}
