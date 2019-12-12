@@ -7,7 +7,7 @@ propaganda_efforts = {
 		visible = {
 			AND = {
 				has_completed_focus = PreparePressCampaignRME
-				absolutist <= 70
+				absolutist < 70
 			}
 		}
 		complete_effect = {
@@ -21,12 +21,30 @@ propaganda_efforts = {
 	}
 }
 
-prestigious_projects = {
+economy_decisions = {
 	build_in_greece = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = PlanFightWithUnemploymentRME
+		}
+		is_good = no
+		days_mission_timeout = 100
+		timeout_effect = {
+			add_manpower = -10000
+			consumer_goods_factor = 0.05
+		}
 	}
 	build_in_anatolia = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = PlanFightWithUnemploymentRME
+		}
+		is_good = no
+		days_mission_timeout = 100
+		timeout_effect = {
+			add_manpower = -10000
+			consumer_goods_factor = 0.05
+		}
 	}
 	build_in_dacia = {
 		allowed = { tag = RME }
