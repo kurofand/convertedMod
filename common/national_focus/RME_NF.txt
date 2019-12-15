@@ -50,27 +50,24 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = PreparePressCampaignRME
+		id = MinistryOfPropagandaRME
 		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = ApplyReformsRME }
-		x = 0
+		x = -3
 		y = 2
 		relative_position_id = PrepareReformsRME
 		cost = 5
 		completion_reward = {
-			activate_targeted_decision = {
-				target = RME
-				decision = start_press_campaign
-			}
+			unlock_decision_tooltip = start_press_campaign
 		}
 	}
 	
 	focus = {
 		id = PlanFightWithUnemploymentRME
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = {focus = PreparePressCampaignRME }
-		x = -3
-		y = 3
+		prerequisite = {focus = ApplyReformsRME }
+		x = 0
+		y = 2
 		relative_position_id = PrepareReformsRME
 		cost = 10
 		available = {
@@ -81,9 +78,9 @@ focus_tree = {
 	focus = {
 		id = StrikingWorkersRME
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = PreparePressCampaignRME }
-		x = 0
-		y = 3
+		prerequisite = { focus = ApplyReformsRME }
+		x = 3
+		y = 2
 		relative_position_id = PrepareReformsRME
 		cost = 10
 		available = {
@@ -141,10 +138,10 @@ focus_tree = {
 	focus = {
 		id = FightWithRadicalsRME
 		#icon = 
-		prerequisite = { focus = PreparePressCampaignRME }
-		x = 3
-		y = 3
-		relative_position_id = PreparePressCampaignRME
+		prerequisite = { focus = ApplyReformsRME }
+		x = 6
+		y = 2
+		relative_position_id = PrepareReformsRME
 		cost = 10
 	}
 

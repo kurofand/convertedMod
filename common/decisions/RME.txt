@@ -2,22 +2,28 @@ propaganda_efforts = {
 	start_press_campaign = {
 		cost = 50
 		available = {
-			has_completed_focus = PreparePressCampaignRME
+			has_completed_focus = MinistryOfPropagandaRME
 		}
 		visible = {
 			AND = {
-				has_completed_focus = PreparePressCampaignRME
+				has_completed_focus = MinistryOfPropagandaRME
 				absolutist < 70
 			}
 		}
-		complete_effect = {
+		modifier = {
 			communism_drift = -0.05
 			democratic_drift = -0.05
 			absolutist_drift = 0.1
-			consumer_goods_factor = 0.1
+			consumer_goods_factor = 0.1		
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = absolutist
+				popularity = 0.05
+			}
 		}
 		days_remove = 30
-		days_re_enable = 30
+		days_re_enable = 15
 	}
 }
 
