@@ -1,4 +1,8 @@
 leader_traits = {
+	propaganda_minister = {
+		random = no
+		drift_defence_factor = 0.2
+	}
 	absolutist_minister= {
 		random = no
 		# Boosts Absolutism

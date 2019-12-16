@@ -126,10 +126,10 @@ fascism_on_the_rise = {
 		always = yes
 	}
 
-	#visible = {
-	#	NOT = { has_government = fascism }
-	#	has_idea_with_trait = fascism_minister
-	#}
+	visible = {
+		NOT = { has_government = fascism }
+		has_idea_with_trait = fascism_minister
+	}
 }
 
 absolutist_on_the_rise = {
@@ -139,10 +139,10 @@ absolutist_on_the_rise = {
 		always = yes
 	}
 
-	#visible = {
-	#	NOT = { has_government = absolutist }
-	#	has_idea_with_trait = absolutist_minister
-	#}
+	visible = {
+		NOT = { has_government = absolutist }
+		has_idea_with_trait = absolutist_minister
+	}
 }
 
 democratic_on_the_rise = {
@@ -152,10 +152,10 @@ democratic_on_the_rise = {
 		always = yes
 	}
 
-	#visible = {
-	#	NOT = { has_government = democratic }
-	#	has_idea_with_trait = democratic_minister
-	#}
+	visible = {
+		NOT = { has_government = democratic }
+		has_idea_with_trait = democratic_minister
+	}
 }
 
 communism_on_the_rise = {
@@ -165,10 +165,10 @@ communism_on_the_rise = {
 		always = yes
 	}
 
-	#visible = {
-	#	NOT = { has_government = communism }
-	#	has_idea_with_trait = communism_minister
-	#}
+	visible = {
+		NOT = { has_government = communism }
+		has_idea_with_trait = communism_minister
+	}
 }
 
 radical_on_the_rise = {
@@ -178,9 +178,9 @@ radical_on_the_rise = {
 		always = yes
 	}
 
-	#visible = {
-	#	NOT = { has_government = radical }
-	#	has_idea_with_trait = radical_minister
-	#}
+	visible = {
+		NOT = { has_government = radical }
+		has_idea_with_trait = radical_minister
+	}
 }
 

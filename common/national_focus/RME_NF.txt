@@ -59,6 +59,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			unlock_decision_tooltip = start_press_campaign
+			show_ideas_tooltip = RME_propaganda_advisor
 		}
 	}
 	
@@ -108,7 +109,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = {
-				better_work_conditions
+				deal_with_workers
 				civilian_economy
 			}
 			remove_idea = striking_workers_1

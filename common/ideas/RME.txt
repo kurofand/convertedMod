@@ -75,7 +75,7 @@ ideas = {
 			}
 			picture = chi_war_of_resistance3
 		}
-		better_work_conditions = {
+		deal_with_workers = {
 			allowed = {
 				AND = {
 					has_completed_focus = ImproveConditionsRME
@@ -124,6 +124,13 @@ ideas = {
 		}
     }
 	political_advisor = {
+		RME_propaganda_advisor = {
+			allowed = {
+				original_tag = "RME"
+				has_completed_focus = MinistryOfPropagandaRME
+			}
+			traits = { propaganda_minister }
+		}
 		RME_absolutist_advisor = {
 			allowed = {
 				original_tag = "RME"
