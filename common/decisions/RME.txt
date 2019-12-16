@@ -16,7 +16,7 @@ propaganda_efforts = {
 			absolutist_drift = 0.1
 			consumer_goods_factor = 0.1		
 		}
-		complete_effect = {
+		timeout_effect = {
 			add_popularity = {
 				ideology = absolutist
 				popularity = 0.05
