@@ -27,56 +27,145 @@ propaganda_efforts = {
 	}
 }
 
-economy_decisions = {
+create_workplaces = {
 	build_in_greece = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+			has_full_controll_of_state = 243
+		}
 		activation = {
-			has_completed_focus = PlanFightWithUnemploymentRME
+			has_completed_focus = CreateWorkplacesRME
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_greece_flg
+					check_variable = { 
+						var = greece_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = less_than_or_equals
+					}
+				}
+			}
 		}
 		is_good = no
-		days_mission_timeout = 100
+		days_mission_timeout = 200
 		timeout_effect = {
-			add_manpower = -10000
-			consumer_goods_factor = 0.05
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_greece_flg
+				}
+				clr_state_flag = build_in_greece_flg
+				clear_variable = greece_goal
+				add_manpower = -50000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_greece_flg
+				}
+				clr_state_flag = build_in_greece_flg
+				clear_variable = greece_goal
+			}
+			absolutist = 0.02
 		}
 	}
 	build_in_anatolia = {
 		allowed = { tag = RME }
 		activation = {
-			has_completed_focus = PlanFightWithUnemploymentRME
+			has_completed_focus = CreateWorkplacesRME
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_anatolia_flg
+					check_variable = {
+						var = anatolia_goal
+						value = industrial_complex_level + arms_factory_level
+						compare = less_than_or_equals
+					}
+				}
+			}
 		}
 		is_good = no
-		days_mission_timeout = 100
+		days_mission_timeout = 200
 		timeout_effect = {
 			add_manpower = -10000
-			consumer_goods_factor = 0.05
 		}
 	}
 	build_in_dacia = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_africa = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_iberia = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_aqitania = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_gallia = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_italia = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_britania = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_parthia = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 	build_in_sina = {
 		allowed = { tag = RME }
+		activation = {
+			has_completed_focus = CreateWorkplacesRME
+		}
+		is_good = no
+		days_mission_timeout = 200
 	}
 }

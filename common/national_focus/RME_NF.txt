@@ -77,6 +77,48 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = CreateWorkplacesRME
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = PlanFightWithUnemploymentRME }
+		x = 2
+		y = 1
+		relative_position_id = PlanFightWithUnemploymentRME
+		cost = 10
+		mutually_exclusive = {
+			focus = CreateWorkplacesRME
+		}
+		completion_reward = {
+			remove_idea = unemployment_population
+			set_variable = {
+				var = greece_goal
+				value = 243.industrial_complex_level + 243.arms_factory_level + 2
+			}
+			243 = {
+				set_state_flag = build_in_greece_flg
+			}
+		}
+	}
+	
+	focus = {
+		id=UnemploymentToArmyRME
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = PlanFightWithUnemploymentRME }
+		x = -2
+		y = 1
+		relative_position_id = PlanFightWithUnemploymentRME
+		cost = 10
+		mutually_exclusive = {
+			focus = CreateWorkplacesRME
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = unemployment_population
+				add_idea = unemployment_to_army
+			}
+		}
+	}
+	
+	focus = {
 		id = StrikingWorkersRME
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = ApplyReformsRME }

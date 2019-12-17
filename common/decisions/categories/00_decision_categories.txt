@@ -21,6 +21,13 @@ MTG_naval_treaties = {
 	}
 }
 
+create_workplaces = {
+	visible = {
+		has_completed_focus = CreateWorkplacesRME
+	}
+	icon = generic_construction
+}
+
 war_measures = {
 	icon = generic_propaganda
 

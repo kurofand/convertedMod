@@ -109,6 +109,15 @@ ideas = {
 			}
 			picture = raj_risk_of_famine
 		}
+		unemployment_to_army = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				conscription_factor = 0.02
+				consumer_goods_factor = 0.1
+			}
+		}
 		on_reforms = {
 			allowed = {
 				AND = {
