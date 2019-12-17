@@ -80,7 +80,7 @@ focus_tree = {
 		id = CreateWorkplacesRME
 		icon = GFX_focus_generic_industry_3
 		prerequisite = { focus = PlanFightWithUnemploymentRME }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = PlanFightWithUnemploymentRME
 		cost = 10
@@ -103,7 +103,7 @@ focus_tree = {
 		id=UnemploymentToArmyRME
 		icon = GFX_focus_secret_rearmament
 		prerequisite = { focus = PlanFightWithUnemploymentRME }
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = PlanFightWithUnemploymentRME
 		cost = 10
@@ -192,7 +192,7 @@ focus_tree = {
 		id = DealWithOppositionRME
 		#icon = 
 		prerequisite = { focus = PlanFightWithOppositionRME }
-		x = -2
+		x = -1
 		y = 1
 		relative_position_id = PlanFightWithOppositionRME
 		cost = 10
@@ -221,7 +221,7 @@ focus_tree = {
 		relative_position_id = DealWithOppositionRME
 		cost = 10
 		available = {
-			absolutist > 80
+			absolutist > 0.8
 		}
 		completion_reward = {
 			set_popularities = {
@@ -237,7 +237,7 @@ focus_tree = {
 		id = SecretPolice
 		#icon = 
 		prerequisite = { focus = PlanFightWithOppositionRME }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = PlanFightWithOppositionRME
 		cost = 10
