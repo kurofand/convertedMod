@@ -11,6 +11,7 @@ country_event = {
 		tag = RME
 		has_defensive_war = no
 		absolutist < 0.45
+		NOT = { hac_completed_focus = DealWithOppositionRME }
 	}
 	
 	option = {

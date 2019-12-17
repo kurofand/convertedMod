@@ -131,6 +131,22 @@ ideas = {
 			}
 			picture = generic_political_support
 		}
+		coalition_government = {
+			allowed = {
+				has_completed_focus = DealWithOppositionRME
+			}
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		secret_police = {
+			allowed = {
+				has_completed_focus = SecretPoliceRME
+			}
+			modifier = {
+				drift_defence_factor = 0.1
+			}
+		}
     }
 	political_advisor = {
 		RME_propaganda_advisor = {

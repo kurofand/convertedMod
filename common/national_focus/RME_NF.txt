@@ -179,13 +179,74 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = FightWithRadicalsRME
+		id = PlanFightWithOppositionRME
 		#icon = 
 		prerequisite = { focus = ApplyReformsRME }
 		x = 6
 		y = 2
 		relative_position_id = PrepareReformsRME
 		cost = 10
+	}
+	
+	focus = {
+		id = DealWithOppositionRME
+		#icon = 
+		prerequisite = { focus = PlanFightWithOppositionRME }
+		x = -2
+		y = 1
+		relative_position_id = PlanFightWithOppositionRME
+		cost = 10
+		mutually_exclusive = { focus = SecretPoliceRME }
+		completion_reward = {
+			set_popularities = {
+				democratic = 33
+				absolutist = 33
+				communism = 33
+			}
+			add_ideas = {
+				coalition_government
+			}
+			remove_ideas = {
+				reform_desire_2
+			}
+		}
+	}
+	
+	focus = {
+		id = RemoveOppositionRME
+		#icon = 
+		prerequisite = { focus = DealWithOppositionRME }
+		x = 0
+		y = 1
+		relative_position_id = DealWithOppositionRME
+		cost = 10
+		available = {
+			absolutist > 80
+		}
+		completion_reward = {
+			set_popularities = {
+				absolutist = 100
+			}
+			remove_ideas = {
+				coalition_government
+			}
+		}
+	}
+	
+	focus = {
+		id = SecretPolice
+		#icon = 
+		prerequisite = { focus = PlanFightWithOppositionRME }
+		x = 2
+		y = 1
+		relative_position_id = PlanFightWithOppositionRME
+		cost = 10
+		mutually_exclusive = { focus = DealWithOppositionRME }
+		completion_reward = {
+			add_ideas = {
+				secret_police
+			}
+		}
 	}
 
 }
