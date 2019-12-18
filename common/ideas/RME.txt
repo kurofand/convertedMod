@@ -144,7 +144,8 @@ ideas = {
 				has_completed_focus = SecretPoliceRME
 			}
 			modifier = {
-				drift_defence_factor = 0.1
+				communism_drift = -0.05
+				democratic_drift = -0.05
 			}
 		}
     }

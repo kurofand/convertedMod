@@ -180,7 +180,7 @@ focus_tree = {
 	
 	focus = {
 		id = PlanFightWithOppositionRME
-		#icon = 
+		icon = GFX_focus_generic_strike_at_democracy3
 		prerequisite = { focus = ApplyReformsRME }
 		x = 6
 		y = 2
@@ -190,7 +190,7 @@ focus_tree = {
 	
 	focus = {
 		id = DealWithOppositionRME
-		#icon = 
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = PlanFightWithOppositionRME }
 		x = -1
 		y = 1
@@ -214,7 +214,7 @@ focus_tree = {
 	
 	focus = {
 		id = RemoveOppositionRME
-		#icon = 
+		icon = GFX_goal_ftv_sever_ties_with_uk
 		prerequisite = { focus = DealWithOppositionRME }
 		x = 0
 		y = 1
@@ -234,8 +234,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SecretPolice
-		#icon = 
+		id = SecretPoliceRME
+		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = PlanFightWithOppositionRME }
 		x = 1
 		y = 1
@@ -248,5 +248,33 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = ArrestRadicalsRME
+		icon = GFX_focus_mex_arrest_general_cedillo
+		prerequisite = { focus = SecretPoliceRME }
+		x = 0
+		y = 1
+		relative_position_id = SecretPoliceRME
+		cost = 30
+		completion_reward = {
+			remove_ideas = {
+				reform_desire_2
+			}
+		}
+	}
 
+	focus = {
+		id = StabilizeRME
+		#icon = 
+		prerequisite = { focus = ImproveConditionsRME focus = EmpireStrikesBackRME focus = CreateWorkplacesRME focus = UnemploymentToArmyRME forus = ArrestRadicalsRME focus = RemoveOppositionRME }
+		x = 0
+		y = 7
+		relative_position_id = PrepareReformsRME
+		completion_reward = {
+			remove_ideas = {
+				on_reforms
+			}
+		}
+	}
 }

@@ -4,9 +4,9 @@ country_event = {
 	title = rme.1.t
 	description = rme.1.d
 	picture = GFX_report_event_spain_civil_war_soldiers
-    
+
 	fire_only = yes
-    
+
 	trigger = {
 		tag = RME
 		has_defensive_war = no
@@ -21,6 +21,54 @@ country_event = {
 				ideology = democratic
 				size = 0.5
 			}
+		}
+	}
+}
+country_event = {
+	id=rme.2
+	title = rme.2.t
+	description = rme.2.d
+	
+	fire_only = yes
+	
+	trigger = {
+		tag = RME
+		has_defensive_war = no
+		OR = {
+			AND = {
+				RME = {
+					focus_progress = {
+						focus = ArrestRadicalsRME
+						progress >0.2
+					}
+				}
+				absolutist < 50
+			}
+			AND = {
+				RME = {
+					focus_progress = {
+						focus = ArrestRadicalsRME
+						progress > 0.5
+					}
+				}
+				absolutist < 70
+			}
+		}
+	}
+	
+	option = {
+		name = rme.2.a
+		stability_factor = -0.1
+		add_popularity = {
+			idealogy = absolutist
+			popularity = -0.1
+		}
+	}
+	option = {
+		name = rme.2.b
+		start_civil_war = {
+			ideology = democratic
+			size = RME = { party_popularity@democratic }
 		}
 	}
 }
