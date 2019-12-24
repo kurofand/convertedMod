@@ -19,7 +19,7 @@ propaganda_efforts = {
 		remove_effect = {
 			add_popularity = {
 				ideology = absolutist
-				popularity = 0.07
+				popularity = 0.06
 			}
 		}
 		days_remove = 30

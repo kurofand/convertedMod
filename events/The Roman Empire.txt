@@ -68,7 +68,7 @@ country_event = {
 		name = rme.2.b
 		start_civil_war = {
 			ideology = democratic
-			size = RME = { party_popularity@democratic }
+			size = RME.party_popularity@democratic
 		}
 	}
 }

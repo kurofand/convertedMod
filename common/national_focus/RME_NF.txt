@@ -221,7 +221,7 @@ focus_tree = {
 		relative_position_id = DealWithOppositionRME
 		cost = 10
 		available = {
-			absolutist > 0.8
+			absolutist > 0.9
 		}
 		completion_reward = {
 			set_popularities = {
@@ -263,13 +263,45 @@ focus_tree = {
 			}
 		}
 	}
+	
+	focus = {
+		id = ProclaimGovernmentStabilityRME
+		#icon = 
+		prerequisite = {
+			focus = ArrestRadicalsRME
+			focus = RemoveOppositionRME
+		}
+		available = 
+		{
+			absolutist > 0.9
+		}
+		x = 0
+		y = 3
+		relative_position_id = PlanFightWithOppositionRME
+		cost = 5
+		completion_reward = {
+			
+		}
+	}
 
 	focus = {
 		id = StabilizeRME
 		#icon = 
-		prerequisite = { focus = ImproveConditionsRME focus = EmpireStrikesBackRME focus = CreateWorkplacesRME focus = UnemploymentToArmyRME forus = ArrestRadicalsRME focus = RemoveOppositionRME }
+		prerequisite = {
+			AND = {
+				OR = { 
+					focus = ImproveConditionsRME 
+					focus = EmpireStrikesBackRME 
+				}
+				OR = {
+					focus = CreateWorkplacesRME 
+					focus = UnemploymentToArmyRME
+				}
+				focus = ProclaimGovernmentStabilityRME
+			}
+		}
 		x = 0
-		y = 7
+		y = 6
 		relative_position_id = PrepareReformsRME
 		completion_reward = {
 			remove_ideas = {
