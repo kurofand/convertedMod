@@ -4,6 +4,7 @@ ideas = {
             allowed = {
                 has_government = absolutist
             }
+            allowed_civil_war = yes
             modifier = {
                 stability_factor = 0.1
             }
@@ -19,6 +20,16 @@ ideas = {
                 conscription = -0.012
             }
             picture = generic_volunteer_expedition_bonus
+        }
+        enforced_white_peace_1 = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.4
+				conscription = -0.01
+			}
         }
         reform_desire = {
             allowed = {
@@ -146,6 +157,24 @@ ideas = {
 			modifier = {
 				communism_drift = -0.05
 				democratic_drift = -0.05
+			}
+			picture - kwantung_veto
+		}
+		roman_roads = {
+			allowed = {
+				has_completed_focus = RomanRoadsRME
+			}
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+			picture = idea_generic_build_infrastructure
+		}
+		amnesty = {
+			allowed = {
+				has_completed_focus = AmnestyForStrikersRME
+			}
+			modifier = {
+				stability_weekly = 0.01
 			}
 		}
     }

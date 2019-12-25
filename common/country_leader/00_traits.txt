@@ -84,6 +84,13 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	warrior-emperor = {
+		randoom = no
+		war_support_factor = 0.05
+		surrender_limit = 0.3
+		defensive_war_stability_factor = 0.1
+	}
 
 	cabinet_crisis = {
 		random = no

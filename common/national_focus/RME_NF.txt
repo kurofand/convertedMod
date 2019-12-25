@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id=UnemploymentToArmyRME
+		id = UnemploymentToArmyRME
 		icon = GFX_focus_secret_rearmament
 		prerequisite = { focus = PlanFightWithUnemploymentRME }
 		x = -1
@@ -115,6 +115,22 @@ focus_tree = {
 				remove_idea = unemployment_population
 				add_idea = unemployment_to_army
 			}
+		}
+	}
+	
+	focus = {
+		id = RomanRoadsRME
+		icon = 
+		prerequisite = { 
+			focus = CreateWorkplacesRME
+			focus = UnemploymentToArmyRME
+		}
+		x = 0
+		y = 2
+		relative_position_id = PlanFightWithUnemploymentRME
+		cost = 10
+		completion_reward = {
+			add_ideas = roman_roads
 		}
 	}
 	
@@ -173,6 +189,29 @@ focus_tree = {
 			remove_idea = { striking_workers_1 }
 			add_timed_idea = {
 				idea = mass_arrest
+				days = 180
+			}
+		}
+	}
+	
+	focus = {
+		id = AmnestyForStrikersRME
+		#icon = 
+		available = {
+			NOT = {
+				has_idea = mass_arrest
+			}
+		}
+		prerequisite = {
+			focus = ImproveConditionsRME
+			focus = EmpireStrikesBackRME
+		}
+		x = 0
+		y = 2
+		relative_position_id = StrikingWorkersRME
+		completion_reward = {
+			add_timed_idea = {
+				idea = amnesty
 				days = 180
 			}
 		}
@@ -288,25 +327,124 @@ focus_tree = {
 		id = StabilizeRME
 		#icon = 
 		prerequisite = {
-			AND = {
-				OR = { 
-					focus = ImproveConditionsRME 
-					focus = EmpireStrikesBackRME 
-				}
-				OR = {
-					focus = CreateWorkplacesRME 
-					focus = UnemploymentToArmyRME
-				}
-				focus = ProclaimGovernmentStabilityRME
+			focus = {
+				AmnestyForStrikersRME
+				RomanRoadsRME
+				ProclaimGovernmentStabilityRME
 			}
 		}
 		x = 0
 		y = 6
 		relative_position_id = PrepareReformsRME
+		cost = 10
 		completion_reward = {
 			remove_ideas = {
 				on_reforms
 			}
+		}
+	}
+	
+	
+	###
+	focus = {
+		id = WarMinistryRME
+		#icon = 
+		x = 6
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = ArmyPrestigeRME
+		#icon = 
+		x = -1
+		y = 1
+		relative_position_id = WarMinistryRME
+		cost = 10
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = PraetorianRME
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = ArmyPrestigeRME
+		cost = 10
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = EmperorToArmyRME
+		#icon = 
+		x = 0
+		y = 2
+		relative_position_id = ArmyPrestigeRME
+		cost = 10
+		completion_reward = {
+			create_field_marshal = {
+				name = "Vlad VII Drakulesti"
+				picture = "GFX_portrait_italy_emperor_mussolini"
+				skill = 3
+				attack_skill = 3
+				defence_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+			}
+			add_country_leader_trait = warrior-emperor
+		}
+	}
+	
+	focus = {
+		id = ArmyAdvance
+		#icon = 
+		x = 0
+		y = 1
+		relative_position_id = WarMinistryRME
+		cost = 10
+		completion_reward = {
+			army_expirience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = AirforceAdvanceRME
+		#icon = 
+		x = 1
+		y = 1
+		relative_position_id = WarMinistryRME
+		completion_reward = {
+			air_experience = 50
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = NavyAdvanceRME
+		#icon = 
+		x = 2
+		y = 1
+		relative_position_id = WarMinistryRME
+		completion_reward = {
+			navy_experience = 50
 		}
 	}
 }
