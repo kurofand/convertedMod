@@ -349,7 +349,7 @@ focus_tree = {
 	focus = {
 		id = WarMinistryRME
 		#icon = 
-		x = 6
+		x = 12
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -363,6 +363,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = WarMinistryRME
+		prerequisite = { focus = WarMinistryRME }
 		cost = 10
 		completion_reward = {
 		
@@ -375,6 +376,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ArmyPrestigeRME
+		prerequisite = { focus = ArmyPrestigeRME }
 		cost = 10
 		completion_reward = {
 		
@@ -387,6 +389,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ArmyPrestigeRME
+		prerequisite = { focus = PraetorianRME }
 		cost = 10
 		completion_reward = {
 			create_field_marshal = {
@@ -408,6 +411,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = WarMinistryRME
+		prerequisite = { focus = WarMinistryRME }
 		cost = 10
 		completion_reward = {
 			army_expirience = 5
@@ -426,6 +430,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = WarMinistryRME
+		prerequisite = { focus = WarMinistryRME }
 		completion_reward = {
 			air_experience = 50
 			add_tech_bonus = {
@@ -443,6 +448,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = WarMinistryRME
+		prerequisite = { focus = WarMinistryRME }
 		completion_reward = {
 			navy_experience = 50
 		}

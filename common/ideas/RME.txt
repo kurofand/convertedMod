@@ -158,7 +158,7 @@ ideas = {
 				communism_drift = -0.05
 				democratic_drift = -0.05
 			}
-			picture - kwantung_veto
+			picture = kwantung_veto
 		}
 		roman_roads = {
 			allowed = {
