@@ -91,7 +91,13 @@ focus_tree = {
 			remove_idea = unemployment_population
 			set_variable = {
 				var = greece_goal
-				value = 243.industrial_complex_level + 243.arms_factory_level + 2
+				value = 243.industrial_complex_level
+			}
+			add_to_variable = {
+				greece_goal = 243.arms_factory_level
+			}
+			add_to_variable = {
+				greece_goal = 2
 			}
 			243 = {
 				set_state_flag = build_in_greece_flg
@@ -128,6 +134,10 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = PlanFightWithUnemploymentRME
+		prerequisite = {
+			focus = CreateWorkplacesRME
+			focus = UnemploymentToArmyRME
+		}
 		cost = 10
 		completion_reward = {
 			add_ideas = roman_roads
@@ -138,7 +148,7 @@ focus_tree = {
 		id = StrikingWorkersRME
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = ApplyReformsRME }
-		x = 3
+		x = 4
 		y = 2
 		relative_position_id = PrepareReformsRME
 		cost = 10
@@ -221,7 +231,7 @@ focus_tree = {
 		id = PlanFightWithOppositionRME
 		icon = GFX_focus_generic_strike_at_democracy3
 		prerequisite = { focus = ApplyReformsRME }
-		x = 6
+		x = 8
 		y = 2
 		relative_position_id = PrepareReformsRME
 		cost = 10
@@ -349,7 +359,7 @@ focus_tree = {
 	focus = {
 		id = WarMinistryRME
 		#icon = 
-		x = 12
+		x = 17
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -360,7 +370,7 @@ focus_tree = {
 	focus = {
 		id = ArmyPrestigeRME
 		#icon = 
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = WarMinistryRME
 		prerequisite = { focus = WarMinistryRME }
@@ -427,7 +437,7 @@ focus_tree = {
 	focus = {
 		id = AirforceAdvanceRME
 		#icon = 
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = WarMinistryRME
 		prerequisite = { focus = WarMinistryRME }
@@ -445,7 +455,7 @@ focus_tree = {
 	focus = {
 		id = NavyAdvanceRME
 		#icon = 
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = WarMinistryRME
 		prerequisite = { focus = WarMinistryRME }

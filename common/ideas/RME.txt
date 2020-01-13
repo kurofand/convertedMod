@@ -4,7 +4,7 @@ ideas = {
             allowed = {
                 has_government = absolutist
             }
-            allowed_civil_war = yes
+            #allowed_civil_war = yes
             modifier = {
                 stability_factor = 0.1
             }

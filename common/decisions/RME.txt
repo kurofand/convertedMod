@@ -38,13 +38,13 @@ create_workplaces = {
 		}
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = 
+				tooltip = build_in_greece_tl
 				any_owned_state = {
 					has_state_flag = build_in_greece_flg
 					check_variable = { 
 						var = greece_goal
 						value = industrial_complex_level + arms_factory_level 
-						compare = less_than_or_equals
+						compare = greater_than_or_equals
 					}
 				}
 			}
