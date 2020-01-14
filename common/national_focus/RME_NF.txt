@@ -74,6 +74,12 @@ focus_tree = {
 		available = {
 			absolutist > 0.7
 		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = unemployment_population
+				add_ideas = unemployment_population_1
+			}
+		}
 	}
 	
 	focus = {
@@ -101,7 +107,142 @@ focus_tree = {
 			}
 			243 = {
 				set_state_flag = build_in_greece_flg
+				add_extra_state_shared_building_slots = 2
 			}
+			random_owned_state = {
+				limit = {
+					region = 129
+				}
+				set_state_flag = build_in_anatolia_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var = anatolia_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = {
+					anatolia_goal = arms_factory_level
+				}
+				add_to_variable = {
+					anatolia_goal = 2
+				}
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 24
+				}
+				set_state_flag = build_in_dacia_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var dacia_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { dacia_goal = arms_factory_level }
+				add_to_variable = { dacia_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 139
+				}
+				set_state_flag = build_in_africa_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var africa_goal 
+					value = industrial_complex_level
+				}
+				add_to_variable = { africa_goal = arms_factory_level }
+				add_to_variable = { africa_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 41
+				}
+				set_state_flag = build_in_iberia_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var iberia_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { iberia_goal = arms_factory_level }
+				add_to_variable = { iberia_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 20
+				}
+				set_state_flag = build_in_aqitania_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var aqitania_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { aqitania_goal = arms_factory_level }
+				add_to_variable = { aqitania_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 19
+				}
+				set_state_flag = build_in_gallia_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var gallia_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { gallia_goal = arms_factory_level }
+				add_to_variable = { gallia_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 23
+				}
+				set_state_flag = build_in_italia_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var italia_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { italia_goal = arms_factory_level }
+				add_to_variable = { italia_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 1
+				}
+				set_state_flag = build_in_britania_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var britania_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { britania_goal = arms_factory_level }
+				add_to_variable = { britania_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 116
+				}
+				set_state_flag = build_in_parthia_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var parthia_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { parthia_goal = arms_factory_level }
+				add_to_variable = { parthia_goal = 2 }
+			 }
+			 random_owned_state = {
+				limit = {
+					region = 143
+				}
+				set_state_flag = build_in_sina_flg
+				add_extra_state_shared_building_slots = 2
+				set_variable = {
+					var sina_goal
+					value = industrial_complex_level
+				}
+				add_to_variable = { sina_goal = arms_factory_level }
+				add_to_variable = { sina_goal = 2 }
+			 }
 		}
 	}
 	
@@ -116,10 +257,103 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CreateWorkplacesRME
 		}
+		available = {
+			has_equipment = {
+				infantry_equipment > 10000
+			}
+		}
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = unemployment_population
-				add_idea = unemployment_to_army
+#			swap_ideas = {
+#				remove_idea = unemployment_population
+#				add_idea = unemployment_to_army
+#			}
+			division_template = {
+				name = "Unemployment"
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+				}
+			}
+			create_unit = {
+				division = "name = \"I Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"II Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"III Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"IV Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"V Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"VI Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"VII Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"IIX Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"IX Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"X Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
+			}
+			create_unit = {
+				division = "name = \"XI Unemployment\"
+				division_template = \"Unemployment\"
+				start_experience_factor = 0
+				start_equipment_factor = 0.3"
+				owner = RME
 			}
 		}
 	}
@@ -320,8 +554,7 @@ focus_tree = {
 			focus = ArrestRadicalsRME
 			focus = RemoveOppositionRME
 		}
-		available = 
-		{
+		available = {
 			absolutist > 0.9
 		}
 		x = 0
@@ -329,7 +562,7 @@ focus_tree = {
 		relative_position_id = PlanFightWithOppositionRME
 		cost = 5
 		completion_reward = {
-			
+			stability_factor = 0.15
 		}
 	}
 
@@ -433,6 +666,14 @@ focus_tree = {
 			}
 		}
 	}
+	
+	#focus = {
+	#
+	#}
+	
+	#focus = {
+	#
+	#}
 	
 	focus = {
 		id = AirforceAdvanceRME

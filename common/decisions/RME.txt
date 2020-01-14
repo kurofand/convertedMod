@@ -49,6 +49,9 @@ create_workplaces = {
 				}
 			}
 		}
+		highlight_states = {
+			has_state_flag = build_in_greece_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
 		timeout_effect = {
@@ -82,90 +85,451 @@ create_workplaces = {
 				tooltip = 
 				any_owned_state = {
 					has_state_flag = build_in_anatolia_flg
-					check_variable = {
+					check_variable = { 
 						var = anatolia_goal
-						value = industrial_complex_level + arms_factory_level
-						compare = less_than_or_equals
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
 					}
 				}
 			}
 		}
+		highlight_states = {
+			has_state_flag = build_in_anatolia_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
 		timeout_effect = {
-			add_manpower = -10000
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_anatolia_flg
+				}
+				clr_state_flag = build_in_anatolia_flg
+				clear_variable = anatolia_goal
+				add_manpower = -10000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_anatolia_flg
+				}
+				clr_state_flag = build_in_anatolia_flg
+				clear_variable = anatolia_goal
+			}
+			absolutist = 0.01
 		}
 	}
 	build_in_dacia = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_dacia_flg
+					check_variable = { 
+						var = dacia_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_dacia_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_dacia_flg
+				}
+				clr_state_flag = build_in_dacia_flg
+				clear_variable = dacia_goal
+				add_manpower = -25000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_dacia_flg
+				}
+				clr_state_flag = build_in_dacia_flg
+				clear_variable = dacia_goal
+			}
+			absolutist = 0.01
+		}
 	}
 	build_in_africa = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_africa_flg
+					check_variable = { 
+						var = africa_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_africa_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_africa_flg
+				}
+				clr_state_flag = build_in_africa_flg
+				clear_variable = africa_goal
+				add_manpower = -10000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_africa_flg
+				}
+				clr_state_flag = build_in_greece_flg
+				clear_variable = greece_goal
+			}
+		}
 	}
 	build_in_iberia = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_iberia_flg
+					check_variable = { 
+						var = iberia_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_iberia_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_iberia_flg
+				}
+				clr_state_flag = build_in_iberia_flg
+				clear_variable = iberia_goal
+				add_manpower = -50000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_iberia_flg
+				}
+				clr_state_flag = build_in_iberia_flg
+				clear_variable = iberia_goal
+			}
+			absolutist = 0.02
+		}
 	}
 	build_in_aqitania = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_aqitania_flg
+					check_variable = { 
+						var = aqitania_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_aqitania_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_aqitania_flg
+				}
+				clr_state_flag = build_in_aqitania_flg
+				clear_variable = aqitania_goal
+				add_manpower = -30000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_aqitania_flg
+				}
+				clr_state_flag = build_in_aqitania_flg
+				clear_variable = aqitania_goal
+			}
+			absolutist = 0.02
+		}
 	}
 	build_in_gallia = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_gallia_flg
+					check_variable = { 
+						var = gallia_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_gallia_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_ggallia_flg
+				}
+				clr_state_flag = build_in_gallia_flg
+				clear_variable = gallia_goal
+				add_manpower = -30000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_gallia_flg
+				}
+				clr_state_flag = build_in_gallia_flg
+				clear_variable = gallia_goal
+			}
+			absolutist = 0.02
+		}
 	}
 	build_in_italia = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_italia_flg
+					check_variable = { 
+						var = italia_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_italia_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_italia_flg
+				}
+				clr_state_flag = build_in_italia_flg
+				clear_variable = italia_goal
+				add_manpower = -40000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_italia_flg
+				}
+				clr_state_flag = build_in_italia_flg
+				clear_variable = italia_goal
+			}
+			absolutist = 0.02
+		}
 	}
 	build_in_britania = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_britania_flg
+					check_variable = { 
+						var = britania_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_britania_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_britania_flg
+				}
+				clr_state_flag = build_in_britania_flg
+				clear_variable = britania_goal
+				add_manpower = -30000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_britania_flg
+				}
+				clr_state_flag = build_in_britania_flg
+				clear_variable = britania_goal
+			}
+			absolutist = 0.02
+		}
 	}
 	build_in_parthia = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_parthia_flg
+					check_variable = { 
+						var = parthia_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_parthia_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_parthia_flg
+				}
+				clr_state_flag = build_in_parthia_flg
+				clear_variable = parthia_goal
+				add_manpower = -30000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_parthia_flg
+				}
+				clr_state_flag = build_in_parthia_flg
+				clear_variable = parthia_goal
+			}
+			absolutist = 0.02
+		}
 	}
 	build_in_sina = {
-		allowed = { tag = RME }
+		allowed = { 
+			tag = RME
+		}
 		activation = {
 			has_completed_focus = CreateWorkplacesRME
 		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = 
+				any_owned_state = {
+					has_state_flag = build_in_sina_flg
+					check_variable = { 
+						var = sina_goal
+						value = industrial_complex_level + arms_factory_level 
+						compare = greater_than_or_equals
+					}
+				}
+			}
+		}
+		highlight_states = {
+			has_state_flag = build_in_sina_flg
+		}
 		is_good = no
 		days_mission_timeout = 200
+		timeout_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_sina_flg
+				}
+				clr_state_flag = build_in_sina_flg
+				clear_variable = sina_goal
+				add_manpower = -150000
+			}
+		}
+		complete_effect = {
+			any_owned_state = {
+				limit = {
+					has_state_flag = build_in_sina_flg
+				}
+				clr_state_flag = build_in_sina_flg
+				clear_variable = sina_goal
+			}
+			absolutist = 0.02
+		}
 	}
 }

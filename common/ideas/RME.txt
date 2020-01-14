@@ -120,6 +120,15 @@ ideas = {
 			}
 			picture = raj_risk_of_famine
 		}
+		unemployment_population_1 = {
+			allowed = {
+				always = yes
+			}
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = -0.1
+			}
+		}
 		unemployment_to_army = {
 			allowed = {
 				always = yes
