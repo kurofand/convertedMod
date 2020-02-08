@@ -159,13 +159,13 @@ add_to_faction = W22
 
 add_ideas = {
 	great_power
-	eternal_empire
-	enforced_white_peace
-	reform_desire
-	striking_workers
-	unemployment_population
+#	eternal_empire
+#	enforced_white_peace
+#	reform_desire
+#	striking_workers
+#	unemployment_population
 	culture_romanian
-	low_economic_mobilisation
+#	low_economic_mobilisation
 }
 set_stability = 0.60
 set_war_support = 0.60

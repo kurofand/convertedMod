@@ -2977,21 +2977,5 @@ focus_tree = {
 			}
 		}
 	}
-	
-	focus = {
-        id = RestorePopSupRME
-        icon = GFX_focus_generic_military_academy
-        bypass = {
-            NOT = {
-                has_idea = enforced_white_peace
-            }
-        }
-        x = 40
-        y = 0
-        cost = 10
-        completion_reward = {
-            remove_ideas = enforced_white_peace
-        }
-	}
 
 }
